@@ -10,8 +10,20 @@ tagline: Hello!<br><br>We are a fast growing community focussed on building a br
 }
 </style>
 
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center" markdown="1">
+
 ## Code of Conduct
 ---
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-4 text-center" markdown="1">
 
 ### Our Pledge
 
@@ -21,6 +33,10 @@ our community a harassment-free experience for everyone, regardless of age, body
 size, disability, ethnicity, gender identity and expression, level of experience,
 education, socio-economic status, nationality, personal appearance, race,
 religion, or sexual identity and orientation.
+
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
 
 ### Our Standards
 
@@ -33,11 +49,26 @@ include:
 * Focusing on what is best for the community
 * Showing empathy towards other community members
 
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+
 ### Our Responsibilities
 
 Project maintainers are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
 response to any instances of unacceptable behavior.
+
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center" markdown="1">
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported by contacting the project team at [info@fyne.io](mailto:info@fyne.io).
 
 *This code of conduct is a summary of the **[Contributor Covenant][homepage] Code of Conduct** to which we subscribe*
 
@@ -56,4 +87,7 @@ Each decision will require majority agreement within the developer community (de
 
 Significant new features should not be added until there are at least 2 contributors prepared to support their ongoing development.
 
+</div>
+</div>
+</div>
 
