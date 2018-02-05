@@ -11,23 +11,32 @@
 	    <a class="navbar-brand page-scroll" href="#page-top">{{ site.title }}</a>
         </div>
 
+{% if page.layout == 'front' %}
+{%   assign root = '' %}
+{% else %}
+{%   assign root = '/' %}
+{% endif %}
+
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+			<a class="page-scroll" href="{{ root }}#about">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#features">Features</a>
+			<a class="page-scroll" href="{{ root }}#features">Features</a>
                 </li>
                 <!--li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+			<a class="page-scroll" href="{{ root }}#portfolio">Portfolio</a>
                 </li-->
                 <li>
-                    <a href="https://github.com/fyne-io/">Contribute</a>
+			<a class="page-scroll" href="{{ root }}#contact">Contact</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a href="community.html">Community</a>
+                </li>
+                <li>
+                    <a href="https://github.com/fyne-io/">Contribute</a>
                 </li>
             </ul>
         </div>

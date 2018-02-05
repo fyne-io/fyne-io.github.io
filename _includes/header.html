@@ -1,9 +1,9 @@
-<header>
+<header style="background-image: url(../img/header-{{ include.header_img }}.jpg)">
     <div class="header-content">
         <div class="header-content-inner">
-		<h1>{{ site.headline }}</h1>
+		<h1>{% if page.headline == %}{{ site.headline }}{% else %}{{ page.headline }}{% endif %}</h1>
             <hr>
-	    <p>{{ site.tagline }}</p>
+            <p>{% if page.tagline == %}{{ site.tagline }}{% else %}{{ page.tagline }}{% endif %}</p>
             <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
     </div>
