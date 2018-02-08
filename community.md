@@ -4,11 +4,38 @@ headline: Join the Fyne Community
 tagline: Hello!<br><br>We are a fast growing community focussed on building a bright future for application development and desktop usability. Find out more below.
 ---
 
-<style>
-.text-center li {
-  list-style-position: inside;
-}
-</style>
+<section class="bg-primary" id="about">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center" markdown="1">
+
+## How we Make Decisions
+---
+
+Making decisions quickly is important but we also want to ensure that we've
+taken in to account important facts and all viewpoints.
+At all times we want to be aligned on the same vision so that coflicting 
+opinions are not common and that we're all heading in the same direction.
+
+### Majority 
+
+All large decisions will require majority agreement within the developer community.
+As those who make up our community will change over time we consider that any
+contributor to the core project software should be included in this decision
+making process.
+
+### New Feature Addition
+
+Incremental development or changes that have been agreed upon can be worked
+on by any developer, however the addition of new features can lead to
+unsupported functionality.
+Therefore significant new features should not be added until there are at least
+2 contributors prepared to support the ongoing development.
+
+</div>
+</div>
+</div>
+</section>
 
 <div class="container">
 <div class="row">
@@ -27,12 +54,12 @@ tagline: Hello!<br><br>We are a fast growing community focussed on building a br
 
 ### Our Pledge
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-education, socio-economic status, nationality, personal appearance, race,
-religion, or sexual identity and orientation.
+In the interest of fostering an open and welcoming environment, we pledge to
+making participation in our project and our community a harassment-free
+experience for everyone, regardless of age, body size, disability, ethnicity,
+gender identity and expression, level of experience, education,
+socio-economic status, nationality, personal appearance, race, religion, or
+sexual identity and orientation.
 
 </div>
 
@@ -40,14 +67,13 @@ religion, or sexual identity and orientation.
 
 ### Our Standards
 
-Examples of behavior that contributes to creating a positive environment
-include:
+Types of behavior that we encourage:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+*Using welcoming and inclusive language* <br>
+*Being respectful of differing viewpoints* <br>
+*Gracefully accepting constructive criticism* <br>
+*Focusing on what is best for the community* <br>
+*Showing empathy towards others*
 
 </div>
 
@@ -59,6 +85,9 @@ Project maintainers are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
 response to any instances of unacceptable behavior.
 
+Instances of any unacceptable behavior may be reported by email to
+[info@fyne.io](mailto:info@fyne.io).
+
 </div>
 </div>
 </div>
@@ -67,25 +96,9 @@ response to any instances of unacceptable behavior.
 <div class="row">
 <div class="col-lg-12 text-center" markdown="1">
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [info@fyne.io](mailto:info@fyne.io).
-
 *This code of conduct is a summary of the **[Contributor Covenant][homepage] Code of Conduct** to which we subscribe*
 
 [homepage]: https://www.contributor-covenant.org
-
-## How we Make Decisions
----
-
-Making decisions quickly is important but we also want to ensure that we've taken in to account important views and check we are heading in the right direction.
-
-### Majority 
-
-Each decision will require majority agreement within the developer community (defined as contributors to the project affected).
-
-### New Feature Addition
-
-Significant new features should not be added until there are at least 2 contributors prepared to support their ongoing development.
 
 </div>
 </div>
