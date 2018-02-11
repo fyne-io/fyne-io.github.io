@@ -28,6 +28,7 @@ tagline: >- # multiline
 
 twitter_username: fyne_io
 github_username: fyne-io
+freenode_channel: fyne
 
 # Build settings
 markdown: kramdown
