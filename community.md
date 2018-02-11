@@ -1,5 +1,6 @@
 ---
 layout: page
+header-img: community
 headline: Join the Fyne Community
 tagline: Hello!<br><br>We are a fast growing community focussed on building a bright future for application development and desktop usability. Find out more below.
 ---
