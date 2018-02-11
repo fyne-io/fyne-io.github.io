@@ -11,7 +11,7 @@ tagline: Hello!<br><br>We are a fast growing community focussed on building a br
 <div class="col-lg-12 text-center" markdown="1">
 
 ## How we Make Decisions
----
+<hr class="light">
 
 Making decisions quickly is important but we also want to ensure that we've
 taken in to account important facts and all viewpoints.
