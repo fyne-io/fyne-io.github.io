@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+  {% include header.html header_img=page.header-img %}
+
+<section id="about">
+
+<div class="container">
+<div class="row">
+<div class="col-lg-3">
+  {% for post in site.posts %}
+    {% assign currentDate = post.date | date: "%Y" %}
+    {% if currentDate != myDate %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <h1>{{ currentDate }}</h1>
+      <ul>
+      {% assign myDate = currentDate %}
+    {% endif %}
+    <li><span>{{ post.date | date: "%B %-d, %Y" }}</span><br /><strong>{{ post.title }}</strong></a></li>
+    {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
+</div>
+<div class="col-lg-9">
+
+  {% for post in site.posts %}
+    <h3>{{ post.title }}<h3>
+    <p>{{ post.content }}</p>
+  {% endfor %}
+
+</div>
+</div>
+</div>
+
+</section>
+
+  {% include aside.html %}
+  {% include contact.html %} 
+  {% include scripts.html %}
+</body>
+
+</html>
