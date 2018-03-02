@@ -27,7 +27,8 @@
 <div class="col-lg-9">
 
   {% for post in site.posts %}
-    <h3>{{ post.title }}<h3>
+    <a id="{{ post.slug }}"></a>
+    <h3>{{ post.title }}</h3>
     <p>{{ post.content }}</p>
   {% endfor %}
 
