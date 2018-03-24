@@ -2,7 +2,7 @@
 layout: post
 title:  "Platform Trifecta"
 date:   2018-03-02 21:55:43 +0000
-categories: roadmap
+categories: blog
 ---
 
 You heard right - 3 platforms in only 3 weeks. Fyne now [supports](https://github.com/fyne-io/fyne/wiki/Supported-Platforms)

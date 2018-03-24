@@ -2,7 +2,7 @@
 layout: post
 title:  "Looking for Contributors"
 date:   2018-03-24 22:41:27 +0000
-categories: community
+categories: blog
 ---
 
 Six weeks into the Fyne project and the basics are all in place!

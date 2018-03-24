@@ -16,11 +16,8 @@
 </div>
 <div class="col-lg-9">
 
-  {% for post in site.posts %}
-    <a id="{{ post.slug }}"></a>
-    <a href="{{post.url}}#about"><h3>{{ post.title }}</h3></a>
-    <p>{{ post.content }}</p>
-  {% endfor %}
+  <h3>{{ page.title }}</h3>
+  <p>{{ page.content }}</p>
 
 </div>
 </div>
