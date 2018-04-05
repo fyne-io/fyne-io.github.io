@@ -26,6 +26,9 @@ tagline: >- # multiline
   focussed on design, usability and ease of development and distribution.<br>
   Best of all it's open source and free to use!
 
+blog-headline: The latest news from the Fyne community
+blog-tagline: Keep up to date wih everything we're working on and how the project is shaping up.
+
 twitter_username: fyne_io
 github_username: fyne-io
 freenode_channel: fyne
