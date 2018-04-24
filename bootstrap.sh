@@ -1,17 +1,26 @@
 #!/bin/bash
 
+BOOTSTRAP_VERSION=1
 BOOTSTRAP_REPO=github.com/fyne-io/bootstrap
 BOOTSTRAP_DIR=$HOME/go/src/github.com/fyne-io/bootstrap
+
+CONFIG_DIR=$HOME/.config/fyne/bootstrap/
+LOG_FILE=$CONFIG_DIR/install.log
+VERSION_FILE=$CONFIG_DIR/version
+
+# TODO check if we are up to date with bootstrap
 
 DEP_LIST="git go efl sudo"
 DEP_FILE_LIST="git go ecore_evas_convert sudo"
 
 INSTALL_COMMAND=""
 if [[ -e "/etc/arch-release" ]] || [[ -e "/etc/manjaro-release" ]]; then
-  INSTALL_COMAND="pacman --noconfirm -S"
+  INSTALL_COMAND="sudo pacman --noconfirm -S"
 elif [[ -e "/etc/debian_version" ]]; then
-  INSTALL_COMMAND="apt-get install"
+  INSTALL_COMMAND="sudo apt-get install"
   DEP_LIST="git golang efl sudo"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+  INSTALL_COMMAND="brew install"
 fi
 
 i=0
@@ -32,7 +41,7 @@ if [[ ! -z $INSTALL_DEP ]]; then
     exit 1
   fi
 
-  sudo $INSTALL_COMMAND $INSTALL_DEP > /dev/null
+  $INSTALL_COMMAND $INSTALL_DEP > /dev/null
   if [[ $? -ne 0 ]]; then
     echo "[FATAL] Unable to install dependencies"
     exit 2
