@@ -35,7 +35,7 @@ be able to get up and running.
 If you are using Debian, Ubuntu or Arch linux the following command will
 do everything to get Fyne installed:
 
-    bash -c "$(curl -fsSL http://fyne.io/bootstrap.sh)"
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/fyne-io/bootstrap/master/bootstrap.sh)"
 
 If you are on a different system then just installing git, go and efl from
 your package manager is the first pass - then run the command above to complete
@@ -51,7 +51,7 @@ If you already have [homebrew](https://brew.sh) installed then the bootstrap
 script can be used - open a Terminal (in Applications/Utilities) and paste the
 following command: 
 
-    bash -c "$(curl -fsSL http://fyne.io/bootstrap.sh)"
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/fyne-io/bootstrap/master/bootstrap.sh)"
 
 Then just hit return and you'll see Fyne running in a short while.
 
