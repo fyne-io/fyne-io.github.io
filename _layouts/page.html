@@ -7,7 +7,9 @@
   {% include nav.html %}
   {% include header.html header_img=page.header-img %}
   {{ content }}
-  {% include aside.html %}
+  {% if page.header-img != "download" %}
+    {% include aside.html %}
+  {% endif %}
   {% include contact.html %}
   {% include scripts.html %}
 </body>
