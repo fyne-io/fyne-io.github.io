@@ -70,6 +70,6 @@ if (navigator.appVersion.indexOf("Win")==-1)
   document.getElementById('dl-win').style.display = "none";
 if (navigator.appVersion.indexOf("Mac")==-1)
   document.getElementById('dl-mac').style.display = "none";
-if (navigator.appVersion.indexOf("Linux")==-1)
+if (navigator.appVersion.indexOf("Linux")==-1&&navigator.userAgent.indexOf("Linux")==-1)
   document.getElementById('dl-linux').style.display = "none";
 </script>
