@@ -29,9 +29,10 @@ making process.
 
 Incremental development or changes that have been agreed upon can be worked
 on by any developer, however the addition of new features can lead to
-unsupported functionality.
-Therefore significant new features should not be added until there are at least
-2 contributors prepared to support the ongoing development.
+unsupported functionality and so should be considered more carefully.
+Therefore significant new features should not be added unless there are at least
+2 contributors (assuming at least 3 active contributors) prepared to
+support the ongoing development of that feature.
 
 </div>
 </div>
