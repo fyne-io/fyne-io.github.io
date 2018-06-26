@@ -38,7 +38,7 @@ If you want to see the content of the mandelbrot method then check the
 [fractal source code](https://github.com/fyne-io/fyne/blob/develop/examples/apps/fractal.go).
 Running it locally should look something like this:
 
-![Fractal window](img/fractal-small.png)
+![Fractal window](/blog/img/fractal-small.png)
 
 #### Async Interface Updates
 
