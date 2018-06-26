@@ -19,6 +19,6 @@ can look great on a light or a dark themed desktop.
 
 That's everything for now, we leave you with these great screen grabs.
 
-![Calculator on Linux](https://raw.githubusercontent.com/fyne-io/examples/develop/img/calc-linux-dark.png)
-![Calculator (light) on OS X](https://raw.githubusercontent.com/fyne-io/examples/develop/img/calc-osx-light.png)
-![Calculator (light) on Windows](https://raw.githubusercontent.com/fyne-io/examples/develop/img/calc-windows-light.png)
+![Calculator on Linux](https://raw.githubusercontent.com/fyne-io/fyne/develop/img/calc-linux-dark.png)
+![Calculator (light) on OS X](https://raw.githubusercontent.com/fyne-io/fyne/develop/img/calc-osx-light.png)
+![Calculator (light) on Windows](https://raw.githubusercontent.com/fyne-io/fyne/develop/img/calc-windows-light.png)
