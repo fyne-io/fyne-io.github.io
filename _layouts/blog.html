@@ -20,6 +20,9 @@
     <a id="{{ post.slug }}"></a>
     <a href="{{post.url}}#about"><h3>{{ post.title }}</h3></a>
     <p>{{ post.content }}</p>
+    {% if forloop.last == false %}
+    <hr />
+    {% endif %}
   {% endfor %}
 
 </div>
