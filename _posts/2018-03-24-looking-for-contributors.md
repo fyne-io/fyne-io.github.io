@@ -19,7 +19,5 @@ easy for new developers, designers and testers to get involved.
 
 So we're putting a shout out to Go developers, UI designers and anyone
 else interested in building a great new desktop environment to get in touch.
-For more details check out the
-[contribute](/contribute/) page on our
-website.
+For more details check out the [contribute](/contribute) page on our website.
 
