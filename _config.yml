@@ -31,7 +31,7 @@ blog-tagline: Keep up to date with everything we're working on and how the proje
 
 twitter_username: fyne_io
 github_username: fyne-io
-freenode_channel: fyne
+slack_channel: fyne
 
 # Build settings
 markdown: kramdown
