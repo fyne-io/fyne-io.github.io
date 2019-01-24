@@ -3,6 +3,17 @@ layout: page
 header-img: develop
 headline: Developing with Fyne
 tagline: Start developing your own apps with the Fyne toolkit
+
+hello: 
+    tab1:
+        name: function
+        title: Using Functions
+        source: function
+        active: 1
+    tab2:
+        name: struct
+        title: Using Structs
+        source: struct
 ---
 
 <section class="bg-primary" id="about">
@@ -40,6 +51,9 @@ And that's all there is to it. Let's look more at how to use the Fyne APIs to cr
 
 A simple app starts by creating an app instance with app.New() and then opening a window with app.NewWindow(). Then a widget tree is defined that is set as the main content with SetContent() on a window. The app UI is then shown by calling ShowAndRun() on the window.
 
+{% include tabs.html bodyclass="fullborder" tabs=page.hello id="hello" %}
+
+<div id="hello__function" class="hidden">
 <div style="text-align: left" markdown="1">
 ```
 package main
@@ -63,6 +77,35 @@ func main() {
 	w.ShowAndRun()
 }
 ```
+</div>
+</div>
+
+<div id="hello__struct" class="hidden">
+<div style="text-align: left" markdown="1">
+```
+package main
+
+import (
+	"fyne.io/fyne"
+	"fyne.io/fyne/app"
+	"fyne.io/fyne/widget"
+)
+
+func main() {
+	app := app.New()
+
+	w := app.NewWindow("Hello")
+	w.SetContent(&widget.Box{Children: []fyne.CanvasObject{
+		&widget.Label{Text: "Hello Fyne!"},
+		&widget.Button{Text: "Quit", OnTapped: func() {
+			app.Quit()
+		}},
+	}})
+
+	w.ShowAndRun()
+}
+```
+</div>
 </div>
 
 Executing the code above (a simple `go run hello.go` should do it) will create a window that looks just like this:

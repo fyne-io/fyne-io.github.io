@@ -46,3 +46,26 @@ $theme-dark: #222;
 #about img {
 	max-width: 100%;
 }
+
+ul.tabcontrol.tabs {
+    margin: 0;
+    height: 28pt;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+ul.tabcontrol.tabs li.tab {
+    float:left;
+    padding: 5pt 10pt;
+    cursor: pointer;
+    list-style-type: none;
+    border-bottom: 3px solid white;
+}
+
+ul.tabcontrol.tabs li.tabcontrol.tab.active {
+    font-weight: bold !important;
+    border-bottom: 3px solid #999;
+}
+
+div.tabcontrol.body.fullborder {
+    padding: 10px 0;
+}
