@@ -59,18 +59,18 @@ A simple app starts by creating an app instance with app.New() and then opening 
 package main
 
 import (
-	"fyne.io/fyne/widget"
 	"fyne.io/fyne/app"
+	"fyne.io/fyne/widget"
 )
 
 func main() {
-	app := app.New()
+	a := app.New()
 
-	w := app.NewWindow("Hello")
+	w := a.NewWindow("Hello")
 	w.SetContent(widget.NewVBox(
 		widget.NewLabel("Hello Fyne!"),
 		widget.NewButton("Quit", func() {
-			app.Quit()
+			a.Quit()
 		}),
 	))
 
@@ -92,13 +92,13 @@ import (
 )
 
 func main() {
-	app := app.New()
+	a := app.New()
 
-	w := app.NewWindow("Hello")
+	w := a.NewWindow("Hello")
 	w.SetContent(&widget.Box{Children: []fyne.CanvasObject{
 		&widget.Label{Text: "Hello Fyne!"},
 		&widget.Button{Text: "Quit", OnTapped: func() {
-			app.Quit()
+			a.Quit()
 		}},
 	}})
 
