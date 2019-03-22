@@ -114,7 +114,7 @@ Executing the code above (a simple `go run hello.go` should do it) will create a
 
 If you prefer a light theme then just set the environment variable `FYNE_THEME=light` and you'll get:
 
-![](https://github.com/fyne-io/fyne/raw/develop/cmd/hello/hello-light.png)
+![](https://github.com/fyne-io/fyne/raw/develop/img/hello-light.png)
 
 That's all there is to getting started. You can find the full API documentation on [GoDoc.org](https://godoc.org/fyne.io/fyne).
 
