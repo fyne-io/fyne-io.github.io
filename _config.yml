@@ -23,7 +23,7 @@ url: "http://fyne.io/" # the base hostname & protocol for your site, e.g. http:/
 headline: Your beautiful new<br>open source desktop
 tagline: >- # multiline
   We're building a modern application framework and desktop environment<br>
-  focussed on design, usability and ease of development and distribution.<br>
+  focused on design, usability and ease of development and distribution.<br>
   Best of all it's open source and free to use!
 
 blog-headline: The latest news from the Fyne community
