@@ -19,8 +19,6 @@ hello:
         source: struct
 ---
 
-&nbsp;
-
 <div class="alert alert-info" role="alert" markdown="1">
 This documentation is about building apps with the Fyne toolkit.
 If you want to learn about how Fyne is built and get involved in development
