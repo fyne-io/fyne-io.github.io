@@ -114,7 +114,7 @@ Executing the code above (a simple `go run hello.go` should do it) will create a
 
 If you prefer a light theme then just set the environment variable `FYNE_THEME=light` and you'll get:
 
-![](https://github.com/fyne-io/fyne/raw/develop/cmd/hello/hello-light.png)
+![](https://github.com/fyne-io/fyne/raw/develop/img/hello-light.png)
 
 That's all there is to getting started. You can find the full API documentation on [GoDoc.org](https://godoc.org/fyne.io/fyne).
 
@@ -130,9 +130,17 @@ That's all there is to getting started. You can find the full API documentation 
 ## Fyne apps and the future of desktops
 <hr class="light">
 
-The complete Fyne desktop experience is not yet available - however all apps built
-using the Fyne toolkit will work on Windows, Mac OS X and most Linux distributions.
-If you're interested in building out the desktop experience then you can follow our
+The complete Fyne desktop experience is not yet ready for every day use.
+We are working to build the basic features that make it easier to build on.
+However all apps built using the Fyne toolkit will work on Windows,
+Mac OS X and most Linux distributions as well as integrating perfecty into the 
+future Fyne desktop.
+
+Our current state of development looks something like the following:
+
+![](https://github.com/fyne-io/desktop/raw/develop/desktop-dark-current.png)
+
+If you're interested in helping to shape the desktop experience then you can follow our
 [desktop repository](https://github.com/fyne-io/desktop) and get involved.
 
 </div>
