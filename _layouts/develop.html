@@ -22,11 +22,11 @@
     <ul>
     {% assign items = site.develop | sort: 'order' %}
     {% for develop in items %}
+    {% if develop.order == 20 or develop.order >= 1000 %}
+        <li><hr class="light" /></li>
+        {% endif %}
         <li class="{% if develop.url == page.url %}active{% endif %}">
             <a href="{{ develop.url }}"><h5>{{ develop.title }}</h5></a></li>
-        {% if develop.order == 10 %}
-	<li><hr class="light" /></li>
-        {% endif %}
     {% endfor %}
     </ul>
 </div>
