@@ -69,3 +69,20 @@ ul.tabcontrol.tabs li.tabcontrol.tab.active {
 div.tabcontrol.body.fullborder {
     padding: 10px 0;
 }
+
+div.side-nav {
+    padding-top: 20pt;
+    font-size: +20%;
+}
+
+div.side-nav li {
+    list-style: none;
+}
+
+div.side-nav a {
+    color: #fff;
+}
+
+div.side-nav .active h5 {
+    font-weight: bold;
+}

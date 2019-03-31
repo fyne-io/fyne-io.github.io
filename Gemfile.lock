@@ -234,8 +234,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
+  jekyll-redirect-from
   minima (~> 2.0)
   tzinfo-data
 
 BUNDLED WITH
-   1.16.1
+   2.0.1

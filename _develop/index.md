@@ -1,8 +1,7 @@
 ---
-layout: page
-header-img: develop
-headline: Developing with Fyne
-tagline: Start developing your own apps with the Fyne toolkit
+layout: develop
+title: Welcome
+redirect_from: /develop.html
 
 hello: 
     tab1:
@@ -16,10 +15,7 @@ hello:
         source: struct
 ---
 
-<section class="bg-primary" id="about">
-<div class="container">
-<div class="row">
-<div class="col-lg-12 text-center" markdown="1">
+<section class="bg-primary" style="margin: auto -15px; padding: 75pt 20pt" id="about" markdown="1">
 
 ## Downloading
 <hr class="light">
@@ -37,14 +33,8 @@ then you can see our demo app running on your computer by executing:
 
 And that's all there is to it. Let's look more at how to use the Fyne APIs to create your own cross-platform graphical application.
 
-</div>
-</div>
-</div>
 </section>
 
-<div class="container">
-<div class="row">
-<div class="col-lg-12 text-center" markdown="1">
 
 ## Create your first Fyne app
 ---
@@ -118,14 +108,7 @@ If you prefer a light theme then just set the environment variable `FYNE_THEME=l
 
 That's all there is to getting started. You can find the full API documentation on [GoDoc.org](https://godoc.org/fyne.io/fyne).
 
-</div>
-</div>
-</div>
-
-<section class="bg-dark">
-<div class="container">
-<div class="row">
-<div class="col-lg-12 text-center" markdown="1">
+<section class="bg-dark" style="margin: auto -15px; padding: 75pt 20pt" markdown="1">
 
 ## Fyne apps and the future of desktops
 <hr class="light">
@@ -143,7 +126,4 @@ Our current state of development looks something like the following:
 If you're interested in helping to shape the desktop experience then you can follow our
 [desktop repository](https://github.com/fyne-io/desktop) and get involved.
 
-</div>
-</div>
-</div>
 </section>

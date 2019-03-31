@@ -37,6 +37,7 @@ slack_channel: fyne
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 github: [metadata]
 
 # Exclude from processing.
@@ -52,3 +53,7 @@ github: [metadata]
 #   - vendor/ruby/
 
 theme: jekyll-theme-minimal
+
+collections:
+  develop:
+    output: true
