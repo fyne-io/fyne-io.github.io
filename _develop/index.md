@@ -1,6 +1,10 @@
 ---
 layout: develop
 title: Welcome
+
+summary: In this welcome document we showed how to get up and running with the Fyne toolkit. We saw that with just a few lines of code we can create a graphical application that will run across mac OS, Windows and Linux.
+
+order: 10
 redirect_from: /develop.html
 
 hello: 
@@ -15,10 +19,16 @@ hello:
         source: struct
 ---
 
-<section class="bg-primary" style="margin: auto -15px; padding: 75pt 20pt" id="about" markdown="1">
+&nbsp;
+
+<div class="alert alert-info" role="alert" markdown="1">
+This documentation is about building apps with the Fyne toolkit.
+If you want to learn about how Fyne is built and get involved in development
+please head to our [GitHub](https://github.com/fyne-io/fyne/wiki) page.
+</div>
 
 ## Downloading
-<hr class="light">
+---
 
 If you are using Windows, macOS or Linux and already have [Go](https://golang.org) installed then the following command will do everything to get Fyne installed:
 
@@ -32,8 +42,6 @@ then you can see our demo app running on your computer by executing:
     $ fyne_demo
 
 And that's all there is to it. Let's look more at how to use the Fyne APIs to create your own cross-platform graphical application.
-
-</section>
 
 
 ## Create your first Fyne app
@@ -100,30 +108,11 @@ func main() {
 
 Executing the code above (a simple `go run hello.go` should do it) will create a window that looks just like this:
 
-![](https://github.com/fyne-io/fyne/raw/develop/img/hello-normal.png)
+![](/develop/img/hello-normal.png)
 
 If you prefer a light theme then just set the environment variable `FYNE_THEME=light` and you'll get:
 
-![](https://github.com/fyne-io/fyne/raw/develop/img/hello-light.png)
+![](/develop/img/hello-light.png)
 
 That's all there is to getting started. You can find the full API documentation on [GoDoc.org](https://godoc.org/fyne.io/fyne).
 
-<section class="bg-dark" style="margin: auto -15px; padding: 75pt 20pt" markdown="1">
-
-## Fyne apps and the future of desktops
-<hr class="light">
-
-The complete Fyne desktop experience is not yet ready for every day use.
-We are working to build the basic features that make it easier to build on.
-However all apps built using the Fyne toolkit will work on Windows,
-Mac OS X and most Linux distributions as well as integrating perfecty into the 
-future Fyne desktop.
-
-Our current state of development looks something like the following:
-
-![](https://github.com/fyne-io/desktop/raw/develop/desktop-dark-current.png)
-
-If you're interested in helping to shape the desktop experience then you can follow our
-[desktop repository](https://github.com/fyne-io/desktop) and get involved.
-
-</section>

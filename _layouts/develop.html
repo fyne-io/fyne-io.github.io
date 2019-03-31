@@ -20,9 +20,13 @@
 
 <div class="col-lg-2 side-nav">
     <ul>
-    {% for develop in site.develop %}
+    {% assign items = site.develop | sort: 'order' %}
+    {% for develop in items %}
         <li class="{% if develop.url == page.url %}active{% endif %}">
             <a href="{{ develop.url }}"><h5>{{ develop.title }}</h5></a></li>
+        {% if develop.order == 10 %}
+	<li><hr class="light" /></li>
+        {% endif %}
     {% endfor %}
     </ul>
 </div>
@@ -30,6 +34,13 @@
 <div class="text-center col-lg-10" style="color: #333; background-color: #fff" markdown="1">
 
     {{ content }}
+
+    <section class="bg-dark" style="margin: auto -15px; padding: 75pt 20pt" markdown="1">
+
+        <h2>Summary</h2>
+        <hr class="light" />
+	{{ page.summary }}
+    </section>
 
 </div>
 
