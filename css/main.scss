@@ -105,3 +105,13 @@ div.app_thumbnail img {
     max-height: 250pt;
 }
 
+@media (max-width: 768px) {
+div.app_thumbnail {
+    max-width: 100%;
+    margin: 0;
+}
+
+div.app_thumbnail img {
+    max-width: 85%;
+}
+}
