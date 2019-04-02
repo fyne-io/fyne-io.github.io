@@ -86,3 +86,22 @@ div.side-nav a {
 div.side-nav .active h5 {
     font-weight: bold;
 }
+
+div.app_thumbnail {
+    float: left;
+    width: 280pt;
+    height: 280pt;
+    margin: 0 20pt;
+}
+
+div.app_thumbnail a {
+    display: block;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+div.app_thumbnail img {
+    max-width: 250pt;
+    max-height: 250pt;
+}
+
