@@ -42,6 +42,11 @@ order: 1000
   </div>
 
   <div class="app_thumbnail">
+    <img src="https://github.com/gmlewis/go-gerber/blob/master/examples/hex-bifilar-coil/hex-bifilar-coil-layers.gif?raw=true" />
+    <a href="https://github.com/gmlewis/go-gerber/">Gerber Viewer</a>
+  </div>
+
+  <div class="app_thumbnail">
     <img src="https://github.com/andydotxyz/dicomgraphics/blob/master/screenshot.png?raw=true" />
     <a href="https://github.com/andydotxyz/dicomgraphics/">DICOM Viewer</a>
   </div>
