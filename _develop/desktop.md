@@ -9,6 +9,8 @@ order: 1010
 
 ## Fyne apps and the future of desktops
 
+---
+
 The complete Fyne desktop experience is not yet ready for every day use.
 We are working to build the basic features that make it easier to build on.
 However all apps built using the Fyne toolkit will work on Windows,

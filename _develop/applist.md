@@ -9,6 +9,8 @@ order: 1000
 
 ## Fyne example applications
 
+---
+
 <div class="app_thumbnails">
   <div class="app_thumbnail">
     <img src="https://github.com/fyne-io/examples/blob/develop/img/bugs.png?raw=true" />
@@ -34,6 +36,8 @@ order: 1000
 
 
 ## Other apps using Fyne
+
+---
 
 <div class="app_thumbnails">
   <div class="app_thumbnail">

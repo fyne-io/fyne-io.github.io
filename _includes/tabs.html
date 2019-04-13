@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
 })
 </script>
-<div class="tabcontrol container">
+<div class="tabcontrol">
     <ul class="tabcontrol tabs" style="{{include.headerstyle}}">
         {% for tab in include.tabs %}
             <li class="tabcontrol tab {% if {tab[1].active %}active{% endif %}" data-name="{{tab[1].name}}" data-target="tab_{{include.id}}" data-source="{{include.id}}__{{tab[1].source}}">

@@ -7,9 +7,13 @@ summary: Compiling for different platforms can be complicated with a Fyne applic
 order: 70
 ---
 
+## Compiling for different platforms
+
+---
+
 Cross compiling with Go is designed to be simple - we just set the environment variable `GOOS` for the target Operating System (and `GOARCH` if targetting a different architecture). Unfortunately when using native graphics calls the use of CGo in Fyne makes this a little harder.
 
-# Compiling from a development computer
+### Compiling from a development computer
 
 To cross-compile a Fyne application you will also have to set `CGO_ENABLED=1` which tells go to enable the C compiler (this is normally turned off when the target platform is different to the current system). Doing so unfortunately means that you must have a C compiler for the target platform that you are going to compile for.
 After installing the appropriate compilers you will also need to set the `CC` environment variable to tell Go which compiler to use.
@@ -25,7 +29,7 @@ There are many ways to install the required tools - and different tools that can
 With the environment variables above set you should be able to compile in the usual manner.
 If further errors occur it is likely to be due to missing packages. Some target platforms require additional libraries or headers to be installed for the compilation to succeed.
 
-# Using a virtual environment
+### Using a virtual environment
 
 As a Linux system is able to cross compile to macOS and Windows easily it can be simpler to use a virtualised environment when you are not developing from Linux. Docker images are a useful tool for a complex build configuration and this works for Fyne as well. Documentation for this process will follow...
 

@@ -7,62 +7,62 @@ summary: In this page we learned about the widgets currently provided by the Fyn
 order: 30
 ---
 
-This is a list of the standard widgets available in Fyne. For information about creating a new widget )for your project or for fyne) check out the [[Creating a Widget]] page.
+## Standard Widgets
 
-In alphabetical order:
+---
 
-## Box
+### Box
 
 Box widget is a simple list where the child elements are arranged in a single column for vertical or a single row for horizontal arrangement.
 
-## Button
+### Button
 
 Button widget has a text label and icon, both are optional.
 
 ![Button](/develop/widget/button.png)
  ![Button with Icon](/develop/widget/button-icon.png)
 
-## Check
+### Check
 
 Check widget has a text label and a checked (or unchecked) icon.
 
 ![Check](/develop/widget/check.png) ![Check On](/develop/widget/check-on.png)
 
-## Entry
+### Entry
 
 Entry widget allows simple text to be input when focused.
 
 ![Entry](/develop/widget/entry.png)
 
-## Form
+### Form
 
 Form widget is two column grid where each row has a label and a widget (usually an input). The last row of the grid will contain the appropriate form control buttons if any should be shown.
 
-## Group
+### Group
 
-Group widget is list of widgets that contains a visual border around the list and a group title at the top.
+Group widget is list of widgets that contains a visual divider to indicate the group with a title at the top.
 
 ![Group](/develop/widget/group.png)
 
-## Hyperlink
+### Hyperlink
 
 Hyperlink widget is a text component with appropriate padding and layout. When clicked, the URL opens in your default web browser.
 
 ![Hyperlink](/develop/widget/hyperlink.png)
 
-## Icon
+### Icon
 
 Icon widget is a basic image component that load's its resource to match the theme.
 
 ![Icon](/develop/widget/icon.png)
 
-## Label
+### Label
 
 Label widget is a label component with appropriate padding and layout.
 
 ![Label](/develop/widget/label.png)
 
-## Progress bar
+### Progress bar
 
 ProgressBar widget creates a horizontal panel that indicates progress.
 
@@ -72,23 +72,23 @@ ProgressBarInfinite widget creates a horizontal panel that indicates waiting ind
 
 ![Progress Infinite](/develop/widget/progress-infinite.png)
 
-## Radio
+### Radio
 
 Radio widget has a list of text labels and radio check icons next to each.
 
 ![Radio](/develop/widget/radio.png) ![Radio On](/develop/widget/radio-on.png)
 
-## ScrollContainer
+### ScrollContainer
 
 ScrollContainer defines a container that is smaller than the Content.
 
-## TabContainer
+### TabContainer
 
 TabContainer widget allows switching visible content from a list of TabItems. Each item is represented by a button at the top of the widget.
 
 ![Tab Container](/develop/widget/tabcontainer.png)
 
-## Toolbar
+### Toolbar
 
 Toolbar widget creates a horizontal list of tool buttons.
 

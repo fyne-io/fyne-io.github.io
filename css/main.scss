@@ -70,9 +70,29 @@ div.tabcontrol.body.fullborder {
     padding: 10px 0;
 }
 
+div.text-center table {
+    margin: 10pt auto;
+}
+
+div.text-center table thead {
+    border-bottom: 1px solid black;
+}
+
+div.text-center pre, div.text-center ul {
+    text-align: left;
+}
+
+div.text-center img {
+    max-width: 100%;
+}
+
 div.side-nav {
-    padding-top: 20pt;
     font-size: +20%;
+}
+
+div.side-nav > ul {
+    padding-left: 0;
+    margin: 10pt 0;
 }
 
 div.side-nav li {
