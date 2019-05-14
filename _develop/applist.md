@@ -59,6 +59,11 @@ order: 1000
     <img src="https://github.com/potato-arcade/p64/blob/master/pong.gif?raw=true" />
     <a href="https://github.com/potato-arcade/p64">Potato Arcade</a>
   </div>
+  
+  <div class="app_thumbnail">
+    <img src="https://github.com/lucor/fyne-opensnitch/blob/master/screenshot/ask_rule.png?raw=true" />
+    <a href="https://github.com/lucor/fyne-opensnitch">Fyne OpenSnitch</a>
+  </div>
 </div>
 <div style="clear: both"></div>
 
