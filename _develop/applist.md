@@ -64,6 +64,10 @@ order: 1000
     <img src="https://github.com/lucor/fyne-opensnitch/blob/master/screenshot/ask_rule.png?raw=true" />
     <a href="https://github.com/lucor/fyne-opensnitch">Fyne OpenSnitch</a>
   </div>
+  <div class="app_thumbnail">
+    <img src="https://github.com/andydotxyz/fynegameboy/blob/master/zelda.gif?raw=true" />
+    <a href="https://github.com/andydotxyz/fynegameboy">Fyne GameBoy</a>
+  </div>
 </div>
 <div style="clear: both"></div>
 
