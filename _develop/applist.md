@@ -66,7 +66,7 @@ order: 1000
   </div>
   <div class="app_thumbnail">
     <img src="https://github.com/andydotxyz/fynegameboy/blob/master/zelda.gif?raw=true" />
-    <a href="https://github.com/andydotxyz/fynegameboy">Fyne GameBoy</a>
+    <a href="https://github.com/HFO4/gameboy.live">GameBoy.live Fyne GUI</a>
   </div>
 </div>
 <div style="clear: both"></div>
