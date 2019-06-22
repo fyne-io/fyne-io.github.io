@@ -2,7 +2,7 @@
 layout: develop
 title: Widget List
 
-summary: In this page we learned about the widgets currently provided by the Fyne toolkit. As these are all built on the same canvas objects they will work identically on all the supported platforms. If you don't find the widget you are looking for it would be possible to create a <a href="/develop/customwidget.html">custom widget</a>
+summary: In this page we learned about the widgets currently provided by the Fyne toolkit. As these are all built on the same canvas objects they will work identically on all the supported platforms. If you don't find the widget you are looking for it would be possible to create a <a href="/develop/custom-widget.html">custom widget</a>
 
 order: 30
 ---
