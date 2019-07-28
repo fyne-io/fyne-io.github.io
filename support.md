@@ -23,7 +23,16 @@ tagline: Whether you are looking to ask a quick question, get some feedback on y
 
 ### Ask a Question
 
-Head to our chat room...
+We know that exploring a new technology can be confusing, even if you
+have explored [the tour](https://tour.fyne.io) and read
+[the documentation ](https://fyne.io/develop/). We are happy to help with any
+questions you have about getting set up, building your first app or how the APIs work.
+
+The best place to ask is in the
+[#fyne](https://gophers.slack.com/app_redirect?channel=fyne) channel on the
+"gophers" slack server (you can [sign up](https://invite.slack.golangbridge.org/)
+if you need). Here is where we gather to discuss the project, examples and help
+anyone with questions they might have.
 
 </div>
 
@@ -31,7 +40,16 @@ Head to our chat room...
 
 ### Code review
 
-Help on existing projects...
+For those who are up and running with their Fyne based application you may be
+wondering how to improve your code. Whether you'd like to increase your test
+coverage, bundle application resources or start working on custom widgets
+then the community can offer some help.
+
+Simply join us on the [#fyne](https://gophers.slack.com/app_redirect?channel=fyne) 
+Slack channel and let us know your question. Be prepared to share your source
+code (easy for open source projects) for the best answers. When that is not
+possible then pasting a snippet or example to the Go 
+[playground](https://play.golang.org/) can be very helpful.
 
 </div>
 
@@ -39,7 +57,13 @@ Help on existing projects...
 
 ### Commercial support
 
-Companies that support Fyne...
+If your business would like some dedicated support time or would like to
+out-source the development of your application then we can recommend
+[The App Crew](https://theappcrew.com). They have the largest Fyne experience
+of any commercial entity so we are sure you will get the help you need.
+The team can be [contacted](https://theappcrew.com/contact/) through their website.
+
+<img src="/img/appcrew.png" height="111px" />
 
 </div>
 </div>
@@ -71,9 +95,9 @@ Companies that support Fyne...
 
 This book explores various options for building graphical applications with Go.
 The Fyne toolkit is covered in detail in Chapter 10 and is also used to illustrate various
-concepts such as background processing connecting to web services.
+concepts such as background processing and connecting to web services.
 
-Each chapter has code bundled and the Fyne examples include code to create a functional
+Each chapter has full code provided and the Fyne examples include a functional
 email client as well as an image browse application.
 
 </div>
