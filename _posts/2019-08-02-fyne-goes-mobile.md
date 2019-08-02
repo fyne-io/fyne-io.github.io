@@ -24,10 +24,10 @@ for iOS or Android and then deploy it to the device. Here is
 our demo app working on both!
 
 <div width="50%" style="float:left; margin-left: 15%">
- <img src="../blog/img/fyne_demo_iOS.png" style="max-height: 500px" />
+ <img src="/blog/img/fyne_demo_iOS.png" style="max-height: 500px" />
 </div>
 <div width="50%" style="float:left; margin-left: 25pt">
- <img src="../blog/img/fyne_demo_android.png" style="max-height: 500px" />
+ <img src="/blog/img/fyne_demo_android.png" style="max-height: 500px" />
 </div>
 <div style="height: 0; clear: both"></div>
 
@@ -45,7 +45,7 @@ working on a web driver alongside our mobile work and are
 excited to be able to unveil that here today as well!
 
 <div style="text-align: center">
-<img src="../blog/img/fyne_demo_web.png" />
+<img src="/blog/img/fyne_demo_web.png" />
 </div>
 
 This means that the [1.2](https://github.com/fyne-io/fyne/milestone/3) release of Fyne will fully support
