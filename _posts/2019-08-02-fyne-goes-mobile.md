@@ -61,4 +61,10 @@ all of the following platforms:
 
 And all of this will be possible from a single app code base - no special drivers
 and no complex device handling.
-Welcome to the future!
+
+This is all in development right now and we need to do lots of testing and help adapt apps to best support
+these additional platforms. If you want to be part of the development effort please join us in our
+[#fyne-contributors](https://gophers.slack.com/app_redirect?channel=fyne-contributors)
+channel on the gophers Slack server (details and signup link in the footer below).
+
+### *Welcome to the future!*
