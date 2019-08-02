@@ -12,7 +12,7 @@ and an end user) toolkit for desktop apps. Of course we have
 already had ambitions to help make apps across all popular
 operating systems... but that was some time away right?
 
-# Mobile
+## Mobile
 
 Well today the exciting news is that we have the Fyne toolkit
 working on iOS and Android devices. That means that any Fyne
@@ -24,7 +24,7 @@ for iOS or Android and then deploy it to the device. Here is
 our demo app working on both!
 
 <div width="50%" style="float:left; margin-left: 15%">
- <img src="/blog/img/fyne_demo_iOS.png" style="max-height: 500px" />
+ <img src="/blog/img/fyne_demo_ios.png" style="max-height: 500px" />
 </div>
 <div width="50%" style="float:left; margin-left: 25pt">
  <img src="/blog/img/fyne_demo_android.png" style="max-height: 500px" />
@@ -33,7 +33,7 @@ our demo app working on both!
 
 We hope that you are as excited about this as we are!
 
-# And... Web
+## And... Web
 
 And not to call it qiuts at adding mobile support to the
 upcoming 1.2 release but we will be adding support for web
@@ -59,5 +59,6 @@ all of the following platforms:
 * Android
 * Web
 
-And all of this will be possible from a single codebase.
+And all of this will be possible from a single app code base - no special drivers
+and no complex device handling.
 Welcome to the future!
