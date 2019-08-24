@@ -16,9 +16,9 @@
     </div>
 </header>
 
-<div class="row bg-primary" style="margin: 0">
+<div class="row" style="margin: 0">
 
-<div class="col-lg-2 side-nav">
+<div class="col-lg-2 side-nav bg-primary">
     <ul>
     {% assign items = site.develop | sort: 'order' %}
     {% for develop in items %}
@@ -31,7 +31,7 @@
     </ul>
 </div>
 
-<div class="text-center col-lg-10" style="color: #333; background-color: #fff; padding-top: 20pt;" markdown="1">
+<div class="text-center col-lg-10" markdown="1">
 
     {{ content }}
 
