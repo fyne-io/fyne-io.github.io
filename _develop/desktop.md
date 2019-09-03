@@ -2,7 +2,7 @@
 layout: develop
 title: Fyne Desktop
 
-summary: If you're interested in helping to shape the desktop experience then you can follow our [desktop repository](https://github.com/fyne-io/desktop) and get involved.
+summary: If you're interested in helping to shape the desktop experience then you can follow our <a href="https://github.com/fyne-io/desktop">desktop repository</a> and get involved.
 
 order: 1010
 ---
