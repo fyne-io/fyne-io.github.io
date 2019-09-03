@@ -22,11 +22,18 @@
     <ul>
     {% assign items = site.develop | sort: 'order' %}
     {% for develop in items %}
-    {% if develop.order == 20 or develop.order >= 1000 %}
+        {% if develop.order == 1000 %}
         <li><hr class="light" /></li>
-        {% endif %}
+        <li class="">
+            <a href="https://apps.fyne.io" target="_blank"><h5>Fyne Applications</h5></a></li>
+ 
+        {% else %}
+            {% if develop.order == 20 or develop.order >= 1010 %}
+        <li><hr class="light" /></li> 
+            {% endif %}
         <li class="{% if develop.url == page.url %}active{% endif %}">
             <a href="{{ develop.url }}"><h5>{{ develop.title }}</h5></a></li>
+        {% endif %}
     {% endfor %}
     </ul>
 </div>
