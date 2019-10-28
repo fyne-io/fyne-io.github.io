@@ -22,17 +22,21 @@ tagline: If you prefer presentations to documentation or you want time stepping 
 
 <div class="col-lg-4 text-center" markdown="1">
 
-### Fyne - Cross platform GUI apps in pure Go
+### Fun + No Constraints + High Performance = Creativity
 
 *31 October 2019 - GopherCon AU (Sydney)*
 
-Join us for an introduction to developing GUI apps using Fyne.
-Providng an overview and quick start introduction we will show you how
-to get started building your own graphical apps in Go.
-For the curious there will also be a demo of various applications
-currently available and coming soon all built using the toolkit.
+In this talk, Steve introduces the Fyne GUI toolkit and it's targeting of cross
+platform desktop applications, as well as Mobile (Android / iOS) and more.
+TDD support is built in, and its written 100% in Go, so you know its good.
 
-[Event details](https://gophercon.com.au/)
+This will be a fast paced, highly visual dive through the possibilities for
+application development, if you dare to throw out the rulebook and look at a
+fresh new approach that the Go tooling makes possible. Attendees will be
+challenged to let their imaginations loose, and get excited about writing
+"that app" that they have always wanted to finish off one day. Now is your time !
+
+[Event details](https://gophercon.com.au/#speakers)
 
 </div>
 
