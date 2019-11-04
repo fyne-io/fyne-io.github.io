@@ -17,9 +17,9 @@ Although Fyne has no native dependencies and is a pure Go API it does require CG
 
 Most developer systems will already have one installed, but if you are getting started or have not used a C compiler before this section should get you set up.
 
-#### Linux
+#### Linux and BSD
 
-On Linux the "gcc" package may already be installed - if not then install this from your package manager.
+On Unix systems the "gcc" package may already be installed - if not then install this from your package manager.
 One of the following commands is likely to work for your system:
 
 * `sudo apt-get install gcc`
@@ -42,7 +42,7 @@ Windows does not have a standard way to install a C compiler, but there are many
 
 ## Dependencies
 
-By default Fyne uses the [gl](https://github.com/go-gl/gl) and [GLFW](https://github.com/go-gl/glfw) bindings for Go which means that OpenGL must be installed on the development, and runtime, systems. Most modern desktop platforms have this running out of the box so this should not be a problem. On some Linux systems, however, the files needed to compile with OpenGL are not included. Here is a list of the packages you may need to install for various distributions:
+By default Fyne uses the [gl](https://github.com/go-gl/gl) and [GLFW](https://github.com/go-gl/glfw) bindings for Go which means that OpenGL must be installed on the development, and runtime, systems. Most modern desktop platforms have this running out of the box so this should not be a problem. On some Linux and BSD systems, however, the files needed to compile with OpenGL are not included. Here is a list of the packages you may need to install for various distributions:
 
 <div class="text-align: center; margin: auto" markdown="1">
 

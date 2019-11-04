@@ -2,7 +2,7 @@
 layout: develop
 title: Welcome
 
-summary: In this welcome document we showed how to get up and running with the Fyne toolkit. We saw that with just a few lines of code we can create a graphical application that will run across mac OS, Windows and Linux.
+summary: In this welcome document we showed how to get up and running with the Fyne toolkit. We saw that with just a few lines of code we can create a graphical application that will run across mac OS, Windows, Linux and BSD.
 
 order: 10
 redirect_from: /develop.html
@@ -28,7 +28,7 @@ please head to our [GitHub](https://github.com/fyne-io/fyne/wiki) page.
 ## Downloading
 ---
 
-If you are using Windows, macOS or Linux and already have [Go](https://golang.org) installed then the following command will do everything to get Fyne installed:
+If you are using Windows, macOS, Linux or BSD and already have [Go](https://golang.org) installed then the following command will do everything to get Fyne installed:
 
     $ go get fyne.io/fyne
 
