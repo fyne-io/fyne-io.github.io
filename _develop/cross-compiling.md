@@ -42,8 +42,14 @@ Supported targets are:
 | darwin | 386 |
 | linux | amd64 |
 | linux | 386 |
+| linux | arm64 |
+| linux | arm |
 | windows | amd64 |
 | windows | 386 |
+| android | amd64 |
+| android | 386 |
+| android | arm64 |
+| android | arm |
 
 
 #### Installation
