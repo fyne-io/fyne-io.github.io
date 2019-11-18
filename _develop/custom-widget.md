@@ -19,7 +19,7 @@ A widget is split into two areas - each implementing a standard interface - the 
 
 ### fyne.Widget
 
-A widget in Fyne is simply a stateful canvas object that has it's rendering
+A widget in Fyne is simply a stateful canvas object that has its rendering
 definition separated from the main logic. As you can see from the `fyne.Widget`
 interface there is not much that must be implemented.
 
