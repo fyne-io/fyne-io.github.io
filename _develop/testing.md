@@ -11,7 +11,7 @@ order: 50
 
 ---
 
-Part of a good test suite is being able to quickly right tests and run them on a regular basis.
+Part of a good test suite is being able to quickly write tests and run them on a regular basis.
 Fyne's API is designed to make testing applications easy. By separating component logic from it's rendering definition we can load applications without actually displaying them and test the functionality completely.
 
 ### Example
