@@ -49,7 +49,7 @@ By default Fyne uses the [gl](https://github.com/go-gl/gl) and [GLFW](https://gi
 | Distribution  | Packages required                |
 |---------------|----------------------------------|
 | Debian/Ubuntu | `libgl1-mesa-dev` and `xorg-dev` |
-| Fedora        |  ``libXcursor-devel``  ``libXrandr-devel``  ``mesa-libGL-devel``  ``libXi-devel``|
+| Fedora        |  ``libXcursor-devel``  ``libXrandr-devel``  ``mesa-libGL-devel``  ``libXi-devel`` ``libXinerama-devel``|
 
 </div>
 
