@@ -32,23 +32,8 @@ type Widget interface {
 
 ```
 
-As a widget needs to be used like any other canvas item we inherit from the same interface. As a reminder the `fyne.CanvasObject` interface is defined as:
-
-```go
-type CanvasObject interface {
-	// geometry
-	Size() Size
-	Resize(Size)
-	Position() Position
-	Move(Position)
-	MinSize() Size
-
-	// visibility
-	Visible() bool
-	Show()
-	Hide()
-}
-```
+As a widget needs to be used like any other canvas item we inherit from the same interface.
+To save writing all the functions required we can make use of the `widget.BaseWidget` type which handles the basics.
 
 Each widget definition will contain much more than the interface requires.
 It is standard in a Fyne widget to export the fields which define behaviour
@@ -58,7 +43,7 @@ For example, look at the `widget.Button` type:
 
 ```go
 type Button struct {
-	baseWidget
+	BaseWidget
 	Text  string
 	Style ButtonStyle
 	Icon  fyne.Resource
@@ -67,7 +52,6 @@ type Button struct {
 }
 ```
 
-As a standard widget it is able to make use of a private helper to handle the main `fyne.CanvasObject` boilerplate, but other than that it's a simple type definition.
 You can see how each of these items store state about the widget behaviour but nothing about how it is rendered.
 
 ### fyne.WidgetRenderer
@@ -83,7 +67,6 @@ type WidgetRenderer interface {
 	MinSize() Size
 
 	Refresh()
-	ApplyTheme()
 	BackgroundColor() color.Color
 	Objects() []CanvasObject
 	Destroy()
@@ -93,24 +76,27 @@ type WidgetRenderer interface {
 As you can see the `Layout(Size)` and `MinSize()` functions are similar to the
 `fyne.Layout` interface, without the `[]fyne.CanvasObject` parameter - this is because a widget does need to be laid out but it controls which objects will be included.
 
-The `BackgroundColor()` function sets the colour that will be drawn under the widget
-and `ApplyTheme()` will be called if theme changes have occurred. The `Refresh()` method is triggered when the widget this renderer draws has changed so we may
-need to make adjustments to how it looks. Lastly the `Destroy()` method is called when this renderer is no longer needed so it should clear any resources that would otherwise leak.
+The `BackgroundColor()` function sets the colour that will be drawn under the widget.
+The `Refresh()` method is triggered when the widget this renderer draws has changed or if the theme is altered.
+In either situation we may need to make adjustments to how it looks.
+Lastly the `Destroy()` method is called when this renderer is no longer needed so it should clear any resources that would otherwise leak.
 
 Compare again with the button widget - it's `fyne.WidgetRenderer` implementation is based on the following type:
 
 ```go
 type buttonRenderer struct {
-	icon  *canvas.Image
-	label *canvas.Text
+	icon   *canvas.Image
+	label  *canvas.Text
+	shadow *fyne.CanvasObject
 
 	objects []fyne.CanvasObject
 	button  *Button
 }
 ```
 
-As you can see it has fields to cache the actual image and text canvas objects
-for drawing. It keeps track of the slice of objects required by `fyne.WidgetRenderer` as a convenience.
+As you can see it has fields to cache the actual image, text and shadow canvas
+objects for drawing.
+It keeps track of the slice of objects required by `fyne.WidgetRenderer` as a convenience.
 
 Lastly it keeps a reference to tbe `widget.Button` for all state information.
 In the `Refresh()` method it will update the graphical state based on any changes
@@ -118,15 +104,14 @@ in the underlying `widget.Button` type.
 
 ### Bring it together
 
-The above interfaces need to be implemented in a new type that you define.
-This typically takes the form of a struct that encapsulates the basic properties
-of a `fyne.CanvasObject` and additionally any state that your widget requires.
-
-In your widget's `CreateRenderer()` function you return a new instance of the
-renderer defined above. The widget and driver code in Fyne will ensure that this
+A basic widget will extend the `widget.BaseWidget` type and declare any state
+that the widget holds.
+The `CreateRenderer()` function must exist and return a new `fyne.WidgetRenderer` instance. The widget and driver code in Fyne will ensure that this
 is cached accordingly - this method may be called many times (for example if a
 widget is hidden and then shown). If `CreateRenderer()` is called again you
 should return a new renderer instance as the old one may have been destroyed.
-Take care not to keep any important state in your renderer - animation tickers
-are well suited to that location but current values would not be.
 
+Take care not to keep any important state in your renderer - animation tickers
+are well suited to that location but user state would not be. A widget that is
+hidden may have it's renderer destroyed and if it is shown again the new renderer
+must be able to reflect the same widget state.
