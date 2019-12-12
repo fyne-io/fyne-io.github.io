@@ -17,6 +17,19 @@ tagline: If you prefer presentations to documentation or you want time stepping 
 </div>
 </div>
 
+</section>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center" markdown="1">
+
+## Archive
+---
+
+</div>
+</div>
+</div>
+
 <div class="container">
 <div class="row">
 
@@ -54,27 +67,6 @@ Fyne Conf is the world’s first conference focused on the Fyne toolkit, it’s 
 
 <div class="col-lg-4 text-center" markdown="1">
 
-</div>
-</div>
-</div>
-</section>
-
-<div class="container">
-<div class="row">
-<div class="col-lg-12 text-center" markdown="1">
-
-## Archive
----
-
-</div>
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-
-<div class="col-lg-4 text-center" markdown="1">
-
 ### A Fyne User Interface
 
 *16 September 2019 - GolangVan (Vancouver)*
@@ -84,6 +76,13 @@ Introduction to the Fyne toolkit fo building cross platform GUIs.
 [Event details](https://www.meetup.com/golangvan/events/263156126/)
 
 </div>
+
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 
@@ -109,12 +108,6 @@ An update on the Fyne GUI framework.
 
 </div>
 
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-
 <div class="col-lg-4 text-center" markdown="1">
 
 ### Introducing Fyne
@@ -127,14 +120,6 @@ An introduction to Fyne.io, the UI toolkit and app API written in Go.
 
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
-
-
-</div>
-<div class="col-lg-4 text-center" markdown="1">
-
-
-</div>
 </div>
 </div>
 
