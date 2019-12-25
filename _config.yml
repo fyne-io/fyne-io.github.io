@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fyne.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
-headline: The future of beautiful<br>application development
+headline: Your beautiful new<br>open source desktop
 tagline: >- # multiline
   We're building a modern application framework and desktop environment<br>
   focused on design, usability and ease of development and distribution.<br>

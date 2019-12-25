@@ -1,3 +1,30 @@
 ---
-layout: front
+layout: page
+header-img: toolkit
+headline: Build Beautiful Apps for Mobile and Desktop
+tagline: The Fyne tookit for graphical applications makes it fun and easy to build beautiful and performant native applications tha work accross all your devies.
 ---
+
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Build the future with us!</h2>
+                <hr class="light">
+		<p class="text-faded">Fyne's APIs aim to be the best for developing
+beautiful, usable, lightweight applications for desktop and beyond. Driven by 
+design and usability principles we are breaking free of the current desktop app
+drudgery and create a joyous experience.</p>
+                <p class="text-faded">Providing a quality user experience is important
+on the desktop, in all our apps and also during development. Part of the platform
+being created is to provide tools that work as well as the apps we know you're
+going to enjoy creating.</p>
+                <a href="/develop/" class="btn btn-default btn-xl">Get Started!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include features.html %}
+{% include portfolio.html %}
+
