@@ -47,6 +47,26 @@ $theme-dark: #222;
 	max-width: 100%;
 }
 
+.quote-block {
+    margin-bottom: 3em;
+}
+
+.quote-block::before {
+    content: "“";
+    position: absolute;
+    top: -0.6em;
+    left: 0;
+    font-size: 12em;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.quote-block .quote-name {
+    font-weight: bold;
+    display: block;
+    text-align: right;
+    padding-right: 2em;
+}
+
 ul.tabcontrol.tabs {
     margin: 0;
     height: 28pt;

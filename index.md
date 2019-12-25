@@ -26,5 +26,33 @@ going to enjoy creating.</p>
 </section>
 
 {% include features.html %}
+
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 quote-block">
+It's been pretty easy to start feeling productive in Fyne,
+you all did a very nice job!
+<span class="quote-name">- Peter Stratton</span>
+            </div>
+            <div class="col-lg-6 quote-block">
+I'm over the moon excited about fyne.
+This is the greatest project since sliced bread.
+<span class="quote-name">- Joel Jensen</span>
+            </div>
+            <div class="col-lg-6 quote-block">
+Blown away with Fyne's ease and beauty. Will definitely use it with Go [...]
+Great job you guys!
+<span class="quote-name">- Alejantro Martinis</span>
+            </div>
+            <div class="col-lg-6 quote-block">
+Wouldn't have used anything else than fyne. It is simple and just makes me
+understand what I'm actually trying to do.
+<span class="quote-name">- Jacob Alzén</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 {% include portfolio.html %}
 
