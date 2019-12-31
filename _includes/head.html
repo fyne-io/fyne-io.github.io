@@ -15,6 +15,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+{% if page.goimport != %}
+    <meta name="go-import" content="{{ page.goimport }} git https://github.com/fyne-io/desktop">
+{% endif %}
+
     <title>{{ site.title }}</title>
 
     <link rel="icon" type="image/png" href="/img/favicon.png" sizes="32x322">
