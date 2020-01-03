@@ -2,7 +2,7 @@
 layout: page
 header-img: toolkit
 headline: Build Beautiful Apps for Mobile and Desktop
-tagline: The Fyne tookit for graphical applications makes it fun and easy to build beautiful and performant native applications that work accross all your devies.
+tagline: The Fyne tookit for graphical applications makes it fun and easy to build beautiful and performant native applications that work across all your devices.
 ---
 
 <section class="bg-primary" id="about">
