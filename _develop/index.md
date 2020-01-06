@@ -28,7 +28,7 @@ please head to our [GitHub](https://github.com/fyne-io/fyne/wiki) page.
 ## Downloading
 ---
 
-If you are using Windows, macOS, Linux or BSD and already have [Go](https://golang.org) installed then the following command will do everything to get Fyne installed:
+If you are using Windows, macOS, Linux or BSD and already have [Go](https://golang.org) installed (at least version 1.12) then the following command will do everything to get Fyne installed:
 
     $ go get fyne.io/fyne
 
