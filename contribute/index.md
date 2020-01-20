@@ -3,6 +3,8 @@ layout: page
 header-img: contribute
 headline: Getting Involved with Fyne
 tagline: We're looking to move fast and build great stuff, but we need help<br>- here's how you can support the project.
+
+redirect_from: /contribute.html
 ---
 
 <section class="bg-primary" id="about">

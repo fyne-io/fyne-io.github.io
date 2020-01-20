@@ -3,6 +3,8 @@ layout: page
 header-img: support
 headline: Get help using the Fyne toolkit
 tagline: Whether you are looking to ask a quick question, get some feedback on your latest project or hire a team to build your next Fyne app we are here to help.
+
+redirect_from: /support.html
 ---
 
 <section class="bg-primary" id="about">
