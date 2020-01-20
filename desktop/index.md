@@ -14,7 +14,7 @@ redirect_from: /desktop.html
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Reimagining the Desktop!</h2>
                 <hr class="light">
-		<p class="text-faded">The FyneDesk project is taking a fresh look
+		<p>The FyneDesk project is taking a fresh look
 at what it means to be a desktop environment. Using the same beautiful and user
 friendly graphics of the Fyne toolkit you will find it a great place to call 
 home on your computer.</p>

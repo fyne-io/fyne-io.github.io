@@ -11,7 +11,7 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Build the future with us!</h2>
                 <hr class="light">
-		<p class="text-faded">Fyne's APIs aim to be the best for developing
+		<p>Fyne's APIs aim to be the best for developing
 beautiful, usable, lightweight applications for desktop and beyond. Driven by 
 design and usability principles we are breaking free of the current desktop app
 drudgery and create a joyous experience.</p>
