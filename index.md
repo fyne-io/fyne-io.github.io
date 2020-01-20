@@ -11,15 +11,28 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Build the future with us!</h2>
                 <hr class="light">
-		<p>Fyne's APIs aim to be the best for developing
-beautiful, usable, lightweight applications for desktop and beyond. Driven by 
-design and usability principles we are breaking free of the current desktop app
-drudgery and create a joyous experience.</p>
-                <p class="text-faded">Providing a quality user experience is important
-on the desktop, in all our apps and also during development. Part of the platform
-being created is to provide tools that work as well as the apps we know you're
-going to enjoy creating.</p>
-                <a href="/develop/" class="btn btn-default btn-xl">Get Started!</a>
+                <p>The Fyne toolkit provides the easiest way to develop beautiful, lightweight and user friendly native applications for desktop, mobile and beyond.
+                Driven by design and usability principles we are breaking free of the current desktop app drudgery and create a joyous experience.</p>
+                <p>&nbsp;</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <p>If you can't wait to start coding your first Fyne app then you can dive right in at our developer documentation.</p>
+
+                <a href="/develop/" class="btn btn-default btn-xl">Get Started</a>
+            </div>
+            <div class="col-lg-4 text-center">
+                <p>To explore the design of our APIs without needing to set up a development envrionment we have a helpful tour available.</p>
+
+                <a href="https://tour.fyne.io" class="btn btn-default btn-xl" style="visibility: visible;">Take the Tour</a>
+            </div>
+            <div class="col-lg-4 text-center">
+                <p>The collection of apps built using Fyne is growing all the time and many of them are open source as well!</p>
+
+                <a href="https://apps.fyne.io" class="btn btn-default btn-xl">Browse Apps</a>
             </div>
         </div>
     </div>
