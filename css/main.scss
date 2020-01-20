@@ -43,6 +43,15 @@ $theme-dark: #222;
         "base"
 ;
 
+header {
+	min-height: 0;
+	height: 24em;
+}
+
+div.header-content {
+	top: 58%;
+}
+
 #about img {
 	max-width: 100%;
 }
@@ -112,12 +121,12 @@ div.text-center img {
 }
 
 div.side-nav {
-    font-size: +20%;
+    font-size: +35%;
 }
 
 div.side-nav > ul {
     padding-left: 0;
-    margin: 10pt 0;
+    margin: 18pt 0 0 8pt;
 }
 
 div.side-nav li {
@@ -128,7 +137,7 @@ div.side-nav a {
     color: #fff;
 }
 
-div.side-nav .active h5 {
+div.side-nav .active h4 {
     font-weight: bold;
 }
 

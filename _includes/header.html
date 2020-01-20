@@ -5,24 +5,14 @@
 if page.headline == %}{%
     if page.layout == "blog" or page.layout == "post"
         %}{{ site.blog-headline }}{%
+    else if include.headline
+        %}{{ include.headline }}{%
     else
         %}{{ site.headline }}{%
     endif %}{%
 else
     %}{{ page.headline }}{%
 endif %}</h1>
-            <hr>
-            <p>{%
-if page.tagline == %}{%
-    if page.layout == "blog" or page.layout == "post"
-        %}{{ site.blog-tagline }}{%
-    else
-        %}{{ site.tagline }}{%
-    endif %}{%
-else
-    %}{{ page.tagline }}{%
-endif %}</p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
     </div>
 </header>
