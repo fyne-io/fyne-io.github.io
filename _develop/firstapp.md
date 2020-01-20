@@ -94,5 +94,8 @@ If you prefer a light theme then just set the environment variable `FYNE_THEME=l
 
 <img src="/develop/img/hello-light.png" width="207" alt="Hello Light Theme" />
 
-That's all there is to getting started. You can find the full API documentation on [GoDoc.org](https://godoc.org/fyne.io/fyne).
+That's all there is to getting started. You can find the full API documentation on [GoDoc.org](https://godoc.org/fyne.io/fyne). If you prefer a curated process we have prepared a tour of the toolkit that you can launch using the button below.
+
+<a href="https://tour.fyne.io" class="btn btn-primary btn-xl" style="visibility: visible;">Take the Tour</a>
+
 

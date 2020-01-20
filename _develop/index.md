@@ -45,6 +45,8 @@ Using the Fyne toolkit to build cross platform applications is very simple but d
 
 Fyne requires 3 basic elements to be present, the Go tools (at least version 1.12), a C compiler (to connect with system graphics drivers) and an system graphics driver. The instructions vary depending on your operating system, choose the appropriate tab below for installation instructions.
 
+Note that these steps are just required for development - your Fyne applications will not require any setup or dependency installation for end users!
+
 {% include tabs.html bodyclass="fullborder" tabs=page.install id="install" %}
 
 <div id="install__windows" class="hidden">
@@ -150,6 +152,6 @@ then you can see our demo app running on your computer by executing:
     $ go get fyne.io/fyne/cmd/fyne_demo
     $ fyne_demo
 
-And that's all there is to it! Now you can write your own Fyne application in your IDE of choice. If you want to see some Fyne code in action then you can read [your first application](/develop/firstapp.html).
+And that's all there is to it! Now you can write your own Fyne application in your IDE of choice. If you want to see some Fyne code in action then you can read [your first application](/develop/firstapp.html). Alternatively you could check out our tour of the Fyne toolkit using the button below.
 
-
+<a href="https://tour.fyne.io" class="btn btn-primary btn-xl" style="visibility: visible;">Take the Tour</a>
