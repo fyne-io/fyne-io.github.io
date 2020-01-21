@@ -100,7 +100,7 @@ Note that these steps are just required for development - your Fyne applications
 <div id="install__android" class="hidden">
 <div style="text-align: left" markdown="1">
 
-* To develop apps for Android you will first need to install the tools for your current computer (Windows, macOS or Windows)
+* To develop apps for Android you will first need to install the tools for your current computer (Windows, macOS or Linux)
 * Once complete you will need to install the Android SDK and Android NDK - the recommended approach is to install [Android Studio](https://developer.android.com/studio/index.html) and then go to **Tools > SDK Manager** and from **SDK Tools** install the **NDK (Side by side)** package.
 
 </div>
