@@ -122,7 +122,16 @@ Note that these steps are just required for development - your Fyne applications
     }
 
     $(document).ready(function(){
-        os = window.navigator.platform;
+        var ua = navigator.userAgent || navigator.vendor || window.opera;
+        if (/android/i.test(ua)) {
+            clickTab("android");
+            return;
+        } else if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+            clickTab("ios");
+            return;
+        }
+
+        var os = window.navigator.platform;
         if (os == "win32") {
             clickTab("windows");
         } else if (os == "MacIntel") {
