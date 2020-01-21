@@ -78,8 +78,6 @@ div.header-content {
 
 ul.tabcontrol.tabs {
     margin: 0;
-    height: 28pt;
-    border-bottom: 1px solid #c0c0c0;
 }
 
 ul.tabcontrol.tabs li.tab {
@@ -97,6 +95,8 @@ ul.tabcontrol.tabs li.tabcontrol.tab.active {
 
 div.tabcontrol.body {
     clear: both;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
 }
 
 div.tabcontrol.body.fullborder {
