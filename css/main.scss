@@ -44,16 +44,16 @@ $theme-dark: #222;
 ;
 
 header {
-	min-height: 0;
-	height: 24em;
+    min-height: 0;
+    height: 24em;
 }
 
 div.header-content {
-	top: 58%;
+    top: 58%;
 }
 
 #about img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 .quote-block {
@@ -93,6 +93,10 @@ ul.tabcontrol.tabs li.tab {
 ul.tabcontrol.tabs li.tabcontrol.tab.active {
     font-weight: bold !important;
     border-bottom: 3px solid #999;
+}
+
+div.tabcontrol.body {
+    clear: both;
 }
 
 div.tabcontrol.body.fullborder {
@@ -160,6 +164,10 @@ div.app_thumbnail img {
 }
 
 @media (max-width: 768px) {
+div.header-content {
+    top: 2em;
+}
+
 div.app_thumbnail {
     max-width: 100%;
     margin: 0;
