@@ -4,7 +4,7 @@ title: Testing
 
 summary: In this document we looked at how the Fyne toolkit can help with testing. As well as making GUI development easy it is important that these apps can be tested quickly and without extra code. The provided tools support easy testing of user interfaces in memory.
 
-order: 50
+order: 40
 ---
 
 ## Testing Graphical Apps

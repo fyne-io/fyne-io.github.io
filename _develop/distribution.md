@@ -4,7 +4,7 @@ title: Packaging
 
 summary: In this document we saw how the fyne tools help to create packages for distribution. Each operating system has different requirements for a GUI based application and these tools can be used to create them as required.
 
-order: 60
+order: 50
 ---
 
 ## Packaging

@@ -14,6 +14,12 @@
     <ul>
     {% assign items = site.develop | sort: 'order' %}
     {% for develop in items %}
+        {% if develop.group != %}
+    </ul>
+    <h4 class="nav-group">{{ develop.group }}</h4>
+    <ul>
+        {% endif %}
+
         <li class="{% if develop.url == page.url %}active{% endif %}">
             <a href="{{ develop.url }}"><h4>{{ develop.title }}</h4></a></li>
     {% endfor %}

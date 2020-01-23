@@ -126,11 +126,12 @@ div.text-center img {
 
 div.side-nav {
     font-size: +35%;
+    padding: 10pt 20pt;
 }
 
 div.side-nav > ul {
     padding-left: 0;
-    margin: 18pt 0 0 8pt;
+    margin: 0;
 }
 
 div.side-nav li {
@@ -143,6 +144,10 @@ div.side-nav a {
 
 div.side-nav .active h4 {
     font-weight: bold;
+}
+
+div.side-nav h4.nav-group {
+    border-bottom: 1px solid #222;
 }
 
 div.app_thumbnail {

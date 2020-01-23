@@ -4,7 +4,8 @@ title: Scaling & Geometry
 
 summary: In this page we explored the geometry and scaling of Fyne based applications. We covered the difference between screen pixels and the coordinates for size and position in a Fyne canvas.
 
-order: 20
+order: 200
+group: Architecture
 ---
 
 ## Scaling

@@ -4,7 +4,7 @@ title: Your First App
 
 summary: Building on the "Getting Started" document we have now seen how to build and run a Fyne application. This code can be build for your desktop computer, any other desktop operating system and also iOS and Android devices.
 
-order: 15
+order: 20
 
 hello: 
     tab1:
