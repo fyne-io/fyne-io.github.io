@@ -136,7 +136,8 @@ Note that these steps are just required for development - your Fyne applications
             clickTab("windows");
         } else if (os == "MacIntel") {
             clickTab("macos");
-        } else if (os == "Linux i686") {
+        } else if (os == "Linux i686" || os == "Linux x86_64" ||
+                   os == "FreeBSD i386" || os == "FreeBSD amd64") {
             clickTab("linux");
         } else if (os == "Linux armv7l") {
             clickTab("rpi");
