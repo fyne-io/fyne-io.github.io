@@ -25,7 +25,7 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
                 <a href="/develop/" class="btn btn-default btn-xl">Get Started</a>
             </div>
             <div class="col-lg-4 text-center">
-                <p>To explore the design of our APIs without needing to set up a development envrionment we have a helpful tour available.</p>
+                <p>To explore the design of our APIs without needing to set up a development environment we have a helpful tour available.</p>
 
                 <a href="https://tour.fyne.io" class="btn btn-default btn-xl" style="visibility: visible;">Take the Tour</a>
             </div>
