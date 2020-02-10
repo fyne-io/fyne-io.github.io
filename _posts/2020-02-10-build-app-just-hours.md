@@ -14,7 +14,7 @@ simple demo applications, so it seemed wise to rectify the imbalance.
 
 ## PixelEdit
 
-And so in preparation for the Go developer room at [FOSDEM](fosdem.org) we spent
+And so in preparation for the Go developer room at [FOSDEM](https://fosdem.org) we spent
 4 hours creating a simple application. This application, PixelEdit, was designed
 to show how to use built in functionality, with a single custom widget to expand
 on the builtin components. As well as this it should have good test coverage and
