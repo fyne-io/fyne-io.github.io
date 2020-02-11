@@ -54,9 +54,9 @@ Note that these steps are just required for development - your Fyne applications
 
 1. Download Go from the [download page](https://golang.org/dl/) and follow instructions
 2. Install one of the available C compilers for windows, the following are tested with Go and Fyne:
-    * MSYS2 with MingW-w64 - [https://www.msys2.org/]()
-    * TDM-GCC - [http://tdm-gcc.tdragon.net/download]()
-    * Cygwin - [https://www.cygwin.com/]()
+    * MSYS2 with MingW-w64 - [msys2.org](https://www.msys2.org/)
+    * TDM-GCC - [tdm-gcc.tdragon.net](http://tdm-gcc.tdragon.net/download)
+    * Cygwin - [cygwin.com](https://www.cygwin.com/)
 3. In Windows your graphics driver will already be installed, but it is recommended to ensure they are up to date.
 
 </div>
