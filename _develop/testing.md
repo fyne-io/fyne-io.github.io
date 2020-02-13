@@ -33,16 +33,16 @@ func TestAdd(t *testing.T) {
 	calc := newCalculator()
 	calc.loadUI(test.NewApp())
 
-	test.Click(calc.buttons["1"])
-	test.Click(calc.buttons["+"])
-	test.Click(calc.buttons["1"])
-	test.Click(calc.buttons["="])
+	test.Tap(calc.buttons["1"])
+	test.Tap(calc.buttons["+"])
+	test.Tap(calc.buttons["1"])
+	test.Tap(calc.buttons["="])
 
 	assert.Equal(t, "2", calc.output.Text)
 }
 ```
 
-Using the "test" package we load a test application, rather than a regular desktop app (`test.NewApp()` instead of `app.New()`). Then the `test.Click()` function simulates user action and finally we check the text of the output for the correct answer.
+Using the "test" package we load a test application, rather than a regular desktop app (`test.NewApp()` instead of `app.New()`). Then the `test.Tap()` function simulates user action and finally we check the text of the output for the correct answer.
 
 A simple `go test .` will run this as a unit test, loading and testing the application, without ever having to load a window on the screen.
 
