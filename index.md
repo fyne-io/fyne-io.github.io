@@ -12,7 +12,7 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
                 <h2 class="section-heading">Build the future with us!</h2>
                 <hr class="light">
                 <p>The Fyne toolkit provides the easiest way to develop beautiful, lightweight and user friendly native applications for desktop, mobile and beyond.
-                Driven by design and usability principles we are breaking free of the current desktop app drudgery and create a joyous experience.</p>
+                Driven by design and usability principles we are breaking free of the current desktop app drudgery to create a joyous experience.</p>
                 <p>&nbsp;</p>
             </div>
         </div>
