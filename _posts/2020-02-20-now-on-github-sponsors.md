@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Now on GitGub Sponsors"
+title:  "Now on GitHub Sponsors"
 date:   2020-02-20 12:58:33 +0000
 categories: blog
 ---
