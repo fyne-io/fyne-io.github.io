@@ -33,7 +33,7 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
             <div class="col-lg-4 text-center">
                 <p>For developers who prefer to learn from videos we have a collection of getting started tutorials on YouTube.</p>
 
-                <a href="https://www.youtube.com/c/fyneio" class="btn btn-default btn-xl">Visit YouTube</a>
+                <a href="https://www.youtube.com/watch?v=-v1vz_NcWng&list=PLjpijTpXl1_po-ld8jORR9k5NornDNKQk" class="btn btn-default btn-xl">Tutorial Playlist</a>
             </div>
         </div>
     </div>
