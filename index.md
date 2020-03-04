@@ -13,6 +13,7 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
                 <hr class="light">
                 <p>The Fyne toolkit provides the easiest way to develop beautiful, lightweight and user friendly native applications for desktop, mobile and beyond.
                 Driven by design and usability principles we are breaking free of the current desktop app drudgery to create a joyous experience.</p>
+                <p>The collection of apps built using Fyne is growing all the time and many of them are open source as well! You can <a href="https://apps.fyne.io">browse the apps</a> online.</p>
                 <p>&nbsp;</p>
             </div>
         </div>
@@ -20,19 +21,19 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
     <div class="container">
         <div class="row">
             <div class="col-lg-4 text-center">
-                <p>If you can't wait to start coding your first Fyne app then you can dive right in at our developer documentation.</p>
-
-                <a href="/develop/" class="btn btn-default btn-xl">Get Started</a>
-            </div>
-            <div class="col-lg-4 text-center">
                 <p>To explore the design of our APIs without needing to set up a development environment we have a helpful tour available.</p>
 
                 <a href="https://tour.fyne.io" class="btn btn-default btn-xl" style="visibility: visible;">Take the Tour</a>
             </div>
             <div class="col-lg-4 text-center">
-                <p>The collection of apps built using Fyne is growing all the time and many of them are open source as well!</p>
+                <p>If you can't wait to start coding your first Fyne app then you can dive right in at our developer documentation.</p>
 
-                <a href="https://apps.fyne.io" class="btn btn-default btn-xl">Browse Apps</a>
+                <a href="/develop/" class="btn btn-default btn-xl">Get Started</a>
+            </div>
+            <div class="col-lg-4 text-center">
+                <p>For developers who prefer to learn from videos we have a collection of getting started tutorials on YouTube.</p>
+
+                <a href="https://www.youtube.com/c/fyneio" class="btn btn-default btn-xl">Visit YouTube</a>
             </div>
         </div>
     </div>
