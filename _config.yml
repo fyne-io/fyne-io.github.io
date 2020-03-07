@@ -18,7 +18,7 @@ email: info@fyne.io
 description: >- # this means to ignore newlines until "baseurl:"
   Website for the Fyne app development framework.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fyne.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fyne.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 headline: Your beautiful new<br>open source desktop
 tagline: >- # multiline
