@@ -6,7 +6,7 @@ summary: Building on the "Getting Started" document we have now seen how to buil
 
 order: 20
 
-hello: 
+hello:
     tab1:
         name: function
         title: Using Functions
@@ -31,7 +31,7 @@ A simple app starts by creating an app instance with app.New() and then opening 
 
 <div id="hello__function" class="hidden">
 <div style="text-align: left" markdown="1">
-```
+```go
 package main
 
 import (
@@ -58,7 +58,7 @@ func main() {
 
 <div id="hello__struct" class="hidden">
 <div style="text-align: left" markdown="1">
-```
+```go
 package main
 
 import (
