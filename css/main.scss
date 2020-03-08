@@ -43,6 +43,9 @@ $theme-dark: #222;
         "base"
 ;
 
+// Import css file for syntax highlighting of code.
+@import "highlight.css";
+
 header {
     min-height: 0;
     height: 24em;
