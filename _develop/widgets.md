@@ -34,9 +34,15 @@ Entry widget allows simple text to be input when focused.
 
 ![Entry](/develop/widget/entry.png)
 
+PasswordEntry widget hides text input and adds a button to display the text.
+
+![PasswordEntry](/develop/widget/password-entry.png)
+
 ### Form
 
 Form widget is two column grid where each row has a label and a widget (usually an input). The last row of the grid will contain the appropriate form control buttons if any should be shown.
+
+![Form](/develop/widget/form.png)
 
 ### Group
 
@@ -82,6 +88,18 @@ Radio widget has a list of text labels and radio check icons next to each.
 
 ScrollContainer defines a container that is smaller than the Content.
 
+### Select
+
+Select widget has a list of options, with the current one shown, and triggers an event function when clicked.
+
+![Select](/develop/widget/select.png)
+
+### Slider
+
+Slider if a widget that can slide between two fixed values.
+
+![Slider](/develop/widget/slider.png)
+
 ### TabContainer
 
 TabContainer widget allows switching visible content from a list of TabItems. Each item is represented by a button at the top of the widget.
@@ -93,4 +111,3 @@ TabContainer widget allows switching visible content from a list of TabItems. Ea
 Toolbar widget creates a horizontal list of tool buttons.
 
 ![Toolbar](/develop/widget/toolbar.png)
-
