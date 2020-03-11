@@ -98,7 +98,7 @@ As you can see it has fields to cache the actual image, text and shadow canvas
 objects for drawing.
 It keeps track of the slice of objects required by `fyne.WidgetRenderer` as a convenience.
 
-Lastly it keeps a reference to tbe `widget.Button` for all state information.
+Lastly it keeps a reference to the `widget.Button` for all state information.
 In the `Refresh()` method it will update the graphical state based on any changes
 in the underlying `widget.Button` type.
 
