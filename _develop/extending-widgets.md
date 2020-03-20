@@ -8,7 +8,7 @@ order: 110
 group: Tutorials
 ---
 
-## Extending existing widgets
+## Extending Existing Widgets
 ---
 
 The standard Fyne widgets provide the minimum functionality and customisation
