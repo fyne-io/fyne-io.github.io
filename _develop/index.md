@@ -78,11 +78,13 @@ Note that these steps are just required for development - your Fyne applications
 <div style="text-align: left" markdown="1">
 
 * You will need to install Go, gcc and the graphics library header files using your package manager, one of the following commands will probably work.
-* **Ubuntu / Debian**
+* **Ubuntu / Debian:**
 `sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev`
-* **Fedora**
+* **Fedora:**
 `sudo dnf install golang gcc libXcursor-devel libXrandr-devel mesa-libGL-devel libXi-devel libXinerama-devel`
-* **Arch Linux**
+* **Solus:**
+`sudo eopkg it -c system.devel golang mesalib-devel libxrandr-devel libxcursor-devel libxi-devel libxinerama-devel`
+* **Arch Linux:**
 `sudo pacman -S go xorg-server-devel`
 
 </div>
