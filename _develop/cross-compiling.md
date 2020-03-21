@@ -11,7 +11,7 @@ order: 70
 
 ---
 
-Cross compiling with Go is designed to be simple - we just set the environment variable `GOOS` for the target Operating System (and `GOARCH` if targetting a different architecture). Unfortunately when using native graphics calls the use of CGo in Fyne makes this a little harder.
+Cross compiling with Go is designed to be simple - we just set the environment variable `GOOS` for the target Operating System (and `GOARCH` if targeting a different architecture). Unfortunately when using native graphics calls the use of CGo in Fyne makes this a little harder.
 
 ### Compiling from a development computer
 

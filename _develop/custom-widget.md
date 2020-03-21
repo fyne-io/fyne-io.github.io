@@ -4,7 +4,7 @@ title: Writing Widgets
 
 summary: The Fyne toolkit includes many standard widgets that make it easy to build basic applications. At some point you may want to use a widget that does not exist, and so the capability to use custom widgets will be useful. This page outlined how to write a new widget and include it in your application. We saw how widget state and logic is kept separate from the renderer for better testing and illustrated how to set up a renderer for your new widget.
 
-order: 120
+order: 130
 ---
 
 ## Writing a Custom Widget
@@ -12,7 +12,7 @@ order: 120
 ---
 
 The standard widgets included with Fyne are designed to support standard user interactions and requirements.
-As a GUI often has to provide custom functionality it may be neccessary to write a custom widget.
+As a GUI often has to provide custom functionality it may be necessary to write a custom widget.
 This article outlines how.
 
 A widget is split into two areas - each implementing a standard interface - the `fyne.Widget` and the `fyne.WidgetRenderer`. The widget defines behaviour and state, with the renderer being used to define how it should be drawn to screen.

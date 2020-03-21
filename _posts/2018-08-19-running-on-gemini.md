@@ -13,7 +13,7 @@ And so I wanted to share with you the Fyne example application running on this
 fantastic piece of hardware. The base OS is Debian so there was not a log of
 adaptation necessary. With the next updated to the platform this should work
 out of the box, but for now it did require a little tweaking for old Go and
-EFL packages. We're not sure if this backport is valuble to anyone or if the
+EFL packages. We're not sure if this backport is valuable to anyone or if the
 proof of concept is all we need to push forward toward the release date of
 the next [Gemini Debian Linux](https://github.com/gemian) release. 
 
