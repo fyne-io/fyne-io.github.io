@@ -22,10 +22,10 @@ type enterEntry struct {
 }
 ```
 
-Next up we need to create our `OnEnter` method for the `enterEntry` struct. This will later be used to run when the enter key is pressed to print out the written text and then clear the text.
+Next up we need to create our `onEnter` method for the `enterEntry` struct. This will later be used to run when the enter key is pressed to print out the written text and then clear the text.
 
 ```go
-func (e *enterEntry) OnEnter() {
+func (e *enterEntry) onEnter() {
     fmt.Println(e.Entry.Text)
     e.Entry.SetText("")
 }
@@ -41,14 +41,14 @@ func newEnterEntry() *enterEntry {
 }
 ```
 
-Then override the `KeyDown()` meathod that's part of `widget.Entry`, this will replace the built in key handling with our own. Inside this meathod, we will use a conditional to check if the `key.Name` value matches the `Return` key using the `fyne.KeyReturn` variable (we could just as well have checked that key.Name == `"Return"` if we had wanted) and if that is the case, we run our `OnEnter` method. We need to have a default check with `entry.Entry.KeyDown(key)` to not risk breaking the original behavior of the entry.
+Then override the `KeyDown()` method that's part of `widget.Entry`, this will replace the built in key handling with our own. Inside this method, we will use a conditional to check if the `key.Name` value matches the `Return` key using the `fyne.KeyReturn` variable and if that is the case, we run our `onEnter` method. We need to have a default case that calls `e.Entry.KeyDown(key)` to maintain the behavior of other keys in the entry.
 This implementation can easily be extended to check for other keys in the future if necessary.
 
 ```go
 func (e *enterEntry) KeyDown(key *fyne.KeyEvent) {
     switch key.Name {
     case fyne.KeyReturn:
-        e.OnEnter()
+        e.onEnter()
     default:
         e.Entry.KeyDown(key)
     }
@@ -75,7 +75,7 @@ type enterEntry struct {
     widget.Entry
 }
 
-func (e *enterEntry) OnEnter() {
+func (e *enterEntry) onEnter() {
     fmt.Println(e.Entry.Text)
     e.Entry.SetText("")
 }
@@ -89,7 +89,7 @@ func newEnterEntry() *enterEntry {
 func (e *enterEntry) KeyDown(key *fyne.KeyEvent) {
     switch key.Name {
     case fyne.KeyReturn:
-        e.OnEnter()
+        e.onEnter()
     default:
         e.Entry.KeyDown(key)
     }
@@ -107,3 +107,4 @@ func main() {
 }
 
 ```
+
