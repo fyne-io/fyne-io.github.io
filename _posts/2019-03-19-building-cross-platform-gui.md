@@ -5,7 +5,7 @@ date:   2019-03-19 11:53:12 +0000
 categories: blog
 ---
 
-There are many tutorials available online for how to use web technologies and [Go](https://golang.org) - but what if you want to create something in pure Go? Whether it's for performance reasons, to keep all of your application in just one programming language or simply because you like Go over Javascript and HTML there are solutions available. Go bindings exist for [GTK+](http://mattn.github.io/go-gtk/), [Qt](https://github.com/therecipe/qt), [Windows](https://github.com/lxn/walk), [Nuklear](https://github.com/golang-ui/nuklear) and also platform abstraction bindings like [andlabs UI](https://github.com/andlabs/ui).
+There are many tutorials available online for how to use web technologies and [Go](https://golang.org) - but what if you want to create something in pure Go? Whether it's for performance reasons, to keep all of your application in just one programming language or simply because you like Go over Javascript and HTML there are solutions available. Go bindings exist for [GTK+](https://mattn.github.io/go-gtk/), [Qt](https://github.com/therecipe/qt), [Windows](https://github.com/lxn/walk), [Nuklear](https://github.com/golang-ui/nuklear) and also platform abstraction bindings like [andlabs UI](https://github.com/andlabs/ui).
 
 In this tutorial we look at a newer approach - building a graphical application using a toolkit built specifically for go using a modern interpretation of the desktop user interface. The [Fyne](https://fyne.io) toolkit is a simple to learn graphical toolkit that we can use to build cross platform applications that will compile for macOS, Windows and Linux from the same code. We will explore how to get set up, write a basic application and then package it for distribution. Let's get started!
 
@@ -21,7 +21,7 @@ On macOS the XCode package provides this, but you will need to install the comma
 
 ### Windows
 
-Various compiler packages are available on Windows. Any of [Cygwin](https://www.cygwin.com/), [MSYS2](https://www.msys2.org/) and [TDM-GCC](http://tdm-gcc.tdragon.net/download) should work. MSYS2 is usually the easiest to install - download the package and run it. Remember that to compile Fyne applications you will need to use the MSYS2 command prompt rather than the standard windows `cmd` or PowerShell.
+Various compiler packages are available on Windows. Any of [Cygwin](https://www.cygwin.com/), [MSYS2](https://www.msys2.org/) and [TDM-GCC](https://jmeubank.github.io/tdm-gcc/download/) should work. MSYS2 is usually the easiest to install - download the package and run it. Remember that to compile Fyne applications you will need to use the MSYS2 command prompt rather than the standard windows `cmd` or PowerShell.
 
 ### Linux
 
