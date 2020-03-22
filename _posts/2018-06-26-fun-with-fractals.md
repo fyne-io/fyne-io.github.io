@@ -63,7 +63,7 @@ many factors) that then updates the user interface. The relevant code is:
     }
 
     func main() {
-    	url := "http://fyne.io/feed.xml"
+    	url := "https://fyne.io/feed.xml"
 
     	// ...	
 
