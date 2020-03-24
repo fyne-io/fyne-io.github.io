@@ -4,7 +4,7 @@ title: Extending Widgets
 
 summary: The widgets included with the Fyne toolkit support basic functionality and at some point you may need to add features for your application. This page shows how you can extend existing widgets to quickly add features without creating new custom widgets each time.
 
-order: 110
+order: 10
 redirect_from: /develop/extending-widgets.html
 ---
 

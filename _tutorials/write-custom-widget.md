@@ -4,7 +4,7 @@ title: Write a Custom Widget
 
 summary: The Fyne toolkit includes many standard widgets that make it easy to build basic applications. At some point you may want to use a widget that does not exist, and so the capability to use custom widgets will be useful. This page outlined how to write a new widget and include it in your application. We saw how widget state and logic is kept separate from the renderer for better testing and illustrated how to set up a renderer for your new widget.
 
-order: 130
+order: 40
 redirect_from: /develop/custom-widget.html
 ---
 

@@ -4,7 +4,7 @@ title: Handle Key Presses in Entry
 
 summary: As a follow up to the writing widgets tutorial, this page will go through how to extend an Entry widget and respond to a specific keypress in it. At the end of the tutorial, you will have created an Entry that responds to pressing the Enter/Return button on the keyboard.
 
-order: 120
+order: 30
 redirect_from: /develop/keypress-on-entry.html
 ---
 
