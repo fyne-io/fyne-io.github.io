@@ -24,6 +24,15 @@
             <a href="{{ develop.url }}"><h4>{{ develop.title }}</h4></a></li>
     {% endfor %}
     </ul>
+
+    <h4 class="nav-group">Tutorials</h4>
+    <ul>
+    {% assign items = site.tutorials | sort: 'order' %}
+    {% for tutorial in items %}
+        <li class="{% if tutorial.url == page.url %}active{% endif %}">
+            <a href="{{ tutorial.url }}"><h4>{{ tutorial.title }}</h4></a></li>
+    {% endfor %}
+    </ul>
 </div>
 
 <div class="text-center col-lg-9" style="background-color: white" markdown="1">

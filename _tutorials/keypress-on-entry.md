@@ -1,13 +1,14 @@
 ---
 layout: develop
-title: Respond To Specific Keypress
+title: Handle Key Presses in Entry
 
 summary: As a follow up to the writing widgets tutorial, this page will go through how to extend an Entry widget and respond to a specific keypress in it. At the end of the tutorial, you will have created an Entry that responds to pressing the Enter/Return button on the keyboard.
 
 order: 120
+redirect_from: /develop/keypress-on-entry.html
 ---
 
-## Respond To Specific Keypress In Entry
+## Respond to Specific Key Presses in Entry
 ---
 
 In the traditional sense, GUI programs have used callbacks to customize actions for widgets. Fyne does not expose inserting closure callbacks inside widgets, but it does not need to. The Go language is plenty extensible to make this work.
