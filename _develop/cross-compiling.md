@@ -54,7 +54,7 @@ Supported targets are:
 
 #### Installation
 
-        go get github.com/lucor/fyne-cross
+        go get github.com/lucor/fyne-cross/cmd/fyne-cross
 
 #### Usage
 
