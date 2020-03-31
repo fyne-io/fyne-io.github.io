@@ -12,7 +12,7 @@ redirect_from: /develop/preferences-api.html
 
 ---
 
-Writing filesystem code is a common task for application developers and, to make that easier, Fyne has an API for storing values on the filesystem in a clean and understandable way while Fyne handles the complex parts for you.
+Storing user configurations and values is a common task for application developers, but implementing it across multiple platforms can be tedious and time-consuming. To make it easier, Fyne has an API for storing values on the filesystem in a clean and understandable way while the complex parts are handled for you.
 
 Lets start with the setup of the API. It is part of the [Preferences](https://pkg.go.dev/fyne.io/fyne?tab=doc#Preferences) interface where storage and loading functions exist for values of Bool, Float, Int and String. They each consist of three different functions, one for loading, one loading with a fallback value and lastly, one for storing values. An example of the three functions and their behaviour can be seen below for the String type:
 ```go
@@ -24,11 +24,11 @@ StringWithFallback(key, fallback string) string
 SetString(key string, value string)
 ```
 
-These functions can be accessed through the created application variable and it is necessary that it is created with a unique ID. This means that the application will need to be created using `app.NewWithID()` to have its own place to store values. the can roughly be used like the example below:
+These functions can be accessed through the created application variable and the `Preferences()` interface on top of it. Please note that it is necessary to create the apps with a unique ID (usually like a reversed url). This means that the application will need to be created using `app.NewWithID()` to have its own place to store values. It can roughly be used like the example below:
 ```go
-a := app.NewWithID("fyne-preferences-api-tutorial")
+a := app.NewWithID("com.example.tutorial.preferences")
 [...]
-a.Preferences().SetBool("Boolean?", true)
+a.Preferences().SetBool("Boolean", true)
 number := a.Preferences().IntWithFallback("ApplicationLuckyNumber", 21)
 expression := a.Preferences().String("RegularExpression")
 [...]
@@ -36,10 +36,9 @@ expression := a.Preferences().String("RegularExpression")
 
 To show this, we are going to build a simple little app that always closes after a set amount of time. This timeout should be user changeable and applied on the next start of the application.
 
-Let us start by creating a variable called `timeout` that will be used to store time in the form of `time.Second`.
+Let us start by creating a variable called `timeout` that will be used to store time in the form of `time.Duration`.
 ```go
-timeout := time.Second
-
+var timeout time.Duration
 ```
 
 Then we could create a select widget to let the user select the timeout from a couple pre-defined strings and then multiplying the timeout by the number of seconds that the string relates to. Lastly, the `"AppTimeout"` key is used to set the string value to the selected one.
@@ -47,13 +46,13 @@ Then we could create a select widget to let the user select the timeout from a c
 timeoutSelector := widget.NewSelect([]string{"10 seconds", "30 seconds", "1 minute"}, func(selected string) {
     switch selected {
     case "10 seconds":
-        timeout *= 10
+        timeout = 10 * time.Second
     case "30 seconds":
-        timeout *= 30
+        timeout = 30 * time.Second
     case "1 minute":
-        timeout *= 60
+        timeout = time.Minute
     }
-  
+
     a.Preferences().SetString("AppTimeout", selected)
 })
 ```
@@ -84,19 +83,19 @@ import (
 )
 
 func main() {
-    a := app.NewWithID("fyne-preferences-api-tutorial")
-    w := a.NewWindow("Messenger")
+    a := app.NewWithID("com.example.tutorial.preferences")
+    w := a.NewWindow("Timeout")
 
-    timeout := time.Second
+    var timeout time.Duration
 
     timeoutSelector := widget.NewSelect([]string{"10 seconds", "30 seconds", "1 minute"}, func(selected string) {
         switch selected {
         case "10 seconds":
-            timeout *= 10
+            timeout = 10 * time.Second
         case "30 seconds":
-            timeout *= 30
+            timeout = 30 * time.Second
         case "1 minute":
-            timeout *= 60
+            timeout = time.Minute
         }
 
         a.Preferences().SetString("AppTimeout", selected)
