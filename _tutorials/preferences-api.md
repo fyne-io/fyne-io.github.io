@@ -24,7 +24,7 @@ StringWithFallback(key, fallback string) string
 SetString(key string, value string)
 ```
 
-These functions can be accessed through the created application variable and the `Preferences()` interface on top of it. Please note that it is necessary to create the apps with a unique ID (usually like a reversed url). This means that the application will need to be created using `app.NewWithID()` to have its own place to store values. It can roughly be used like the example below:
+These functions can be accessed through the created application variable and calling the `Preferences()` method on. Please note that it is necessary to create the apps with a unique ID (usually like a reversed url). This means that the application will need to be created using `app.NewWithID()` to have its own place to store values. It can roughly be used like the example below:
 ```go
 a := app.NewWithID("com.example.tutorial.preferences")
 [...]
