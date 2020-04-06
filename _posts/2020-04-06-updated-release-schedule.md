@@ -44,7 +44,7 @@ with dates where we feel confident in predicting them.
 | 1.2.4 | 13 April | Mobile fixes for screen size, preferences storage and bug fixes for packaging and window management |
 | 1.3   | 4 May    | File dialogs, notifications, many new widgets |
 | 2.0   | July     | Data binding, animations, drag and drop |
-| 3.0   | -        | Multimedia, UI designer, Localisation |
+| 3.0   | TBD      | Multimedia, UI designer, Localisation |
 
 Our thanks to the ongoing support of our sponsors, community members and the wider
 open source movement - without their help this project would not be possible. Be well and stay safe.
