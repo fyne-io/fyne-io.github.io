@@ -59,6 +59,19 @@ div.header-content {
     max-width: 100%;
 }
 
+table thead {
+    border-bottom: 1px solid #222;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+
+table td {
+    padding: 1pt;
+}
+
 .quote-block {
     margin-bottom: 3em;
 }
