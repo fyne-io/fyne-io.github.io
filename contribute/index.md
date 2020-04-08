@@ -95,11 +95,46 @@ better then excellent! Grab the code or one of our apps and see what you can
 find. Ask us anything on our contact forms and please
 [file bugs](https://github.com/fyne-io/fyne/issues) for us to resolve.
 
+
 </div>
+<div class="col-lg-12 text-center" markdown="1">
+
+## Sponsors
+---
+
+This project would not be possible without the ongoing support of our fantastic community.
+We say a huge "Thank You!" to those who are generous enough to contribute financially to the future of our work.
+
+</div>
+
+<div class="col-lg-3 text-center" markdown="1">
+[Jacob Alzén](https://github.com/Jacalz)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+Brian OHara
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[chai2010](https://github.com/chai2010)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Jesse Donat](https://github.com/donatj)
+</div>
+
 </div>
 </div>
 
-<section class="bg-primary" id="about">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-12 text-center" markdown="1">
+If you would like to sponsor our work you can sign up on [Github Sponsors](https://github.com/sponsors/fyne-io)
+or submit a one-time contribution on our [donations page](https://fossfi.sh/support-fyneio).
+</div>
+
+</div>
+</div>
+
+<section class="bg-primary">
 <div class="container">
 <div class="row">
 <div class="col-lg-12 text-center" markdown="1">
