@@ -33,7 +33,7 @@ questions you have about getting set up, building your first app or how the APIs
 The best place to ask is in the
 [#fyne](https://gophers.slack.com/app_redirect?channel=fyne) channel on the
 "gophers" slack server (you can [sign up](https://invite.slack.golangbridge.org/)
-if you need). Here is where we gather to discuss the project, examples and help
+if you need). This is where we gather to discuss the project, examples and help
 anyone with questions they might have.
 
 </div>
@@ -60,12 +60,15 @@ possible then pasting a snippet or example to the Go
 ### Commercial support
 
 If your business would like some dedicated support time or would like to
-out-source the development of your application then we can recommend
-[The App Crew](https://theappcrew.com). They have the largest Fyne experience
-of any commercial entity so we are sure you will get the help you need.
-The team can be [contacted](https://theappcrew.com/contact/) through their website.
+out-source the development of your application then we recommend speaking to
+[Fyne Labs](https://fynelabs.com/).
 
-<img src="/img/appcrew.png" height="111px" />
+Fyne Labs is the business that manages support and funding for the Fyne project -
+and as experts in this technology they are able to offer development support
+and bespoke app creation.
+The team can be [contacted](https://fynelabs.com/#post-39) through their website.
+
+<img src="https://fynelabs.files.wordpress.com/2020/02/fynelabs.png?w=192" height="96" />
 
 </div>
 </div>
