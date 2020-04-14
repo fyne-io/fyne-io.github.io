@@ -4,7 +4,7 @@ title: Using the Preferences API
 
 summary: The Fyne toolkit includes a Preferences API that makes it easy for developers to store values locally on the computer and then grab them again when necessary.
 
-order: 50
+order: 60
 redirect_from: /develop/preferences-api.html
 ---
 
