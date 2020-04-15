@@ -4,7 +4,7 @@ header-img: desktop
 headline: Your Beautiful new Open Source Desktop
 tagline: We're building a modern desktop environment for the Linux operating system. And just like the Fyne toolkit it's open source and free to use! 
 
-goimport: fyne.io/desktop
+goimport: fyne.io/fynedesk
 ---
 
 <section class="bg-primary" id="about">
@@ -24,7 +24,7 @@ the design of our desktop project has put ease of learning and development
 in the centre of how we work. Now you can have the desktop of your dreams
 - and share the result for others as well.</p>
 
-                <a href="https://github.com/fyne-io/desktop/" class="btn btn-default btn-xl">Get Started!</a>
+                <a href="https://github.com/fyne-io/fynedesk/" class="btn btn-default btn-xl">Get Started!</a>
             </div>
         </div>
     </div>
@@ -37,7 +37,7 @@ in the centre of how we work. Now you can have the desktop of your dreams
         <div class="row">
             <div class="col-lg-12 text-center">
  
-<img src="https://github.com/fyne-io/desktop/raw/develop/desktop-dark-current.png" alt="" />
+<img src="https://github.com/fyne-io/fynedesk/raw/develop/desktop-dark-current.png" alt="" />
             </div>
         </div>
     </div>
