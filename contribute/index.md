@@ -104,6 +104,9 @@ find. Ask us anything on our contact forms and please
 
 This project would not be possible without the ongoing support of our fantastic community.
 We say a huge "Thank You!" to those who are generous enough to contribute financially to the future of our work.
+The list below shows those who have contributed at the "High Five" level or above
+on our GitHub [sponsors page](https://github.com/sponsors/fyne-io) -
+please do consider joining them!
 
 </div>
 
@@ -119,6 +122,17 @@ Brian OHara
 <div class="col-lg-3 text-center" markdown="1">
 [Jesse Donat](https://github.com/donatj)
 </div>
+
+<div class="col-lg-3 text-center" markdown="1">
+[Sergio Rubio](https://github.com/rubiojr)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+
 
 </div>
 </div>
