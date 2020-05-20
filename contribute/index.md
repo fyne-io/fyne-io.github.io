@@ -127,10 +127,13 @@ Brian OHara
 [Sergio Rubio](https://github.com/rubiojr)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Matthieu Bollot](https://github.com/mattboll)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Maciej Tomaszewski](https://github.com/nmapx)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Nurcahyo](https://github.com/nurcahyo)
 </div>
 
 
