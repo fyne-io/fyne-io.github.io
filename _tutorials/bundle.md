@@ -38,7 +38,7 @@ var resourceImagePng = &fyne.StaticResource{
 	}}
 ```
 
-As you see the default naming is "resource\<Name\>.\<Ext\>". The name and package used in this file can be customised in command parameters. We can then use this name to,
+As you see the default naming is "resource\<Name\>\<Ext\>". The name and package used in this file can be customised in command parameters. We can then use this name to,
 for example, load an image on our canvas:
 
 ```go
@@ -48,7 +48,7 @@ img := canvas.NewImageFromResource(resourceImagePng)
 A fyne resource is just a collection of bytes with a unique name, so this could be
 a font, a sound file or any other data you wish to load. Also you can bundle many resources into a single file using the `-append` parameter. If you will be bundling many files it is recommended to save the commands in a shell script, for example this file `gen.sh`:
 
-```go
+```bash
 #!/bin/bash
 fyne bundle image1.png > bundled.go
 fyne bundle -append image2.png >> bundled.go
