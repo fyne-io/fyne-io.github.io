@@ -19,6 +19,35 @@ redirect_from: /events.html
 </div>
 </div>
 
+
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4 text-center" markdown="1">
+
+### Fyne Conf 2019
+
+*18 June 2020 - Online*
+
+Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s community and the applications built around it.
+
+Join us for a look at what's new, how to build excellent platform-agnostic applications and a view of some
+cool projects that people around the world are creating.
+
+[Event details](https://conf.fyne.io)
+
+</div>
+
+
+<div class="col-lg-4 text-center" markdown="1">
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+</div>
+
+</div>
+</div>
+
 </section>
 
 <div class="container">
