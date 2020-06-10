@@ -23,12 +23,12 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
             <div class="col-lg-4 text-center">
                 <p>To explore the design of our APIs without needing to set up a development environment we have a helpful tour available.</p>
 
-                <a href="https://tour.fyne.io" class="btn btn-default btn-xl" style="visibility: visible;">Take the Tour</a>
+                <a href="https://developer.fyne.io/tour/" class="btn btn-default btn-xl" style="visibility: visible;">Take the Tour</a>
             </div>
             <div class="col-lg-4 text-center">
                 <p>If you can't wait to start coding your first Fyne app then you can dive right in at our developer documentation.</p>
 
-                <a href="/develop/" class="btn btn-default btn-xl">Get Started</a>
+                <a href="https://developer.fyne.io/" class="btn btn-default btn-xl">Get Started</a>
             </div>
             <div class="col-lg-4 text-center">
                 <p>For developers who prefer to learn from videos we have a collection of getting started tutorials on YouTube.</p>
