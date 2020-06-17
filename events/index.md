@@ -25,7 +25,7 @@ redirect_from: /events.html
 
 <div class="col-lg-4 text-center" markdown="1">
 
-### Fyne Conf 2019
+### Fyne Conf 2020
 
 *18 June 2020 - Online*
 
