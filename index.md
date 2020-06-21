@@ -9,16 +9,49 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Build the future with us!</h2>
+                <h2 class="section-heading">Fyne: the only user interface toolkit you'll ever need</h2>
                 <hr class="light">
-                <p>The Fyne toolkit provides the easiest way to develop beautiful, lightweight and user friendly native applications for desktop, mobile and beyond.
+                <p>The Fyne toolkit provides the easiest way to develop beautiful, lightweight and user friendly native applications for desktop, mobile and beyond. Fyne combines the power and ease of the Go programming language with an easy to use, high-performance library of widgets, layouts, and more.
                 Driven by design and usability principles we are breaking free of the current desktop app drudgery to create a joyous experience.</p>
-                <p>The collection of apps built using Fyne is growing all the time and many of them are open source as well! You can <a href="https://apps.fyne.io">browse the apps</a> online.</p>
                 <p>&nbsp;</p>
             </div>
         </div>
     </div>
+
     <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">A taste of Fyne...</h2>
+                <hr class="light">
+                <div class="col-lg-6 text-center">
+                    <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/cmd/fyne_settings/data/widgets-dark.png" alt="Fyne demo -- dark theme">
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/cmd/fyne_settings/data/widgets-light.png" alt="Fyne demo -- light theme">
+                </div>
+            </div>
+
+
+        </div>
+            <div class="row">
+                <p>&nbsp;</p>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p>The collection of apps built using Fyne is growing all the time and many of them are open source as well! You can <a href="https://apps.fyne.io">browse the apps</a> online.</p>
+                </div>
+                <p>&nbsp;</p>
+            </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Are you ready to build the future with us?</h2>
+                <hr class="light">
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-lg-4 text-center">
                 <p>To explore the design of our APIs without needing to set up a development environment we have a helpful tour available.</p>
