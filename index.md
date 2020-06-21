@@ -21,7 +21,7 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">What Fyne is capable of...</h2>
+                <h2 class="section-heading">A taste of Fyne...</h2>
                 <hr class="light">
                 <div class="col-lg-6 text-center">
                     <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/cmd/fyne_settings/data/widgets-dark.png" alt="Fyne demo -- dark theme">
