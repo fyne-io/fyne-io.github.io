@@ -25,21 +25,11 @@ redirect_from: /events.html
 
 <div class="col-lg-4 text-center" markdown="1">
 
-### Fyne Conf 2020
-
-*18 June 2020 - Online*
-
-Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s community and the applications built around it.
-
-Join us for a look at what's new, how to build excellent platform-agnostic applications and a view of some
-cool projects that people around the world are creating.
-
-[Event details](https://conf.fyne.io)
-
 </div>
 
 
 <div class="col-lg-4 text-center" markdown="1">
+No upcoming events
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
@@ -63,6 +53,21 @@ cool projects that people around the world are creating.
 
 <div class="container">
 <div class="row">
+
+<div class="col-lg-4 text-center" markdown="1">
+
+### Fyne Conf 2020
+
+*18 June 2020 - Online*
+
+Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s community and the applications built around it.
+
+Join us for a look at what's new, how to build excellent platform-agnostic applications and a view of some
+cool projects that people around the world are creating.
+
+[Event details](https://conf.fyne.io)
+
+</div>
 
 <div class="col-lg-4 text-center" markdown="1">
 
@@ -96,6 +101,12 @@ Fyne Conf is the world’s first conference focused on the Fyne toolkit, it’s 
 
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 
 ### A Fyne User Interface
@@ -107,13 +118,6 @@ Introduction to the Fyne toolkit fo building cross platform GUIs.
 [Event details](https://www.meetup.com/golangvan/events/263156126/)
 
 </div>
-
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 
@@ -139,6 +143,12 @@ An update on the Fyne GUI framework.
 
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 
 ### Introducing Fyne
@@ -149,6 +159,12 @@ An introduction to Fyne.io, the UI toolkit and app API written in Go.
 
 [Event details](https://www.meetup.com/Edinburgh-Golang-meetup/events/252225515/)
 
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
 </div>
 
 </div>
