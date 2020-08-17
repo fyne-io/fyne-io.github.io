@@ -1,7 +1,7 @@
 ---
 layout: page
 header-img: toolkit
-headline: Build Beautiful Apps for Mobile and Desktop
+headline: Now everyone can build apps for all platforms
 tagline: The Fyne tookit for graphical applications makes it fun and easy to build beautiful and performant native applications that work across all your devices.
 ---
 
@@ -9,18 +9,18 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Fyne: the only user interface toolkit you'll ever need</h2>
-                <hr class="light">
-                <p>The Fyne toolkit provides the easiest way to develop beautiful, lightweight and user friendly native applications for desktop, mobile and beyond. Fyne combines the power and ease of the Go programming language with an easy to use, high-performance library of widgets, layouts, and more.
-                Driven by design and usability principles we are breaking free of the current desktop app drudgery to create a joyous experience.</p>
-                <p>&nbsp;</p>
+                <p class="lead">The Fyne toolkit provides the easiest way to develop beautiful, lightweight and user friendly native applications for desktop, mobile and beyond. Fyne combines the power and ease of the Go programming language with an easy to use, high-performance library of widgets, layouts, and more.
+                Driven by design and usability principles we are breaking free of the traditional challenges in app development.</p>
             </div>
         </div>
     </div>
+</section>
 
+<section id="areas">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p>&nbsp;</p>
                 <h2 class="section-heading">A taste of Fyne...</h2>
                 <hr class="light">
                 <div class="col-lg-6 text-center">
@@ -29,26 +29,46 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
                 <div class="col-lg-6 text-center">
                     <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/cmd/fyne_settings/data/widgets-light.png" alt="Fyne demo -- light theme">
                 </div>
+                <p>&nbsp;</p>
             </div>
-
-
         </div>
-            <div class="row">
-                <p>&nbsp;</p>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p>The collection of apps built using Fyne is growing all the time and many of them are open source as well! You can <a href="https://apps.fyne.io">browse the apps</a> online.</p>
-                </div>
-                <p>&nbsp;</p>
-            </div>
 
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-8 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-toggle-on text-primary"></i>
+                    <h3>Toolkit</h3>
+                    <p class="text-muted">With a well crafted API, the clean looks of Material Design and clear documentation the Fyne toolkit is supporting a new generation of cross-platform app development.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-folder-open text-primary"></i>
+                    <h3>Apps</h3>
+                    <p class="text-muted">The collection of apps built using Fyne is growing all the time and many of them are open source as well! You can <a href="https://apps.fyne.io">browse the apps</a> online.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-desktop text-primary"></i>
+                    <h3>FyneDesk</h3>
+                    <p class="text-muted">Taking a fresh look at what it means to be a desktop environment the <a href="/fynedesk/">FyneDesk</a> project matches the design and simplicity of the Fyne toolkit to create a sleek new experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-dark" id="started">
     <div class="container">
 
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Are you ready to build the future with us?</h2>
-                <hr class="light">
+                <hr class="primary">
             </div>
         </div>
 
@@ -56,17 +76,17 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
             <div class="col-lg-4 text-center">
                 <p>To explore the design of our APIs without needing to set up a development environment we have a helpful tour available.</p>
 
-                <a href="https://developer.fyne.io/tour/" class="btn btn-default btn-xl" style="visibility: visible;">Take the Tour</a>
+                <a href="https://developer.fyne.io/tour/" class="btn btn-primary btn-xl" style="visibility: visible;">Take the Tour</a>
             </div>
             <div class="col-lg-4 text-center">
                 <p>If you can't wait to start coding your first Fyne app then you can dive right in at our developer documentation.</p>
 
-                <a href="https://developer.fyne.io/" class="btn btn-default btn-xl">Get Started</a>
+                <a href="https://developer.fyne.io/" class="btn btn-primary btn-xl">Get Started</a>
             </div>
             <div class="col-lg-4 text-center">
                 <p>For developers who prefer to learn from videos we have a collection of getting started tutorials on YouTube.</p>
 
-                <a href="https://www.youtube.com/watch?v=-v1vz_NcWng&list=PLjpijTpXl1_po-ld8jORR9k5NornDNKQk" class="btn btn-default btn-xl">Tutorial Playlist</a>
+                <a href="https://www.youtube.com/watch?v=-v1vz_NcWng&list=PLjpijTpXl1_po-ld8jORR9k5NornDNKQk" class="btn btn-primary btn-xl">Tutorial Playlist</a>
             </div>
         </div>
     </div>
