@@ -140,6 +140,7 @@ Brian OHara
 [Marco Molteni](https://github.com/marco-m)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Alex Bykov](https://github.com/bykovme)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
