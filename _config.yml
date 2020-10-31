@@ -57,11 +57,3 @@ highlighter: rouge
 
 theme: jekyll-theme-minimal
 
-collections:
-  develop:
-    output: true
-    permalink: /:collection/:name
-  tutorials:
-    output: true
-    permalink: /develop/:collection/:name
-
