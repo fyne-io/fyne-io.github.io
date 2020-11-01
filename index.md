@@ -24,10 +24,10 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
                 <h2 class="section-heading">A taste of Fyne...</h2>
                 <hr class="light">
                 <div class="col-lg-6 text-center">
-                    <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/cmd/fyne_settings/data/widgets-dark.png" alt="Fyne demo -- dark theme">
+                    <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/img/widgets-dark.png" alt="Fyne demo -- dark theme">
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/cmd/fyne_settings/data/widgets-light.png" alt="Fyne demo -- light theme">
+                    <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/img/widgets-light.png" alt="Fyne demo -- light theme">
                 </div>
                 <p>&nbsp;</p>
             </div>
