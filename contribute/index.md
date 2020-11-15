@@ -143,8 +143,10 @@ Brian OHara
 [Alex Bykov](https://github.com/bykovme)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Shells.com](https://Shells.com)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Andreas Schneider](https://github.com/aksdb)
 </div>
 
 
