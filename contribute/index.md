@@ -149,6 +149,15 @@ Brian OHara
 [Andreas Schneider](https://github.com/aksdb)
 </div>
 
+<div class="col-lg-3 text-center" markdown="1">
+[Damon Blais](https://github.com/AlbinoGeek)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
 
 </div>
 </div>
