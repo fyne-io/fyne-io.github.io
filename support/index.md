@@ -88,9 +88,34 @@ The team can be [contacted](https://fynelabs.com/#post-39) through their website
 
 <div class="container">
 <div class="row">
+<div class="col-lg-8 text-center" markdown="1">
+
+### Building Cross-Platform GUI Applications with Fyne
+
+The most complete guide for the Fyne toolkit, comprising architectural discussion, best practices 
+and a detailed look at many of the core APIs.
+Released to coincide with the v2.0.0 Fyne release it covers core functionality for the toolkit 
+as well as new features including data binding, animation and custom themes.
+
+The book starts with an introduction to GUI development and the Fyne vision, progresses through a walkthrough of how to creeate various applications and concludes with a section on best practices and how to upload your app to various market places and app stores.
+Each chapter in the main body of the book is illustrated by a full worked example, resulting in 5 complete applications to demonstrate the concepts explored.
+
+</div>
 <div class="col-lg-4 text-center" markdown="1">
 
-<a href="https://www.packtpub.com/gb/application-development/hands-gui-application-development-go"><img src="/img/book-cover.png" style="height: 250px" /></a>
+<a href="https://www.packtpub.com/gb/application-development/hands-gui-application-development-go"><img src="/img/fyne-book-cover.jpg" style="height: 250px" /></a>
+
+</div>
+</div>
+</div>
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-4 text-center" markdown="1">
+
+<a href="https://www.packtpub.com/gb/application-development/hands-gui-application-development-go"><img src="/img/gui-book-cover.png" style="height: 250px" /></a>
 
 </div>
 
