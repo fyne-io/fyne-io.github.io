@@ -137,6 +137,6 @@ $ fyne_demo
 
 ### Read Before Upgrading
 
-This release is our first that is not fully backward compatible compatible.
+This release is our first that is not fully backward compatible.
 Before upgrading an existing project please be sure to read the
 [upgrading doc](https://developer.fyne.io/api/v2.0/upgrading) for information about relevant changes.
