@@ -8,7 +8,7 @@ categories: blog
 As well as the release of [version 2.0.0](/blog/2021/01/25/introducing-fyne-v2.0.html#about)
 this week brings exciting news that the first book dedicated to Fyne has been published! Pre-orders will be on their way to purchasers already and anyone who missed the chance to buy in advance can now get a copy [from the publisher](https://www.packtpub.com/product/building-cross-platform-gui-applications-with-fyne/9781800563162).
 
-<img src="../img/fyne-book-cover.jpg" style="max-width: 202px; float:right; padding-left: 5pt" />
+<img src="/img/fyne-book-cover.jpg" style="max-width: 202px; float:right; padding-left: 5pt" />
 
 This book covers most aspects of building a Fyne app, including the [new APIs](http://developer.fyne.io/api/v2.0/)
 introduced in the recent release. It will step you through getting started with Fyne and
