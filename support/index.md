@@ -103,7 +103,7 @@ Each chapter in the main body of the book is illustrated by a full worked exampl
 </div>
 <div class="col-lg-4 text-center" markdown="1">
 
-<a href="https://www.packtpub.com/gb/application-development/hands-gui-application-development-go"><img src="/img/fyne-book-cover.jpg" style="height: 250px" /></a>
+<a href="https://www.packtpub.com/product/building-cross-platform-gui-applications-with-fyne/9781800563162"><img src="/img/fyne-book-cover.jpg" style="height: 250px" /></a>
 
 </div>
 </div>
