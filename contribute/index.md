@@ -153,6 +153,7 @@ Brian OHara
 [Damon Blais](https://github.com/AlbinoGeek)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Shawn Butts](https://github.com/shawnbutts)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
