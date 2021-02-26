@@ -19,14 +19,17 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
 <section id="areas">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-12 text-center">
                 <p>&nbsp;</p>
                 <h2 class="section-heading">A taste of Fyne...</h2>
                 <hr class="light">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-4 text-center">
                     <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/img/widgets-dark.png" alt="Fyne demo -- dark theme">
                 </div>
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-4 text-center">
+                    <img src="https://raw.githubusercontent.com/fyne-io/fyne/develop/img/widgets-mobile-light.png" alt="Fyne demo -- mobile light theme" style="max-height: 215pt; border: 2pt solid black; border-radius: 3pt;">
+                </div>
+                <div class="col-lg-4 text-center">
                     <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/img/widgets-light.png" alt="Fyne demo -- light theme">
                 </div>
                 <p>&nbsp;</p>
