@@ -1,16 +1,20 @@
 ---
 layout: page
 header-img: toolkit
-headline: Now everyone can build apps for all platforms
-tagline: The Fyne tookit for graphical applications makes it fun and easy to build beautiful and performant native applications that work across all your devices.
+headline: Helping the world build better software
+tagline: The Fyne tookit for graphical applications makes it fun and easy to build intuitive and performant native applications that work across all your devices.
 ---
 
 <section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="lead">The Fyne toolkit provides the easiest way to develop beautiful, lightweight and user friendly native applications for desktop, mobile and beyond. Fyne combines the power and ease of the Go programming language with an easy to use, high-performance library of widgets, layouts, and more.
-                Driven by design and usability principles we are breaking free of the traditional challenges in app development.</p>
+                <p class="lead">The Fyne toolkit is an easy to learn, free and open source,
+                  platform for building graphical applications for desktop, mobile and beyond.
+                  Combining the power and simplicity of the Go programming language with an
+                 carefully crafted library of widgets it is now easier than ever before to build
+                  your application and deploy it across all platforms and stores.
+              </p>
             </div>
         </div>
     </div>
@@ -20,17 +24,28 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <p>&nbsp;</p>
-                <h2 class="section-heading">A taste of Fyne...</h2>
-                <hr class="light">
+                <h2 class="section-heading">A new hope!</h2>
+                <hr class="primary" />
+                <p>When Fyne started it was with the ambition to fix all of the complicated or
+                  broken things about existing approaches. Building your software with an API
+                  like Fyne that is designed for modern languages is easy and quick to learn.
+                  Add to this that the toolkit is open source, under the permissive 3 clause BSD
+                  license, and will always be freely available you can be confident in a bright
+                  future of enjoyable app development.
+                </p>
+
                 <div class="col-lg-4 text-center">
                     <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/img/widgets-dark.png" alt="Fyne demo -- dark theme">
+                    <p class="caption">Fyne demo on desktop, dark theme.</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <img src="https://raw.githubusercontent.com/fyne-io/fyne/develop/img/widgets-mobile-light.png" alt="Fyne demo -- mobile light theme" style="max-height: 215pt; border: 2pt solid black; border-radius: 3pt;">
+                    <p class="caption">Fyne demo on mobile, light theme.</p>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <img src="https://raw.githubusercontent.com/fyne-io/fyne/master/img/widgets-light.png" alt="Fyne demo -- light theme">
+                    <br />
+                    <img src="https://github.com/fynelabs/notes/blob/main/img/screenshot.png?raw=true" alt="Fyne demo -- light theme">
+                    <p class="caption"><a href="https://apps.fyne.io/apps/com.fynelabs.notes.html">Notes</a> app, custom theme</p>
                 </div>
                 <p>&nbsp;</p>
             </div>
@@ -39,6 +54,14 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
     </div>
 
     <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p>&nbsp;</p>
+                <h2 class="section-heading">The Fyne family</h2>
+                <hr class="primary" />
+            </div>
+        </div>
+ 
         <div class="row">
             <div class="col-lg-4 col-md-8 text-center">
                 <div class="service-box">
@@ -90,6 +113,21 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
                 <p>For developers who prefer to learn from videos we have a collection of getting started tutorials on YouTube.</p>
 
                 <a href="https://www.youtube.com/watch?v=-v1vz_NcWng&list=PLjpijTpXl1_po-ld8jORR9k5NornDNKQk" class="btn btn-primary btn-xl">Tutorial Playlist</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <p>&nbsp;</p><p>&nbsp;</p>
+                <p markdown="1">Our team of engineers, UX experts and other contributors are all working
+                  on an entirely volunteer basis. We rely on the kind support of our sponsors
+                  to pay our bills and provide hosting and software that keeps the project alive.
+                </p>
+                <p>We are seeking further sponsorship and funding to provide a more
+                  stable future for the team, and to allow us to provide full time support
+                  to the community of developers and companies that depend on us.
+                  Many thanks to anyone who can help us reach this goal,
+                  more information is available on our [contributing](/contributing) page.
+                </p>
             </div>
         </div>
     </div>
