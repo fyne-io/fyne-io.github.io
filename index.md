@@ -43,7 +43,7 @@ tagline: The Fyne tookit for graphical applications makes it fun and easy to bui
                     <p class="caption">Fyne demo on mobile, light theme.</p>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <br />
+                    <br /><br />
                     <img src="https://github.com/fynelabs/notes/blob/main/img/screenshot.png?raw=true" alt="Fyne demo -- light theme">
                     <p class="caption"><a href="https://apps.fyne.io/apps/com.fynelabs.notes.html">Notes</a> app, custom theme</p>
                 </div>
