@@ -32,14 +32,19 @@ in the centre of how we work. Now you can have the desktop of your dreams
     </div>
 </section>
 
-{% include features.html %}
+{% include fynedesk_features.html %}
 
 <section class="bg-primary" id="screenshot">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
- 
-<img src="https://github.com/fyne-io/fynedesk/raw/develop/desktop-dark-current.png" alt="" />
+                <h2 class="section-heading">Themes</h2>
+                <hr class="light">
+                <img src="https://github.com/fyne-io/fynedesk/raw/master/desktop-dark-current.png" alt="" />
+				<p class="caption light"><br />The standard theme in it's dark look.</p>
+				<p>&nbsp;</p>
+                <img src="https://github.com/fyne-io/fynedesk/raw/master/desktop-light-current.png" alt="" />
+				<p class="caption light"><br />The standard theme in light variant.</p>
             </div>
         </div>
     </div>
