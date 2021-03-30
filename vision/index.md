@@ -15,7 +15,7 @@ tagline: TODO
 
 Technology marches on, the number of devices that we interact with is ever increasing and
 the number of platforms that they run seems to be exploding.
-As the ubiquity of computing expands it becomes important to ensure that your
+As the ubiquity of computing expands it becomes even more important to ensure that your
 products and solutions are presented to end users on their preferred device
 in a way that is familiar to them.
 
@@ -29,8 +29,9 @@ to deliver on all these platforms.
 The Fyne project is based around the premise that it should be free and
 simple to develop an application that can run on all platforms without
 modification or adaptation.
-Supporting native installation on all platforms and delivering great performance
-and solid user experience we aim to deliver this nirvana of 
+Fyne apps are installed like regular applications on all platforms and deliver great performance
+and solid user experience.
+We are targetting the nirvana of 
 cross-platform native application development.
 
 </div>
@@ -46,7 +47,7 @@ cross-platform native application development.
 ## Making this happen
 ---
 
-We believe that graphical applications should be easy to develop and work across all operating systems. Additionally we feel that an open source approach is a requirement of a foundational new technology,
+We believe that graphical applications should be easy to develop and work across all operating systems. Additionally we feel that an open source approach is a requirement of a new technological foundation,
 ensuring that it remains free and open forever.
 
 > Fyne aims to be the best Toolkit for developing beautiful and usable native graphical applications for desktop, mobile and beyond.
@@ -74,9 +75,9 @@ With your support we will be able grow the infrastructure that
 underpins our services as well as paying for developers, designers and
 the support team to continue to provide the same great product and service as we grow.
 
-If you are able to help us out please head over to our [contributing](/contribute/),
-sign up as a [sponsor](https://github.com/sponsors/fyne-io/) or consider sending
-a [donation](/sponsor/).
+If you would like to get involved please head over to our [contribution](/contribute/) page,
+sign up as a [sponsor](https://github.com/sponsors/fyne-io/) or consider
+providing a [donation](/sponsor/).
 
 Thank you so much for your interest and support of the Fyne project.
 
