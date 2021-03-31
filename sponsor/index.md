@@ -1,0 +1,200 @@
+---
+layout: page
+header-img: sponsor
+headline: Sponsor or donate to Fyne
+tagline: TODO
+---
+
+<section class="bg-primary" id="about">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center" markdown="1">
+
+## Sponsor or Donate to Fyne
+<hr class="light">
+
+GitHub sponsors link
+
+Or sponsor us directly
+
+You can donate or sign up as a monthly sponsor using the [form below](#make-a-donation) - thanks from the team in advance :).
+
+</div>
+</div>
+</div>
+</section>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center" markdown="1">
+
+## Sponsors
+---
+
+This project would not be possible without the ongoing support of our fantastic community.
+We say a huge "Thank You!" to those who are generous enough to contribute financially to the future of our work.
+The list below shows those who have contributed at the "High Five" level or above
+on our GitHub [sponsors page](https://github.com/sponsors/fyne-io) -
+please do consider joining them!
+
+</div>
+
+<div class="col-lg-3 text-center" markdown="1">
+[Jacob Alzén](https://github.com/Jacalz)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+Brian OHara
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[chai2010](https://github.com/chai2010)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Jesse Donat](https://github.com/donatj)
+</div>
+
+<div class="col-lg-3 text-center" markdown="1">
+[Sergio Rubio](https://github.com/rubiojr)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Matthieu Bollot](https://github.com/mattboll)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Maciej Tomaszewski](https://github.com/nmapx)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Nurcahyo](https://github.com/nurcahyo)
+</div>
+
+<div class="col-lg-3 text-center" markdown="1">
+[Marco Molteni](https://github.com/marco-m)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Alex Bykov](https://github.com/bykovme)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Shells.com](https://Shells.com)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Andreas Schneider](https://github.com/aksdb)
+</div>
+
+<div class="col-lg-3 text-center" markdown="1">
+[Damon Blais](https://github.com/AlbinoGeek)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Shawn Butts](https://github.com/shawnbutts)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+
+</div>
+</div>
+
+<section class="bg-primary">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center" markdown="1">
+
+## Make a donation
+<hr class="light">
+
+<!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. -->
+<table style="padding:10pt">
+  <tbody><tr>
+    <td style="padding:5pt 2pt"><span style="font-size:200%">✋</span></td>
+    <td>Give the Fyne team a high five</td>
+    <td style="text-align: right; padding: 0 5pt"><strong>$5</strong></td>
+    <td><button id="donate-five" role="link" class="btn btn-default">Once</button></td>
+    <td><button id="sponsor-five" role="link" class="btn btn-default">Monthly</button></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td style="padding:5pt 2pt"><span style="font-size:200%">👍</span></td>
+    <td>Offer kudos to team Fyne</td>
+    <td style="text-align: right; padding: 0 5pt"><strong>$25</strong></td>
+    <td><button id="donate-kudos" role="link" class="btn btn-default">Once</button></td>
+    <td><button id="sponsor-kudos" role="link" class="btn btn-default">Monthly</button></td>
+    <td colspan="3" style="padding-left: 20pt">(We will send you some stickers)</td>
+  </tr>
+  <tr>
+    <td style="padding:5pt 2pt"><span style="font-size:200%">💻</span></td>
+    <td>Thank the team for their help</td>
+    <td style="text-align: right; padding: 0 5pt"><strong>$100</strong></td>
+    <td><button id="donate-thanks" role="link" class="btn btn-default">Once</button></td>
+    <td><button id="sponsor-thanks" role="link" class="btn btn-default">Monthly</button></td>
+  <td colspan="3" style="padding-left: 20pt">(Get an hour of chat to work on your project)</td>
+  </tr>
+  <tr>
+    <td style="padding:5pt 2pt"><span style="font-size:200%">🐛</span></td>
+    <td>Prioritise your top bugs</td>
+    <td style="text-align: right; padding: 0 5pt"><strong>$500</strong></td>
+    <td><button id="donate-bug" role="link" class="btn btn-default">Once</button></td>
+    <td><button id="sponsor-bug" role="link" class="btn btn-default">Monthly</button></td>
+    <td colspan="3" style="padding-left: 20pt">(You can mark 2 issues for speedy fixing)</td>
+  </tr>
+  <tr>
+    <td style="padding:5pt 2pt"><span style="font-size:200%">🔭</span></td>
+    <td>Request a feature in Fyne</td>
+    <td style="text-align: right; padding: 0 5pt"><strong>$2500</strong></td>
+    <td><button id="donate-feature" role="link" class="btn btn-default">Once</button></td>
+    <td><button id="sponsor-feature" role="link" class="btn btn-default">Monthly</button></td>
+    <td colspan="3" style="padding-left: 20pt">(Get a feature added to the next major release)</td>
+  </tr>
+</tbody></table>
+
+<div id="error-message"></div>
+
+<script>
+  var stripe = Stripe('pk_live_pYF8NKv3TWLl5nvPADGA2mPh00a2sswW6t');
+
+  function shopButton(id, sku, plan) {
+    var checkoutButton = document.getElementById(id);
+    checkoutButton.addEventListener('click', function () {
+      // When the customer clicks on the button, redirect
+      // them to Checkout.
+      var item = {sku: sku, quantity: 1};
+      if (sku == '') {
+        item = {plan: plan, quantity: 1}
+      }
+      stripe.redirectToCheckout({
+        items: [item],
+
+        successUrl: 'https://fyne.io/sponsor/success',
+        cancelUrl: 'https://fyne.io/sponsor/fail',
+      })
+      .then(function (result) {
+        if (result.error) {
+          // If `redirectToCheckout` fails due to a browser or network
+          // error, display the localized error message to your customer.
+          var displayError = document.getElementById('error-message');
+          displayError.textContent = result.error.message;
+        }
+      });
+    });
+  };
+
+  shopButton('donate-five', 'sku_EkQJ3MGj2pTBUO', '');
+  shopButton('donate-kudos', 'sku_EkQKZiAwRmltw3', '');
+  shopButton('donate-thanks', 'sku_EkQKq5f3QD2wD5', '');
+  shopButton('donate-bug', 'sku_GqGy6WUT6P7xU5', '');
+  shopButton('donate-feature', 'sku_EnQ7zONJwgBO38', '');
+
+  shopButton('sponsor-five', '', 'price_1Ib0R8Fb4AX8yFSsw9sHhU2Y');
+  shopButton('sponsor-kudos', '', 'price_1Ib0R8Fb4AX8yFSsNu5Xe8I9');
+  shopButton('sponsor-thanks', '', 'price_1Ib0R8Fb4AX8yFSsNTRHPj4V');
+  shopButton('sponsor-bug', '', 'price_1Ib0R8Fb4AX8yFSsU507mdt6');
+  shopButton('sponsor-feature', '', 'price_1Ib0R8Fb4AX8yFSseHySPjAH');
+</script>
+
+<span style="font-size:200%">📬</span> To arrange the perks listed above please [get in touch](#contact) once you have made your donation.  
+<span style="font-size:200%">💵</span> If you would like to offer a custom amount or talk about [support](/support/) we would love to [hear from you](#contact).
+
+</div>
+</div>
+</div>
+
