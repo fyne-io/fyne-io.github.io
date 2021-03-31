@@ -97,77 +97,9 @@ find. Ask us anything on our contact forms and please
 
 </div>
 <div class="col-lg-12 text-center" markdown="1">
-
-## Sponsors
----
-
-This project would not be possible without the ongoing support of our fantastic community.
-We say a huge "Thank You!" to those who are generous enough to contribute financially to the future of our work.
-The list below shows those who have contributed at the "High Five" level or above
-on our GitHub [sponsors page](https://github.com/sponsors/fyne-io) -
-please do consider joining them!
-
-</div>
-
-<div class="col-lg-3 text-center" markdown="1">
-[Jacob Alzén](https://github.com/Jacalz)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-Brian OHara
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-[chai2010](https://github.com/chai2010)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-[Jesse Donat](https://github.com/donatj)
-</div>
-
-<div class="col-lg-3 text-center" markdown="1">
-[Sergio Rubio](https://github.com/rubiojr)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-[Matthieu Bollot](https://github.com/mattboll)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-[Maciej Tomaszewski](https://github.com/nmapx)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-[Nurcahyo](https://github.com/nurcahyo)
-</div>
-
-<div class="col-lg-3 text-center" markdown="1">
-[Marco Molteni](https://github.com/marco-m)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-[Alex Bykov](https://github.com/bykovme)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-[Shells.com](https://Shells.com)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-[Andreas Schneider](https://github.com/aksdb)
-</div>
-
-<div class="col-lg-3 text-center" markdown="1">
-[Damon Blais](https://github.com/AlbinoGeek)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-[Shawn Butts](https://github.com/shawnbutts)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-</div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-
-<div class="col-lg-12 text-center" markdown="1">
-If you would like to sponsor our work you can sign up on [Github Sponsors](https://github.com/sponsors/fyne-io)
-or submit a one-time contribution on our [donations page](https://fossfi.sh/support-fyneio).
+Of course you can contribute by being a [sponsor](https://github.com/sponsors/fyne-io/) or making a [donation](/sponsor/).
+We are endebted to our existing [sponsors](/sponsor/) and thank them for 
+believing in this project.
 </div>
 
 </div>
@@ -199,8 +131,7 @@ Incremental development or changes that have been agreed upon can be worked
 on by any developer, however the addition of new features can lead to
 unsupported functionality and so should be considered more carefully.
 Therefore significant new features should not be added unless there are at least
-2 contributors (assuming at least 3 active contributors) prepared to
-support the ongoing development of that feature.
+2 contributors prepared to support the ongoing development of that feature.
 
 </div>
 </div>

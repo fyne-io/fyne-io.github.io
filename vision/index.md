@@ -75,8 +75,8 @@ underpins our services as well as paying for developers, designers and
 the support team to continue to provide the same great product and service as we grow.
 
 If you would like to get involved please head over to our [contribution](/contribute/) page,
-sign up as a [sponsor](https://github.com/sponsors/fyne-io/) or consider
-providing a [donation](/sponsor/).
+sign up as a [GitHub sponsor](https://github.com/sponsors/fyne-io/) or consider
+[donating](/sponsor/) directly to the project.
 
 Thank you so much for your interest and support of the Fyne project.
 

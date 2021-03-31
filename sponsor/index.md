@@ -12,11 +12,18 @@ headline: Sponsor or donate to Fyne
 ## Sponsor or Donate to Fyne
 <hr class="light">
 
-GitHub sponsors link
+Thank you so much for considering being a sponsor of the Fyne project.
+Your confidence in our work is much appreciated and any donations or subscriptions help
+the project continue to improve and help other developers and teams to build
+better cross platform applications.
 
-Or sponsor us directly
+If you have a GitHub account you can sign up to sponsor the project, or one of our developers
+using the [GitHub sponsors](https://github.com/sponsors/fyne-io/) page.
 
-You can donate or sign up as a monthly sponsor using the [form below](#make-a-donation) - thanks from the team in advance :).
+For individuals or businesses that wish to sponsor us directly we have configured a Stripe checkout
+using the [form below](#make-a-donation). If you are interested in a more partnership based
+sponsorship please [get in touch](#contact).
+Thank you very much indeed for considering being a sponsor of our work.
 
 </div>
 </div>
