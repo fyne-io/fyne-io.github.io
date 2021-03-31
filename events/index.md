@@ -2,7 +2,6 @@
 layout: page
 header-img: events
 headline: Talks and Workshops about the Fyne ecosystem
-tagline: If you prefer presentations to documentation or you want time stepping through Fyne's capabilities then one of these events my be for you.
 
 redirect_from: /events.html
 ---

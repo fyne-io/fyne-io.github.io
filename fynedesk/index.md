@@ -2,7 +2,6 @@
 layout: page
 header-img: desktop
 headline: Your Beautiful new Open Source Desktop
-tagline: We're building a modern desktop environment for the Linux operating system. And just like the Fyne toolkit it's open source and free to use! 
 
 goimport: fyne.io/fynedesk
 

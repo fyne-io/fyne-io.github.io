@@ -2,7 +2,6 @@
 layout: page
 header-img: sponsor
 headline: Sponsor or donate to Fyne
-tagline: TODO
 ---
 
 <section class="bg-primary" id="about">

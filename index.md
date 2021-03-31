@@ -2,7 +2,6 @@
 layout: page
 header-img: toolkit
 headline: Helping the world build better software
-tagline: The Fyne tookit for graphical applications makes it fun and easy to build intuitive and performant native applications that work across all your devices.
 ---
 
 <section class="bg-primary" id="about">

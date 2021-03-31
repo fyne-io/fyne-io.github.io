@@ -2,7 +2,6 @@
 layout: page
 header-img: vision
 headline: Our vision for the future
-tagline: TODO
 ---
 
 <section class="bg-primary" id="about">
