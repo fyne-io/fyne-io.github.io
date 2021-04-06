@@ -91,6 +91,7 @@ Brian OHara
 [Shawn Butts](https://github.com/shawnbutts)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+Gianluca D'Incà
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
