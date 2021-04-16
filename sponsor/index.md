@@ -43,8 +43,6 @@ The list below shows those who have contributed at the "High Five" level or abov
 on our GitHub [sponsors page](https://github.com/sponsors/fyne-io) -
 please do consider joining them!
 
-</div>
-
 <div class="col-lg-3 text-center" markdown="1">
 [Jacob Alzén](https://github.com/Jacalz)
 </div>
@@ -95,6 +93,30 @@ Gianluca D'Incà
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
+
+</div>
+<div class="col-lg-12 text-center" markdown="1">
+
+## Other Support
+---
+
+We are incredibly grateful to the generous open source support packages that the following companies have made available.
+Their dedication to projects like this make it possible to bring you the Fyne toolkit for free.
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-4 text-center" markdown="1">
+<a href="https://github.com"><img src="/img/sponsor/github.png" style="max-width: 250px"/></a>
+</div>
+<div class="col-lg-4 text-center" markdown="1">
+<a href="https://jetbrains.com"><img src="/img/sponsor/jetbrains.png" style="max-width: 250px"/></a>
+</div>
+<div class="col-lg-4 text-center">
+<a href="https://www.macstadium.com/"><img src="/img/sponsor/macstadium.png" style="max-width: 300px"/></a>
+</div>
+<p>&nbsp;</p>
 
 </div>
 </div>
