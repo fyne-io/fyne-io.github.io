@@ -138,6 +138,16 @@ headline: Helping the world build better software
     <div class="container">
         <div class="row">
             <div class="col-lg-6 quote-block">
+Really Fyne is one of the rare technology that make me say “woooow” after a try,
+that happens rarely.
+<span class="quote-name">- Patrice Ferlet</span>
+            </div>
+            <div class="col-lg-6 quote-block">
+Fyne is the brightest star on the UI sky at the moment.
+<span class="quote-name">- Andreas Schneider</span>
+<p>&nbsp;</p>
+            </div>
+            <div class="col-lg-6 quote-block">
 It's been pretty easy to start feeling productive in Fyne,
 you all did a very nice job!
 <span class="quote-name">- Peter Stratton</span>
