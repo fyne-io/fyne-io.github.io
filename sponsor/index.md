@@ -89,17 +89,16 @@ Brian OHara
 [Shawn Butts](https://github.com/shawnbutts)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
-[Oleg Balunenko](https://github.com/obalunenko)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
 Gianluca D'Incà
 </div>
-
 <div class="col-lg-3 text-center" markdown="1">
 [Ankush Jadhav](https://github.com/AnkushJadhav)
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 [Tiantang Sun](https://github.com/stt106)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
