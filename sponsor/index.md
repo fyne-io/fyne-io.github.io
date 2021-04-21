@@ -99,6 +99,7 @@ Gianluca D'Incà
 [Tiantang Sun](https://github.com/stt106)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+Iain Mackay
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
