@@ -24,11 +24,29 @@ redirect_from: /events.html
 
 <div class="col-lg-4 text-center" markdown="1">
 
+### Golang in London
+
+*19 May 2021 - Online*
+
+Andy Williams discusses 'Building cross platform graphical apps'
+
+We will explore the main features including canvas, widgets, file APIs, data binding and test support. Each section demonstrates the basic code concepts and how it comes together to build powerful applications fast.
+
+[Event details](https://www.meetup.com/Golang-London/events/277980998/)
+
 </div>
 
-
 <div class="col-lg-4 text-center" markdown="1">
-No upcoming events
+### Fyne Conf 2021
+
+*9 July 2021 - Online*
+
+Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s community and the applications built around it.
+
+Join us for a look at what's new, how to build excellent platform-agnostic applications and a view of some
+cool projects that people around the world are creating.
+
+[Event details](https://conf.fyne.io)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
@@ -55,6 +73,20 @@ No upcoming events
 
 <div class="col-lg-4 text-center" markdown="1">
 
+### FOSDEM 2021
+
+*6 February 2021 - Online*
+
+This talk explores the Fyne toolkit and what is new with the recently released version 2.0. We will explore the main features including canvas, widgets, data binding, test support and app store packaging.
+
+We will step through how to build an application using standard widgets, data binding and storage, and then see how it can be distributed for practically all graphical operating systems and app stores.
+
+[Event details](https://fosdem.org/2021/schedule/event/goguifyne/)
+
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+
 ### Fyne Conf 2020
 
 *18 June 2020 - Online*
@@ -64,7 +96,7 @@ Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s c
 Join us for a look at what's new, how to build excellent platform-agnostic applications and a view of some
 cool projects that people around the world are creating.
 
-[Event details](https://conf.fyne.io)
+[Event details](https://conf.fyne.io/archive/2020)
 
 </div>
 
@@ -88,6 +120,12 @@ challenged to let their imaginations loose, and get excited about writing
 
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 
 ### Fyne Conf 2019
@@ -96,15 +134,9 @@ challenged to let their imaginations loose, and get excited about writing
 
 Fyne Conf is the world’s first conference focused on the Fyne toolkit, it’s community and the applications built around it.
 
-[Event details](https://conf.fyne.io)
+[Event details](https://conf.fyne.io/archive/2019)
 
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 
@@ -130,6 +162,12 @@ With the growing popularity of Go many people are asking how to build a solid GU
 
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 
 ### A Fyne Update
@@ -142,12 +180,6 @@ An update on the Fyne GUI framework.
 
 </div>
 
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-
 <div class="col-lg-4 text-center" markdown="1">
 
 ### Introducing Fyne
@@ -158,9 +190,6 @@ An introduction to Fyne.io, the UI toolkit and app API written in Go.
 
 [Event details](https://www.meetup.com/Edinburgh-Golang-meetup/events/252225515/)
 
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
