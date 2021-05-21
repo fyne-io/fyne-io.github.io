@@ -102,6 +102,7 @@ Gianluca D'Incà
 Iain Mackay
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Markus Metsäranta](https://github.com/koodimetsa)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
