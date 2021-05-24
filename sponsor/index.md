@@ -105,6 +105,7 @@ Iain Mackay
 [Markus Metsäranta](https://github.com/koodimetsa)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Peer Aramillo Irizar](https://github.com/parir)
 </div>
 
 </div>
