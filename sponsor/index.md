@@ -108,6 +108,16 @@ Iain Mackay
 [Peer Aramillo Irizar](https://github.com/parir)
 </div>
 
+<div class="col-lg-3 text-center" markdown="1">
+[Tai Groot](https://github.com/taigrr)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+
 </div>
 <div class="col-lg-12 text-center" markdown="1">
 
