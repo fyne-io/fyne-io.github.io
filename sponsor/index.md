@@ -112,6 +112,7 @@ Iain Mackay
 [Tai Groot](https://github.com/taigrr)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Danny Kirkham](https://github.com/DannyJKK)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
