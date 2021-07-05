@@ -115,8 +115,10 @@ Iain Mackay
 [Danny Kirkham](https://github.com/DannyJKK)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Asset Malik](https://github.com/janeoa)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+
 </div>
 
 </div>
