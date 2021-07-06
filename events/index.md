@@ -23,23 +23,9 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-
-### Golang in London
-
-*19 May 2021 - Online*
-
-Andy Williams discusses 'Building cross platform graphical apps'
-
-We will explore the main features including canvas, widgets, file APIs, data binding and test support. Each section demonstrates the basic code concepts and how it comes together to build powerful applications fast.
-
-[Event details](https://www.meetup.com/Golang-London/events/277980998/)
-
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2021
 
-*9 July 2021 - Online*
+*17 September 2021 - Online*
 
 Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s community and the applications built around it.
 
@@ -47,6 +33,18 @@ Join us for a look at what's new, how to build excellent platform-agnostic appli
 cool projects that people around the world are creating.
 
 [Event details](https://conf.fyne.io)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Go West Online
+
+*22 October 2021 - Online*
+
+The beauty of Go for building cross-platform graphical applications.
+
+This talk is a gentle introduction to harnessing the power of Go in a Graphical User Interface framework like Fyne. We will cover the basics, explore some of the main APIs for building complete apps, and see completed applications available to download today.
+
+[Event details](https://www.gowestconf.com/)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
@@ -72,7 +70,19 @@ cool projects that people around the world are creating.
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
+### Golang in London
 
+*19 May 2021 - Online*
+
+Andy Williams discusses 'Building cross platform graphical apps'
+
+We will explore the main features including canvas, widgets, file APIs, data binding and test support. Each section demonstrates the basic code concepts and how it comes together to build powerful applications fast.
+
+[Event details](https://www.meetup.com/Golang-London/events/277980998/)
+</div>
+
+
+<div class="col-lg-4 text-center" markdown="1">
 ### FOSDEM 2021
 
 *6 February 2021 - Online*
@@ -82,11 +92,9 @@ This talk explores the Fyne toolkit and what is new with the recently released v
 We will step through how to build an application using standard widgets, data binding and storage, and then see how it can be distributed for practically all graphical operating systems and app stores.
 
 [Event details](https://fosdem.org/2021/schedule/event/goguifyne/)
-
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-
 ### Fyne Conf 2020
 
 *18 June 2020 - Online*
@@ -97,11 +105,15 @@ Join us for a look at what's new, how to build excellent platform-agnostic appli
 cool projects that people around the world are creating.
 
 [Event details](https://conf.fyne.io/archive/2020)
-
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
+</div>
+</div>
 
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4 text-center" markdown="1">
 ### Fun + No Constraints + High Performance = Creativity
 
 *31 October 2019 - GopherCon AU (Sydney)*
@@ -117,17 +129,9 @@ challenged to let their imaginations loose, and get excited about writing
 "that app" that they have always wanted to finish off one day. Now is your time !
 
 [Event details](https://gophercon.com.au/#speakers)
-
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-
 ### Fyne Conf 2019
 
 *22 November 2019 - Online*
@@ -135,11 +139,9 @@ challenged to let their imaginations loose, and get excited about writing
 Fyne Conf is the world’s first conference focused on the Fyne toolkit, it’s community and the applications built around it.
 
 [Event details](https://conf.fyne.io/archive/2019)
-
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-
 ### A Fyne User Interface
 
 *16 September 2019 - GolangVan (Vancouver)*
@@ -147,19 +149,6 @@ Fyne Conf is the world’s first conference focused on the Fyne toolkit, it’s 
 Introduction to the Fyne toolkit fo building cross platform GUIs.
 
 [Event details](https://www.meetup.com/golangvan/events/263156126/)
-
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
-
-### Easily build cross platform graphical applictions with Fyne
-
-*21 October 2019 - GoLab (Florence)*
-
-With the growing popularity of Go many people are asking how to build a solid GUI. It’s design for concurrency and portability makes it a great match for cross-platform development. This talk shows how the Fyne toolkit is designed to help make beautiful and idiomatic native apps simply, using pure Go.
-
-[Event details](https://golab.io/agenda/session/158941)
-
 </div>
 
 </div>
@@ -169,7 +158,16 @@ With the growing popularity of Go many people are asking how to build a solid GU
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
+### Easily build cross platform graphical applictions with Fyne
 
+*21 October 2019 - GoLab (Florence)*
+
+With the growing popularity of Go many people are asking how to build a solid GUI. It’s design for concurrency and portability makes it a great match for cross-platform development. This talk shows how the Fyne toolkit is designed to help make beautiful and idiomatic native apps simply, using pure Go.
+
+[Event details](https://golab.io/agenda/session/158941)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
 ### A Fyne Update
 
 *31 July 2019 - Go Meetup Edinburgh*
@@ -177,11 +175,9 @@ With the growing popularity of Go many people are asking how to build a solid GU
 An update on the Fyne GUI framework.
 
 [Event details](https://www.meetup.com/Edinburgh-Golang-meetup/events/263200722/)
-
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-
 ### Introducing Fyne
 
 *18 July 2018 - Go Meetup Edinburgh*
@@ -189,11 +185,10 @@ An update on the Fyne GUI framework.
 An introduction to Fyne.io, the UI toolkit and app API written in Go.
 
 [Event details](https://www.meetup.com/Edinburgh-Golang-meetup/events/252225515/)
-
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
-</div>
+<!--<div class="col-lg-4 text-center" markdown="1">
+</div> -->
 
 </div>
 </div>
