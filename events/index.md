@@ -78,6 +78,7 @@ Andy Williams discusses 'Building cross platform graphical apps'
 
 We will explore the main features including canvas, widgets, file APIs, data binding and test support. Each section demonstrates the basic code concepts and how it comes together to build powerful applications fast.
 
+[Video](https://www.youtube.com/watch?v=2HO_QwEixoY) -
 [Event details](https://www.meetup.com/Golang-London/events/277980998/)
 </div>
 
@@ -91,6 +92,7 @@ This talk explores the Fyne toolkit and what is new with the recently released v
 
 We will step through how to build an application using standard widgets, data binding and storage, and then see how it can be distributed for practically all graphical operating systems and app stores.
 
+[Video](https://youtu.be/u59FDlJ-Ss0) -
 [Event details](https://fosdem.org/2021/schedule/event/goguifyne/)
 </div>
 
@@ -104,6 +106,7 @@ Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s c
 Join us for a look at what's new, how to build excellent platform-agnostic applications and a view of some
 cool projects that people around the world are creating.
 
+[Videos](https://www.youtube.com/watch?v=0c2vsAiNxRk&list=PLjpijTpXl1_oqeLgMmAZE4l_2D7xtDzm0) -
 [Event details](https://conf.fyne.io/archive/2020)
 </div>
 
@@ -128,6 +131,7 @@ fresh new approach that the Go tooling makes possible. Attendees will be
 challenged to let their imaginations loose, and get excited about writing
 "that app" that they have always wanted to finish off one day. Now is your time !
 
+[Video](https://youtu.be/_U_RlFoSuxc) -
 [Event details](https://gophercon.com.au/#speakers)
 </div>
 
@@ -138,6 +142,7 @@ challenged to let their imaginations loose, and get excited about writing
 
 Fyne Conf is the world’s first conference focused on the Fyne toolkit, it’s community and the applications built around it.
 
+[Videos](https://www.youtube.com/watch?v=DmafJ1sQB_s&list=PLjpijTpXl1_ooanNa26bfNyWAjRPevh3V) -
 [Event details](https://conf.fyne.io/archive/2019)
 </div>
 
@@ -164,6 +169,7 @@ Introduction to the Fyne toolkit fo building cross platform GUIs.
 
 With the growing popularity of Go many people are asking how to build a solid GUI. It’s design for concurrency and portability makes it a great match for cross-platform development. This talk shows how the Fyne toolkit is designed to help make beautiful and idiomatic native apps simply, using pure Go.
 
+[Video](https://youtu.be/jbsYrrNiqAs) -
 [Event details](https://golab.io/agenda/session/158941)
 </div>
 
