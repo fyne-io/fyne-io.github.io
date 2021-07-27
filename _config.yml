@@ -48,6 +48,8 @@ highlighter: rouge
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+include: 
+  - .well-known
 
 theme: jekyll-theme-minimal
 
