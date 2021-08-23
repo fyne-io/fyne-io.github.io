@@ -118,7 +118,7 @@ Iain Mackay
 [Asset Malik](https://github.com/janeoa)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
-
+Rob Solomon
 </div>
 
 </div>
