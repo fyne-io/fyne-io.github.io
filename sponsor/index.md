@@ -121,6 +121,19 @@ Iain Mackay
 Rob Solomon
 </div>
 
+<div class="col-lg-3 text-center" markdown="1">
+Gautam Dey
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[George Lambert](https://github.com/marchon)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+
+
+
 </div>
 <div class="col-lg-12 text-center" markdown="1">
 
