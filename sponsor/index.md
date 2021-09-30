@@ -128,6 +128,7 @@ Gautam Dey
 [George Lambert](https://github.com/marchon)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Stephen Houston](https://github.com/okratitan)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
