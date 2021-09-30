@@ -40,7 +40,7 @@ in the centre of how we work. Now you can have the desktop of your dreams
                 <h2 class="section-heading">Themes</h2>
                 <hr class="light">
                 <img src="https://github.com/fyne-io/fynedesk/raw/master/desktop-dark-current.png" alt="" />
-				<p class="caption light"><br />The standard theme in it's dark look.</p>
+				<p class="caption light"><br />The standard theme in its dark look.</p>
 				<p>&nbsp;</p>
                 <img src="https://github.com/fyne-io/fynedesk/raw/master/desktop-light-current.png" alt="" />
 				<p class="caption light"><br />The standard theme in light variant.</p>
