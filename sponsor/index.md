@@ -134,6 +134,15 @@ Gautam Dey
 [Raphael Schweikert](https://github.com/sabberworm)
 </div>
 
+<div class="col-lg-3 text-center" markdown="1">
+[margerum](https://github.com/margerum)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
 
 
 </div>
