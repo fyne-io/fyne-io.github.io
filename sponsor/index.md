@@ -167,9 +167,25 @@ Their dedication to projects like this make it possible to bring you the Fyne to
 <div class="col-lg-4 text-center">
 <a href="https://www.macstadium.com/"><img src="/img/sponsor/macstadium.png" style="max-width: 300px"/></a>
 </div>
-<p>&nbsp;</p>
 
 </div>
+</div>
+
+<div class="row">
+<div class="col-lg-4 text-center" markdown="1">
+</div>
+<div class="col-lg-4 text-center" markdown="1">
+<a href="https://weblate.org" style="font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none; color: #2a3744;"><img src="/img/sponsor/weblate.svg" style="max-width: 250px;"/>&nbsp;&nbsp;Weblate</a>
+</div>
+<div class="col-lg-4 text-center">
+</div>
+<p>&nbsp;</p>
+
 </div>
 
 <section class="bg-primary">
