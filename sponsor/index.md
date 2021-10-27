@@ -138,6 +138,7 @@ Gautam Dey
 [margerum](https://github.com/margerum)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Doug Saylor](https://github.com/drognisep)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
