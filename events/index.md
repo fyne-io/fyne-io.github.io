@@ -23,28 +23,20 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-### ScotSoft 2021
+### Norrköping Software Development
 
 *7 October 2021 - Online*
 
-The Journey to FyshOS
+How to Build: GUI interfaces - Fyne
 
-Andrew Williams presents how Fyne has grown over the last years and how it is used to build the FyneDesk desktop environment.
-He will also introduce the FyshOS operating system and show why this is an exciting time to be re-imagining Linux on the desktop.
+This time we will have our own Jacob Alzén, talking about an awesome open-source project to build graphic user interfaces.
 
-[Event details](https://scotsoft.scot)
+Looking forward to folks coming together to hang out and share best practices. It will be a great setting to chat and learn from each other while having some fun with code.
+
+[Event details](https://www.meetup.com/Norrkoping-Software-Development/events/281349094/)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-### Go West Online
-
-*22 October 2021 - Online*
-
-The beauty of Go for building cross-platform graphical applications.
-
-This talk is a gentle introduction to harnessing the power of Go in a Graphical User Interface framework like Fyne. We will cover the basics, explore some of the main APIs for building complete apps, and see completed applications available to download today.
-
-[Event details](https://www.gowestconf.com/)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
@@ -70,6 +62,31 @@ This talk is a gentle introduction to harnessing the power of Go in a Graphical 
 <div class="row">
 	
 <div class="col-lg-4 text-center" markdown="1">
+### Go West Online
+
+*22 October 2021 - Online*
+
+The beauty of Go for building cross-platform graphical applications.
+
+This talk is a gentle introduction to harnessing the power of Go in a Graphical User Interface framework like Fyne. We will cover the basics, explore some of the main APIs for building complete apps, and see completed applications available to download today.
+
+[Video](https://www.youtube.com/watch?v=VESXrgCW50g) - [Event details](https://www.gowestconf.com/)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### ScotSoft 2021
+
+*7 October 2021 - Online*
+
+The Journey to FyshOS
+
+Andrew Williams presents how Fyne has grown over the last years and how it is used to build the FyneDesk desktop environment.
+He will also introduce the FyshOS operating system and show why this is an exciting time to be re-imagining Linux on the desktop.
+
+[Video](https://www.youtube.com/watch?v=PM5eoUbAX74) - [Event details](https://scotsoft.scot)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2021
 
 *17 September 2021 - Online*
@@ -82,6 +99,11 @@ cool projects that people around the world are creating.
 [Videos](https://www.youtube.com/watch?v=viKut3CsmgA&list=PLjpijTpXl1_p6Jq4_wFTinNT3RWVQ3BLu) - [Event details](https://conf.fyne.io)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Golang in London
@@ -110,11 +132,6 @@ We will step through how to build an application using standard widgets, data bi
 [Event details](https://fosdem.org/2021/schedule/event/goguifyne/)
 </div>
 
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2020
@@ -129,6 +146,12 @@ cool projects that people around the world are creating.
 [Videos](https://www.youtube.com/watch?v=0c2vsAiNxRk&list=PLjpijTpXl1_oqeLgMmAZE4l_2D7xtDzm0) -
 [Event details](https://conf.fyne.io/archive/2020)
 </div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Fun + No Constraints + High Performance = Creativity
@@ -160,12 +183,6 @@ Fyne Conf is the world’s first conference focused on the Fyne toolkit, it’s 
 [Event details](https://conf.fyne.io/archive/2019)
 </div>
 
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-
 <div class="col-lg-4 text-center" markdown="1">
 ### A Fyne User Interface
 
@@ -175,6 +192,12 @@ Introduction to the Fyne toolkit fo building cross platform GUIs.
 
 [Event details](https://www.meetup.com/golangvan/events/263156126/)
 </div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Easily build cross platform graphical applictions with Fyne
@@ -197,12 +220,6 @@ An update on the Fyne GUI framework.
 [Event details](https://www.meetup.com/Edinburgh-Golang-meetup/events/263200722/)
 </div>
 
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-
 <div class="col-lg-4 text-center" markdown="1">
 ### Introducing Fyne
 
@@ -213,11 +230,8 @@ An introduction to Fyne.io, the UI toolkit and app API written in Go.
 [Event details](https://www.meetup.com/Edinburgh-Golang-meetup/events/252225515/)
 </div>
 
-<div class="col-lg-4 text-center" markdown="1">
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
-</div>
+<!-- <div class="col-lg-4 text-center" markdown="1">
+</div> -->
 
 </div>
 </div>

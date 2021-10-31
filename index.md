@@ -1,7 +1,7 @@
 ---
 layout: page
 header-img: toolkit
-headline: Helping the world build better software
+headline: Your digital universe on every device
 ---
 
 <section class="bg-primary" id="about">
