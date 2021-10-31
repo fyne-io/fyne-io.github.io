@@ -243,7 +243,7 @@ header, .bg-dark {
 }
 
 hr {
-    border-color: #03076c;
+    border-color: #006CFF;
 }
 
 // end overrides
@@ -260,5 +260,12 @@ div.app_thumbnail {
 
 div.app_thumbnail img {
     max-width: 85%;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 15px;
+    background: url(/img/logo-dark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 }
