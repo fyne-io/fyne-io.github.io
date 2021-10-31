@@ -29,7 +29,7 @@ headline: Your digital universe on every device
                   broken things about existing approaches. Building your software with an API
                   like Fyne that is designed for modern languages is easy and quick to learn.
                   Add to this that the toolkit is open source, under the permissive 3 clause BSD
-                  license, and will always be freely available you can be confident in a bright
+                  license, and will always be freely available. You can be confident in a bright
                   future of enjoyable app development.
                 </p>
 

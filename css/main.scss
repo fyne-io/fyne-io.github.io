@@ -197,6 +197,24 @@ div.app_thumbnail img {
 
 // overrides of base
 
+.navbar>.container-fluid .navbar-brand {
+    width: 60pt;
+    height: 14pt;
+    margin: 10px 0;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    background: url(/img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar.affix>.container-fluid .navbar-brand {
+    background: url(/img/logo-dark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
     font-weight: 600;
 	font-size: 14px;
@@ -212,8 +230,12 @@ header, .bg-dark {
     background-color: #111;
 }
 
-.bg-primary, .btn-primary {
+.bg-primary {
     background-color: #03076c;
+}
+
+.btn-primary {
+    background-color: #006CFF
 }
 
 .text-primary, a {
