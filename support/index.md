@@ -67,7 +67,7 @@ and as experts in this technology they are able to offer development support
 and bespoke app creation.
 The team can be [contacted](https://fynelabs.com/#post-39) through their website.
 
-<img src="https://fynelabs.files.wordpress.com/2020/02/fynelabs.png?w=192" height="96" />
+<img src="https://fynelabs.files.wordpress.com/2021/11/cropped-fyne-labs-social.png?w=192" height="96" />
 
 </div>
 </div>
