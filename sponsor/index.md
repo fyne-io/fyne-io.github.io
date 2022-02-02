@@ -141,6 +141,7 @@ Gautam Dey
 [Doug Saylor](https://github.com/drognisep)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Sergio Rubio](https://github.com/rubiojr)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
