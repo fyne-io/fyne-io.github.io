@@ -144,6 +144,7 @@ Gautam Dey
 [Sergio Rubio](https://github.com/rubiojr)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Christopher Hunter](https://github.com/crhntr)
 </div>
 
 
