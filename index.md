@@ -126,7 +126,7 @@ headline: Your digital universe on every device
                   stable future for the team, and to allow us to provide full time support
                   to the community of developers and companies that depend on us.
                   Many thanks to anyone who can help us reach this goal,
-                  more information is available on our [contributing](/contributing) page.
+                  more information is available on our [contributing](/contribute) page.
                 </p>
             </div>
         </div>
