@@ -121,7 +121,8 @@ headline: Your digital universe on every device
                   on an entirely volunteer basis. We rely on the kind support of our sponsors
                   to pay our bills and provide hosting and software that keeps the project alive.
                 </p>
-                <p>We are seeking further sponsorship and funding to provide a more
+                <p markdown="1">
+                  We are seeking further sponsorship and funding to provide a more
                   stable future for the team, and to allow us to provide full time support
                   to the community of developers and companies that depend on us.
                   Many thanks to anyone who can help us reach this goal,
