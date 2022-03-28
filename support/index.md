@@ -47,7 +47,7 @@ coverage, bundle application resources or start working on custom widgets
 then the community can offer some help.
 
 Simply join us on the [#fyne](https://gophers.slack.com/app_redirect?channel=fyne) 
-gophers Slack channel or [Discord Gophers](https://discord.gg/wPywEh4pzv)
+gophers Slack channel or [Fyne Discord](https://discord.gg/vvBuDfD5gP)
 and let us know your question. Be prepared to share your source
 code (easy for open source projects) for the best answers. When that is not
 possible then pasting a snippet or example to the Go 
