@@ -147,6 +147,18 @@ Gautam Dey
 [Christopher Hunter](https://github.com/crhntr)
 </div>
 
+<div class="col-lg-3 text-center" markdown="1">
+[~james](https://github.com/fossfool)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Slava Dzyba](https://github.com/sdzyba)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+
+
 
 </div>
 <div class="col-lg-12 text-center" markdown="1">
