@@ -154,6 +154,7 @@ Gautam Dey
 [Slava Dzyba](https://github.com/sdzyba)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Benjamin PATRON](https://github.com/Koumbaya)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
