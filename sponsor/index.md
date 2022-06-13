@@ -141,12 +141,15 @@ Gautam Dey
 [Doug Saylor](https://github.com/drognisep)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+Bruce Marriner
+</div>
+<div class="col-lg-3 text-center" markdown="1">
 [Sergio Rubio](https://github.com/rubiojr)
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 [Christopher Hunter](https://github.com/crhntr)
 </div>
-
 <div class="col-lg-3 text-center" markdown="1">
 [~james](https://github.com/fossfool)
 </div>
@@ -156,8 +159,20 @@ Gautam Dey
 <div class="col-lg-3 text-center" markdown="1">
 [Benjamin PATRON](https://github.com/Koumbaya)
 </div>
+
+<div class="col-lg-3 text-center" markdown="1">
+Caleb Dumitry
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Aaron](https://github.com/asegs)
+</div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+
+
+
 
 
 
