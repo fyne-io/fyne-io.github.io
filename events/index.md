@@ -8,6 +8,7 @@ redirect_from: /events.html
 
 <section class="bg-primary" id="about">
 <div class="container">
+
 <div class="row">
 <div class="col-lg-12 text-center" markdown="1">
 
@@ -23,17 +24,15 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-### Norrköping Software Development
+### Fyne Conf 2022
 
-*7 October 2021 - Online*
+*17 October 2022 - Edinburgh and Online*
 
-How to Build: GUI interfaces - Fyne
+Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s community and the applications built around it.
 
-This time we will have our own Jacob Alzén, talking about an awesome open-source project to build graphic user interfaces.
+Join us for a look at what's new, how to build excellent platform-agnostic applications and best practices for building bigger and better apps.
 
-Looking forward to folks coming together to hang out and share best practices. It will be a great setting to chat and learn from each other while having some fun with code.
-
-[Event details](https://www.meetup.com/Norrkoping-Software-Development/events/281349094/)
+[Event details](https://conf.fyne.io)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
@@ -60,7 +59,51 @@ Looking forward to folks coming together to hang out and share best practices. I
 
 <div class="container">
 <div class="row">
-	
+
+<div class="col-lg-4 text-center" markdown="1">
+### Open Source Summit 2022
+
+*16 September 2022 - Dublin and Online*
+
+This talk discusses and showcases how to quickly build great-looking applications that will work on any desktop Linux system (X11 or Wayland, with no runtime dependencies). We cover graphical primitives, the standard widgets, and how to combine this with containers and custom elements to build the app of your dreams. We will also how Fyne and the Go programming language are helping to create an easy-to-develop desktop environment for Linux on the desktop and on smartphones!
+
+[Event details](https://osseu2022.sched.com/event/df4af1544d01a3d0cdc56aa688267898)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Golang Bristol: Go(ne online)
+
+*20 July 2022 - Online*
+
+Nick White - Using Fyne to create beautiful GUIs in idiomatic Go
+
+Nick will talk about using the Fyne toolkit to create native cross-platform desktop and mobile interfaces in pure Go.
+
+We will walk through an example of adding a GUI in Fyne to an existing Go command line program, showing off a variety of widgets and customisation that's possible. We'll talk about the pros and cons of using a toolkit that has been built from the ground up for Go, as opposed to bindings for more well-known toolkits like Qt, GTK or Tk.
+
+[Event details](meetup.com/golang-bristol/events/286771024/)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Norrköping Software Development
+
+*7 October 2021 - Online*
+
+How to Build: GUI interfaces - Fyne
+
+This time we will have our own Jacob Alzén, talking about an awesome open-source project to build graphic user interfaces.
+
+Looking forward to folks coming together to hang out and share best practices. It will be a great setting to chat and learn from each other while having some fun with code.
+
+[Event details](https://www.meetup.com/Norrkoping-Software-Development/events/281349094/)
+</div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 ### Go West Online
 
@@ -193,12 +236,6 @@ Introduction to the Fyne toolkit fo building cross platform GUIs.
 [Event details](https://www.meetup.com/golangvan/events/263156126/)
 </div>
 
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-
 <div class="col-lg-4 text-center" markdown="1">
 ### Easily build cross platform graphical applictions with Fyne
 
@@ -209,6 +246,12 @@ With the growing popularity of Go many people are asking how to build a solid GU
 [Video](https://youtu.be/jbsYrrNiqAs) -
 [Event details](https://golab.io/agenda/session/158941)
 </div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### A Fyne Update
@@ -229,9 +272,6 @@ An introduction to Fyne.io, the UI toolkit and app API written in Go.
 
 [Event details](https://www.meetup.com/Edinburgh-Golang-meetup/events/252225515/)
 </div>
-
-<!-- <div class="col-lg-4 text-center" markdown="1">
-</div> -->
 
 </div>
 </div>
