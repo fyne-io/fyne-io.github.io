@@ -24,18 +24,10 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-### Fyne Conf 2022
-
-*17 October 2022 - Edinburgh and Online*
-
-Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s community and the applications built around it.
-
-Join us for a look at what's new, how to build excellent platform-agnostic applications and best practices for building bigger and better apps.
-
-[Event details](https://conf.fyne.io)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
+More coming soon...
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
@@ -61,6 +53,18 @@ Join us for a look at what's new, how to build excellent platform-agnostic appli
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
+### Fyne Conf 2022
+
+*17 October 2022 - Edinburgh and Online*
+
+Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s community and the applications built around it.
+
+Join us for a look at what's new, how to build excellent platform-agnostic applications and best practices for building bigger and better apps.
+
+[Videos](https://www.youtube.com/playlist?list=PLjpijTpXl1_oSw7JvqYJ0YvMHF97ChGt3) - [Event details](https://conf.fyne.io)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
 ### Open Source Summit 2022
 
 *16 September 2022 - Dublin and Online*
@@ -81,8 +85,14 @@ Nick will talk about using the Fyne toolkit to create native cross-platform desk
 
 We will walk through an example of adding a GUI in Fyne to an existing Go command line program, showing off a variety of widgets and customisation that's possible. We'll talk about the pros and cons of using a toolkit that has been built from the ground up for Go, as opposed to bindings for more well-known toolkits like Qt, GTK or Tk.
 
-[Event details](meetup.com/golang-bristol/events/286771024/)
+[Slides](https://github.com/nickjwhite/fynetalk-golangbristol2022) - [Event details](meetup.com/golang-bristol/events/286771024/)
 </div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Norrköping Software Development
@@ -97,12 +107,6 @@ Looking forward to folks coming together to hang out and share best practices. I
 
 [Event details](https://www.meetup.com/Norrkoping-Software-Development/events/281349094/)
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Go West Online
@@ -129,6 +133,12 @@ He will also introduce the FyshOS operating system and show why this is an excit
 [Video](https://www.youtube.com/watch?v=PM5eoUbAX74) - [Event details](https://scotsoft.scot)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2021
 
@@ -141,12 +151,6 @@ cool projects that people around the world are creating.
 
 [Videos](https://www.youtube.com/watch?v=viKut3CsmgA&list=PLjpijTpXl1_p6Jq4_wFTinNT3RWVQ3BLu) - [Event details](https://conf.fyne.io)
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Golang in London
@@ -175,6 +179,11 @@ We will step through how to build an application using standard widgets, data bi
 [Event details](https://fosdem.org/2021/schedule/event/goguifyne/)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2020
@@ -189,12 +198,6 @@ cool projects that people around the world are creating.
 [Videos](https://www.youtube.com/watch?v=0c2vsAiNxRk&list=PLjpijTpXl1_oqeLgMmAZE4l_2D7xtDzm0) -
 [Event details](https://conf.fyne.io/archive/2020)
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Fun + No Constraints + High Performance = Creativity
@@ -236,6 +239,12 @@ Introduction to the Fyne toolkit fo building cross platform GUIs.
 [Event details](https://www.meetup.com/golangvan/events/263156126/)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 ### Easily build cross platform graphical applictions with Fyne
 
@@ -246,12 +255,6 @@ With the growing popularity of Go many people are asking how to build a solid GU
 [Video](https://youtu.be/jbsYrrNiqAs) -
 [Event details](https://golab.io/agenda/session/158941)
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### A Fyne Update
