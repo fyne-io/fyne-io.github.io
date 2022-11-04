@@ -106,7 +106,7 @@ headline: Your digital universe on every device
             <div class="col-lg-4 text-center">
                 <p>If you are new to the Go language, we recommend running through the Go tour before returning to the Fyne documentation.</p>
 
-                <a href="https://go.dev/tour/" class="btn btn-primary btn-xl">Go Tour</a>
+                <a href="https://go.dev/tour/" class="btn btn-primary btn-xl">Learn Go</a>
             </div>
             <div class="col-lg-4 text-center">
                 <p>For developers who prefer to learn from videos we have a collection of getting started tutorials on YouTube.</p>
