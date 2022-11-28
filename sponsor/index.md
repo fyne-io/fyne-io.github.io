@@ -177,6 +177,7 @@ Caleb Dumitry
 [Aaron Bieber](https://github.com/qbit)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Rebecca](https://github.com/berkeleynerd)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
