@@ -180,6 +180,7 @@ Caleb Dumitry
 [Rebecca](https://github.com/berkeleynerd)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+Henrik Bergman
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
