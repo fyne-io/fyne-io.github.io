@@ -11,9 +11,6 @@
 
 <div class="container">
 <div class="row">
-<div class="col-lg-3">
-  {% include bloglist.html %}
-</div>
 <div class="col-lg-9">
 
   {% for post in site.posts limit: 10 %}
@@ -25,6 +22,9 @@
     {% endif %}
   {% endfor %}
 
+</div>
+<div class="col-lg-3">
+  {% include bloglist.html %}
 </div>
 </div>
 </div>
