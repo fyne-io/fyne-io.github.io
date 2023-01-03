@@ -8,6 +8,8 @@ goimport: fyne.io/fynedesk
 redirect_from: /desktop/
 ---
 
+<script>location='https://fyshos.com/desktop/'</script>
+
 <section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
