@@ -183,8 +183,19 @@ Caleb Dumitry
 Henrik Bergman
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Anthony Clancy](https://github.com/anclancy)
 </div>
 
+
+<div class="col-lg-3 text-center" markdown="1">
+[Allan Davis](https://github.com/cajun-code)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
 
 
 
