@@ -228,8 +228,6 @@ Their dedication to projects like this make it possible to bring you the Fyne to
 
 <div class="row">
 <div class="col-lg-4 text-center" markdown="1">
-</div>
-<div class="col-lg-4 text-center" markdown="1">
 <a href="https://weblate.org" style="font-family: sans-serif;
     font-size: 30px;
     font-weight: 600;
@@ -237,7 +235,11 @@ Their dedication to projects like this make it possible to bring you the Fyne to
     text-transform: uppercase;
     text-decoration: none; color: #2a3744;"><img src="/img/sponsor/weblate.svg" style="max-width: 250px;"/>&nbsp;&nbsp;Weblate</a>
 </div>
-<div class="col-lg-4 text-center">
+<div class="col-lg-4 text-center" markdown="1">
+<a href="https://dymium.io"><img src="/img/sponsor/dymium.jpeg" style="max-height: 75px"/></a>
+</div>
+<div class="col-lg-4 text-center" markdown="1">
+<a href="https://www.docker.com"><img src="/img/sponsor/docker.png" style="max-width: 250px"/></a>
 </div>
 <p>&nbsp;</p>
 
