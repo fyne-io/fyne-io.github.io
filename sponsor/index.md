@@ -236,7 +236,7 @@ Their dedication to projects like this make it possible to bring you the Fyne to
     text-decoration: none; color: #2a3744;"><img src="/img/sponsor/weblate.svg" style="max-width: 250px;"/>&nbsp;&nbsp;Weblate</a>
 </div>
 <div class="col-lg-4 text-center" markdown="1">
-<a href="https://dymium.io"><img src="/img/sponsor/dymium.jpeg" style="max-height: 75px"/></a>
+<a href="https://dymium.io"><img src="/img/sponsor/dymium.jpeg" style="padding-top: 5pt;"/></a>
 </div>
 <div class="col-lg-4 text-center" markdown="1">
 <a href="https://www.docker.com"><img src="/img/sponsor/docker.png" style="max-width: 250px"/></a>
