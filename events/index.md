@@ -24,6 +24,32 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
+### Open Source Summit North America 2023
+
+*11 May 2023 - Vancouver and Online*
+
+Development and distribution of large applications for the desktop is a difficult task as legacy solution have built layers of complexity as the ecosystem evolved over decades. There is no reason that making a native application should be more complex than a web site or a command line tool.
+
+Cedric Bail presents an introduction to Go and its ecosystem to quickly write native command line tools, before introducing Fyne and writing a graphical application. Including unit tests and how to make sure that the code quality is up to standard, remaining readable and maintainable over time.
+
+[Event details](https://ossna2023.sched.com/event/1LdyZ)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Fyne Conf 2023
+
+*TBC - Edinburgh and Online*
+
+Watch this space!
+</div>
+
+
+</div>
+</div>
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4 text-center" markdown="1">
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
@@ -53,9 +79,22 @@ More coming soon...
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
+### Building Graphical apps that work anywhere
+
+*8 March 2023 - Edinburgh*
+
+Andrew explores how easy it is to build cross-platform graphical applications for desktop, mobile and beyond.
+In this Fyne toolkit intro we cover the core principles, what's cool and new in the library and walk through some code samples showing how to get started.
+
+Ever wanted to build a mobile app and never knew how? Well now you can do it with your favourite language, come along to find out more!
+
+[Video excerpt](https://youtu.be/7HCDtv2ub8Q) - [Event details](https://www.meetup.com/edinburgh-golang-meetup/events/291468268/)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2022
 
-*17 October 2022 - Edinburgh and Online*
+*17 October 2022 - Online*
 
 Fyne Conf is the world’s main conference focused on the Fyne toolkit, it’s community and the applications built around it.
 
@@ -65,7 +104,7 @@ Join us for a look at what's new, how to build excellent platform-agnostic appli
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-### Open Source Summit 2022
+### Open Source Summit Europe 2022
 
 *16 September 2022 - Dublin and Online*
 
@@ -73,6 +112,12 @@ This talk discusses and showcases how to quickly build great-looking application
 
 [Event details](https://osseu2022.sched.com/event/df4af1544d01a3d0cdc56aa688267898)
 </div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Golang Bristol: Go(ne online)
@@ -88,11 +133,6 @@ We will walk through an example of adding a GUI in Fyne to an existing Go comman
 [Slides](https://github.com/nickjwhite/fynetalk-golangbristol2022) - [Event details](meetup.com/golang-bristol/events/286771024/)
 </div>
 
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Norrköping Software Development
@@ -120,6 +160,12 @@ This talk is a gentle introduction to harnessing the power of Go in a Graphical 
 [Video](https://www.youtube.com/watch?v=VESXrgCW50g) - [Event details](https://www.gowestconf.com/)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 ### ScotSoft 2021
 
@@ -132,12 +178,6 @@ He will also introduce the FyshOS operating system and show why this is an excit
 
 [Video](https://www.youtube.com/watch?v=PM5eoUbAX74) - [Event details](https://scotsoft.scot)
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2021
@@ -165,6 +205,11 @@ We will explore the main features including canvas, widgets, file APIs, data bin
 [Event details](https://www.meetup.com/Golang-London/events/277980998/)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### FOSDEM 2021
@@ -178,12 +223,6 @@ We will step through how to build an application using standard widgets, data bi
 [Video](https://youtu.be/u59FDlJ-Ss0) -
 [Event details](https://fosdem.org/2021/schedule/event/goguifyne/)
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2020
@@ -218,6 +257,12 @@ challenged to let their imaginations loose, and get excited about writing
 [Event details](https://gophercon.com.au/#speakers)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2019
 
@@ -239,12 +284,6 @@ Introduction to the Fyne toolkit fo building cross platform GUIs.
 [Event details](https://www.meetup.com/golangvan/events/263156126/)
 </div>
 
-</div>
-</div>
-
-<div class="container">
-<div class="row">
-
 <div class="col-lg-4 text-center" markdown="1">
 ### Easily build cross platform graphical applictions with Fyne
 
@@ -255,6 +294,12 @@ With the growing popularity of Go many people are asking how to build a solid GU
 [Video](https://youtu.be/jbsYrrNiqAs) -
 [Event details](https://golab.io/agenda/session/158941)
 </div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### A Fyne Update
