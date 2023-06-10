@@ -25,13 +25,63 @@ redirect_from: /events.html
 
 
 <div class="col-lg-4 text-center" markdown="1">
-### Cup-O-Go Podcast - An interview with Fyne Creator, Andy Williams
+### OpenUK State of Open Subset
+
+*13 June 2023 - Online*
+
+Fyne and Go: Native graphical apps for all platforms with a single codebase
+
+Open source makes so many things possible and a platfor-agnostic toolkit for building apps that work on all devices is an example of just that.
+
+Andrew explores how easy it is to build cross-platform graphical applications for desktop, mobile and beyond.
+
+[Event details](https://openuk.uk/event-calendar/state-of-open-subset-episode-7/)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Edinburgh Golang Meetup
+
+*14 June 2023 - Edinburgh*
+
+Building mobile apps with Go (and Fyne)!
+
+Andrew brings the group back to Fyne with an exploration of building apps for mobile and cross-compiling for other devices.
+
+In a more interactive presentation we step through the setup and process for building for platforms like Android and iOS from your development environment.
+
+[Event details](https://www.meetup.com/edinburgh-golang-meetup/events/293858630/)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Cup-O-Go Podcast
 
 *16 June 2023 - Online*
+
+An interview with Fyne Creator, Andy Williams
 
 Jonathan Hall and Shay Nehmad chat with Andy about the Fyne toolkit, why it exists and where it is going.
 
 [Episode details](https://cupogo.dev/episodes)
+</div>
+
+</div>
+</div>
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4 text-center" markdown="1">
+### Dubai Gophers
+
+*22 June 2023 - Heriot-Watt University, Dubai*
+
+Building Graphical Apps that Work Anywhere
+
+Andrew explores how easy it is to build cross-platform graphical applications for desktop, mobile and beyond.
+In this Fyne toolkit intro we cover the core principles, what's cool and new in the library and walk through some code samples showing how to get started.
+
+Ever wanted to build a mobile app and never knew how? Well now you can do it with your favourite language, come along to find out more!
+
+[Event details](https://www.meetup.com/dubai-gophers/events/293836894/)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
@@ -46,9 +96,11 @@ Watch this space! for more news!
 
 
 <div class="col-lg-4 text-center" markdown="1">
-### How Go taught me to love building apps again
+### GoLab
 
-*19 November 2023 - GoLab (Florence)*
+*19 November 2023 - Florence*
+
+How Go taught me to love building apps again
 
 Building apps is tough and involves lots of languages to reach multiple platforms - unless you build with Go and let the tools do the hard work! This talk covers the joy I experienced when starting to build graphical apps using Go and how any developer can feel the same with the Fyne toolkit.
 
@@ -102,9 +154,11 @@ Cedric Bail presents an introduction to Go and its ecosystem to quickly write na
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-### Go Time - Cross-platform graphical user interfaces
+### Go Time Podcast
 
 *30 March 2023 - Online*
+
+Cross-platform graphical user interfaces
 
 Andy Williams from [Fyne](https://fyne.io) and Lea Anthony from [Wails](https://wails.io) join the Go Time podcast hosts Mat Ryer and Natalie Pistunovich to discuss writing Go GUI code for different architectures and operating systems.
 
@@ -112,9 +166,11 @@ Andy Williams from [Fyne](https://fyne.io) and Lea Anthony from [Wails](https://
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-### Building Graphical apps that work anywhere
+### Edinburgh Gophers
 
 *8 March 2023 - Edinburgh*
+
+Building Graphical apps that work anywhere
 
 Andrew explores how easy it is to build cross-platform graphical applications for desktop, mobile and beyond.
 In this Fyne toolkit intro we cover the core principles, what's cool and new in the library and walk through some code samples showing how to get started.
