@@ -23,52 +23,6 @@ redirect_from: /events.html
 <div class="container">
 <div class="row">
 
-
-<div class="col-lg-4 text-center" markdown="1">
-### OpenUK State of Open Subset
-
-*13 June 2023 - Online*
-
-Fyne and Go: Native graphical apps for all platforms with a single codebase
-
-Open source makes so many things possible and a platfor-agnostic toolkit for building apps that work on all devices is an example of just that.
-
-Andrew explores how easy it is to build cross-platform graphical applications for desktop, mobile and beyond.
-
-[Event details](https://openuk.uk/event-calendar/state-of-open-subset-episode-7/)
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
-### Edinburgh Golang Meetup
-
-*14 June 2023 - Edinburgh*
-
-Building mobile apps with Go (and Fyne)!
-
-Andrew brings the group back to Fyne with an exploration of building apps for mobile and cross-compiling for other devices.
-
-In a more interactive presentation we step through the setup and process for building for platforms like Android and iOS from your development environment.
-
-[Event details](https://www.meetup.com/edinburgh-golang-meetup/events/293858630/)
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
-### Cup-O-Go Podcast
-
-*16 June 2023 - Online*
-
-An interview with Fyne Creator, Andy Williams
-
-Jonathan Hall and Shay Nehmad chat with Andy about the Fyne toolkit, why it exists and where it is going.
-
-[Episode details](https://cupogo.dev/episodes)
-</div>
-
-</div>
-</div>
-<div class="container">
-<div class="row">
-
 <div class="col-lg-4 text-center" markdown="1">
 ### Dubai Gophers
 
@@ -140,6 +94,51 @@ More coming soon...
 <div class="container">
 <div class="row">
 
+<div class="col-lg-4 text-center" markdown="1">
+### OpenUK State of Open Subset
+
+*13 June 2023 - Online*
+
+Fyne and Go: Native graphical apps for all platforms with a single codebase
+
+Open source makes so many things possible and a platfor-agnostic toolkit for building apps that work on all devices is an example of just that.
+
+Andrew explores how easy it is to build cross-platform graphical applications for desktop, mobile and beyond.
+
+[Video](https://www.youtube.com/watch?v=KKyns9MYWG0) - [Event details](https://openuk.uk/event-calendar/state-of-open-subset-episode-7/)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Edinburgh Golang Meetup
+
+*14 June 2023 - Edinburgh*
+
+Building mobile apps with Go (and Fyne)!
+
+Andrew brings the group back to Fyne with an exploration of building apps for mobile and cross-compiling for other devices.
+
+In a more interactive presentation we step through the setup and process for building for platforms like Android and iOS from your development environment.
+
+[Event details](https://www.meetup.com/edinburgh-golang-meetup/events/293858630/)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Cup-O-Go Podcast
+
+*16 June 2023 - Online*
+
+An interview with Fyne Creator, Andy Williams
+
+Jonathan Hall and Shay Nehmad chat with Andy about the Fyne toolkit, why it exists and where it is going.
+
+[Episode details](https://cupogo.dev/episodes/why-would-they-change-math-math-is-math-also-the-internet-is-on-strike-and-other-go-news)
+</div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Open Source Summit North America 2023
