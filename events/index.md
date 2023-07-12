@@ -41,11 +41,11 @@ Ever wanted to build a mobile app and never knew how? Well now you can do it wit
 <div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2023
 
-*TBC - Online, recorded live in Edinburgh*
+*5 November 2023 - Online, recorded live in Edinburgh*
 
 Join the team and community as we explore the latest from Fyne and explore the road ahead.
 
-Watch this space! for more news!
+Watch this space for more news about agenda and workshops etc.
 </div>
 
 
