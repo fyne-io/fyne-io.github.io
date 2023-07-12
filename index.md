@@ -13,7 +13,8 @@ headline: Your digital universe on every device
                   Combining the power and simplicity of the Go programming language with a
                  carefully crafted library of widgets it is now easier than ever before to build
                   your application and deploy it across all platforms and stores.
-              </p>
+                </p>
+                <a href="/vision/" class="btn btn-primary btn-xl">Our Vision</a>
             </div>
         </div>
     </div>
