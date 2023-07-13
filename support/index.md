@@ -22,7 +22,7 @@ redirect_from: /support.html
 <div class="row">
 <div class="col-lg-4 text-center" markdown="1">
 
-### Ask a Question
+### Getting Started
 
 We know that exploring a new technology can be confusing, even if you
 have explored [the tour](https://tour.fyne.io) and read
@@ -39,7 +39,7 @@ anyone with questions they might have.
 
 <div class="col-lg-4 text-center" markdown="1">
 
-### Code review
+### Ask a Question
 
 For those who are up and running with their Fyne based application you may be
 wondering how to improve your code. Whether you'd like to increase your test
