@@ -149,7 +149,7 @@ Development and distribution of large applications for the desktop is a difficul
 
 Cedric Bail presents an introduction to Go and its ecosystem to quickly write native command line tools, before introducing Fyne and writing a graphical application. Including unit tests and how to make sure that the code quality is up to standard, remaining readable and maintainable over time.
 
-[Event details](https://ossna2023.sched.com/event/1LdyZ)
+[Video](https://www.youtube.com/watch?v=kI_Xz8jWWXs) - [Event details](https://ossna2023.sched.com/event/1LdyZ)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
