@@ -24,30 +24,30 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-### Dubai Gophers
+### GopherCon UK
 
-*22 June 2023 - Heriot-Watt University, Dubai*
+*17 August 2023 - The Brewery, London*
 
-Building Graphical Apps that Work Anywhere
+Discussion group for graphical app development. Details to follow...
 
-Andrew explores how easy it is to build cross-platform graphical applications for desktop, mobile and beyond.
-In this Fyne toolkit intro we cover the core principles, what's cool and new in the library and walk through some code samples showing how to get started.
-
-Ever wanted to build a mobile app and never knew how? Well now you can do it with your favourite language, come along to find out more!
-
-[Event details](https://www.meetup.com/dubai-gophers/events/293836894/)
+[Event details](https://gopherconuk.co.uk)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2023
 
-*5 November 2023 - Online, recorded live in Edinburgh*
+*3 November 2023 - Edinburgh, UK and Online*
 
 Join the team and community as we explore the latest from Fyne and explore the road ahead.
 
-Watch this space for more news about agenda and workshops etc.
-</div>
+Fyne Conf is back and bigger than ever in November 2023. We are holding a full day of talks and workshops, include:
 
+* Contributor workshop (morning)
+* Talks about the Fyne toolkit and community projects (afternoon, streamed live)
+* Q&A with the Fyne contributor team (afternoon)
+* Social event (evening)
+
+</div>
 
 <div class="col-lg-4 text-center" markdown="1">
 ### GoLab
@@ -94,6 +94,31 @@ More coming soon...
 <div class="container">
 <div class="row">
 
+<div class="col-lg-12">
+<h3>2023</h3>
+</div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4 text-center" markdown="1">
+### Dubai Gophers
+
+*22 June 2023 - Heriot-Watt University, Dubai*
+
+Building Graphical Apps that Work Anywhere
+
+Andrew explores how easy it is to build cross-platform graphical applications for desktop, mobile and beyond.
+In this Fyne toolkit intro we cover the core principles, what's cool and new in the library and walk through some code samples showing how to get started.
+
+Ever wanted to build a mobile app and never knew how? Well now you can do it with your favourite language, come along to find out more!
+
+[Event details](https://www.meetup.com/dubai-gophers/events/293836894/)
+</div>
+
 <div class="col-lg-4 text-center" markdown="1">
 ### OpenUK State of Open Subset
 
@@ -122,6 +147,12 @@ In a more interactive presentation we step through the setup and process for bui
 [Event details](https://www.meetup.com/edinburgh-golang-meetup/events/293858630/)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 ### Cup-O-Go Podcast
 
@@ -133,12 +164,6 @@ Jonathan Hall and Shay Nehmad chat with Andy about the Fyne toolkit, why it exis
 
 [Episode details](https://cupogo.dev/episodes/why-would-they-change-math-math-is-math-also-the-internet-is-on-strike-and-other-go-news)
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Open Source Summit North America 2023
@@ -164,6 +189,12 @@ Andy Williams from [Fyne](https://fyne.io) and Lea Anthony from [Wails](https://
 [Episode details](https://changelog.com/gotime/271)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 ### Edinburgh Gophers
 
@@ -177,6 +208,20 @@ In this Fyne toolkit intro we cover the core principles, what's cool and new in 
 Ever wanted to build a mobile app and never knew how? Well now you can do it with your favourite language, come along to find out more!
 
 [Video excerpt](https://youtu.be/7HCDtv2ub8Q) - [Event details](https://www.meetup.com/edinburgh-golang-meetup/events/291468268/)
+</div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
+<div class="col-lg-12"></div>
+</div>
+
+<div class="container">
+<div class="row">
+<h3>2022</h3>
 </div>
 
 </div>
@@ -219,6 +264,16 @@ Nick will talk about using the Fyne toolkit to create native cross-platform desk
 We will walk through an example of adding a GUI in Fyne to an existing Go command line program, showing off a variety of widgets and customisation that's possible. We'll talk about the pros and cons of using a toolkit that has been built from the ground up for Go, as opposed to bindings for more well-known toolkits like Qt, GTK or Tk.
 
 [Slides](https://github.com/nickjwhite/fynetalk-golangbristol2022) - [Event details](meetup.com/golang-bristol/events/286771024/)
+</div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
+<div class="col-lg-12">
+<h3>2021</h3>
 </div>
 
 </div>
@@ -317,6 +372,16 @@ We will step through how to build an application using standard widgets, data bi
 <div class="container">
 <div class="row">
 
+<div class="col-lg-12">
+<h3>2020 and Earlier</h3>
+</div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2020
 
@@ -376,6 +441,7 @@ Introduction to the Fyne toolkit fo building cross platform GUIs.
 
 [Event details](https://www.meetup.com/golangvan/events/263156126/)
 </div>
+
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Easily build cross platform graphical applictions with Fyne
