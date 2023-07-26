@@ -24,6 +24,18 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
+### Boston Golang
+
+*25 July 2023 - Boston, MA
+
+Building graphical apps that work anywhere
+
+A gentle introduction to harnessing the power of Go in a Graphical User Interface framework like Fyne. We will cover the basics, explore some of the main APIs for building complete apps, and see completed applications available to download today. This talk will show how to build a complete Fyne based application for desktop and mobile devices in under 25 lines of code!
+
+[Event details]()
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
 ### GopherCon UK
 
 *17 August 2023 - The Brewery, London*
@@ -48,6 +60,11 @@ Fyne Conf is back and bigger than ever in November 2023. We are holding a full d
 * Social event (evening)
 
 </div>
+
+</div>
+</div>
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### GoLab
