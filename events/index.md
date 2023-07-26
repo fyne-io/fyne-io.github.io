@@ -32,7 +32,7 @@ Building graphical apps that work anywhere
 
 A gentle introduction to harnessing the power of Go in a Graphical User Interface framework like Fyne. We will cover the basics, explore some of the main APIs for building complete apps, and see completed applications available to download today. This talk will show how to build a complete Fyne based application for desktop and mobile devices in under 25 lines of code!
 
-[Event details]()
+[Event details](https://www.meetup.com/bostongo/events/294460022)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
