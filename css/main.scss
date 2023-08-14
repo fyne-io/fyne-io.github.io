@@ -249,6 +249,17 @@ hr {
 
 // end overrides
 
+
+// modal
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-content img {
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
 @media (max-width: 768px) {
 div.header-content {
     top: 2em;
