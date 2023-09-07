@@ -24,28 +24,6 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-### Boston Golang
-
-*25 July 2023 - Boston, MA
-
-Building graphical apps that work anywhere
-
-A gentle introduction to harnessing the power of Go in a Graphical User Interface framework like Fyne. We will cover the basics, explore some of the main APIs for building complete apps, and see completed applications available to download today. This talk will show how to build a complete Fyne based application for desktop and mobile devices in under 25 lines of code!
-
-[Event details](https://www.meetup.com/bostongo/events/294460022)
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
-### GopherCon UK
-
-*17 August 2023 - The Brewery, London*
-
-Discussion group for graphical app development. Details to follow...
-
-[Event details](https://gopherconuk.co.uk)
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2023
 
 *3 November 2023 - Edinburgh, UK and Online*
@@ -59,12 +37,9 @@ Fyne Conf is back and bigger than ever in November 2023. We are holding a full d
 * Q&A with the Fyne contributor team (afternoon)
 * Social event (evening)
 
-</div>
+[Event details](https://conf.fyne.io)
 
 </div>
-</div>
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### GoLab
@@ -74,6 +49,8 @@ Fyne Conf is back and bigger than ever in November 2023. We are holding a full d
 How Go taught me to love building apps again
 
 Building apps is tough and involves lots of languages to reach multiple platforms - unless you build with Go and let the tools do the hard work! This talk covers the joy I experienced when starting to build graphical apps using Go and how any developer can feel the same with the Fyne toolkit.
+
+[Event details](https://golab.io/schedule)
 
 </div>
 
@@ -122,6 +99,47 @@ More coming soon...
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
+### GopherCon UK
+
+*17 August 2023 - The Brewery, London*
+
+Discussion group for graphical app development.
+Bring your thoughts, questions, or favourite project to discuss with like-minded gophers during
+the mid-conference social.
+
+[Event details](https://gophercon.co.uk)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Boston Golang
+
+*25 July 2023 - Boston, MA
+
+Building graphical apps that work anywhere
+
+A gentle introduction to harnessing the power of Go in a Graphical User Interface framework like Fyne. We will cover the basics, explore some of the main APIs for building complete apps, and see completed applications available to download today. This talk will show how to build a complete Fyne based application for desktop and mobile devices in under 25 lines of code!
+
+[Event details](https://www.meetup.com/bostongo/events/294460022)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### GopherCon EU
+
+*26-29 June 2023 - Berlin*
+
+Giuseppe Scaramuzzino - Unleashing Desktop App Development with Go and Fyne
+
+Interested in making desktop apps efficiently? Learn how to use Go and Fyne to simplify the process. Witness the power of these tools in real applications, build your first app, and find out how to navigate common challenges. Don't miss this talk if you're excited about creating smooth, speedy desktop apps!
+
+[Video](https://www.youtube.com/watch?v=rmcgI9D6rxs) - [Event details](https://gophercon.eu/schedule/)
+</div>
+
+</div>
+</div>
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4 text-center" markdown="1">
 ### Dubai Gophers
 
 *22 June 2023 - Heriot-Watt University, Dubai*
@@ -166,7 +184,6 @@ In a more interactive presentation we step through the setup and process for bui
 
 </div>
 </div>
-
 <div class="container">
 <div class="row">
 
@@ -205,12 +222,6 @@ Andy Williams from [Fyne](https://fyne.io) and Lea Anthony from [Wails](https://
 
 [Episode details](https://changelog.com/gotime/271)
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Edinburgh Gophers
