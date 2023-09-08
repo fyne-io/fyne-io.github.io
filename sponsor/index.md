@@ -194,6 +194,7 @@ Henrik Bergman
 [Cédric Skwar](https://github.com/benni347)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Denys Smirnov](https://github.com/dennwc)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
