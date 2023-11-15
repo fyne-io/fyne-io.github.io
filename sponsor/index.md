@@ -197,6 +197,7 @@ Henrik Bergman
 [Denys Smirnov](https://github.com/dennwc)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+Bernhard
 </div>
 
 
