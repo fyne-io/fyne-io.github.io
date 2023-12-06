@@ -201,6 +201,15 @@ Bernhard
 </div>
 
 
+<div class="col-lg-3 text-center" markdown="1">
+[Adrian Rudnik](https://github.com/adrianrudnik)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
 
 
 </div>
