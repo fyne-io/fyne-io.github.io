@@ -1,0 +1,35 @@
+.jumbotron {
+    text-align: center;
+    padding: 8em 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.jumbotron h1 {
+    margin: 0;
+    font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+    font-weight:600;
+}
+
+.galleryPic img {
+    max-width: 100%;
+}
+
+.bg-primary {
+    background-color: #03076c;
+    font-size: 110%;
+}
+
+section.about, section.started {
+    padding: 28pt;
+}
+
+section.features {
+    background-color: white;
+    color: #03076c;
+    padding: 25pt;
+}
+
+section.features, section.features p, section.features i {
+    color: #03076c;
+}

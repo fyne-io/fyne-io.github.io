@@ -1,7 +1,7 @@
 ---
 layout: page
 header-img: toolkit
-headline: Easily build native apps that work everywhere
+headline: Easily build native apps<br />that work everywhere
 
 gallery:
   - id: 1
@@ -43,24 +43,7 @@ gallery:
 
 ---
 
-<section class="bg-primary" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="lead" style="font-size: 18px; font-style: italic;">An easy to learn toolkit for creating graphical
-                  apps for desktop, mobile and web.
-                  <br>
-                  Our free and open source libraries combine the simplicity of the Go
-                  programming language with a carefully crafted library of widgets to simplify coding any app.
-                  <br>
-                  But also, Fyne apps can be built for all platforms and stores!
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="areas">
+<section class="areas">
     <div class="container">
         <div class="row">
             <div class="text-center">
@@ -86,7 +69,7 @@ gallery:
     </div>
 </section>
 
-<section class="bg-dark" id="started">
+<section class="bg-dark started">
     <div class="container">
 
         <div class="row">
@@ -113,19 +96,20 @@ gallery:
                 <a href="https://www.youtube.com/watch?v=-v1vz_NcWng&list=PLjpijTpXl1_po-ld8jORR9k5NornDNKQk" class="btn btn-primary btn-xl">Tutorial Playlist</a>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="bg-primary about">
+    <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center">
-                <p>&nbsp;</p><p>&nbsp;</p>
-                <p markdown="1">Our team of engineers, UX experts and other contributors are all working
-                  on an entirely volunteer basis. We rely on the kind support of our sponsors
-                  to pay our bills and provide hosting and software that keeps the project alive.
-                </p>
-                <p markdown="1">
-                  We are seeking further sponsorship and funding to provide a more
-                  stable future for the team, and to allow us to provide full time support
-                  to the community of developers and companies that depend on us.
-                  Many thanks to anyone who can help us reach this goal,
-                  more information is available on our [contributing](/contribute) page.
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="lead" style="font-size: 18px; font-style: italic;">An easy to learn toolkit for creating graphical
+                  apps for desktop, mobile and web.
+                  <br>
+                  Our free and open source libraries combine the simplicity of the Go
+                  programming language with a carefully crafted library of widgets to simplify coding any app.
+                  <br>
+                  But also, Fyne apps can be built for all platforms and stores!
                 </p>
             </div>
         </div>
@@ -134,7 +118,7 @@ gallery:
 
 {% include features.html %}
 
-<section class="bg-primary" id="about">
+<section class="bg-primary about">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 quote-block">

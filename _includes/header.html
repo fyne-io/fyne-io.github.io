@@ -1,7 +1,7 @@
-<header style="background-image: url(/img/header-{{ include.header_img }}.jpg)">
-    <div class="header-content">
+<div class="header-container jumbotron" style="background-image: url(/img/header-{{ include.header_img }}.jpg)">
+    <div class="container">
         <div class="header-content-inner">
-		<h1>{%
+		<h1 class="post-title">{%
 if page.headline == %}{%
     if page.layout == "blog" or page.layout == "post"
         %}{{ site.blog-headline }}{%
@@ -15,4 +15,4 @@ else
 endif %}</h1>
         </div>
     </div>
-</header>
+</div>

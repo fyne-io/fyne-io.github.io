@@ -1,18 +1,4 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Fyne
 email: info@fyne.io
 description: >- # this means to ignore newlines until "baseurl:"
@@ -26,30 +12,28 @@ blog-headline: The latest news from the Fyne community
 twitter_username: fyne_io
 github_username: fyne-io
 slack_channel: fyne
+git_address: https://github.com/fyne-io/fyne-io.github.io
+git_edit_address: https://github.com/fyne-io/fyne-io.github.io/tree/master
+
+# theme options from https://bootswatch.com/3/
+# comment out this to use default Bootstrap
+bootwatch: slate # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+# Plugins (previously gems:)
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-github: [metadata]
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Get syntax highlighting to work.
-highlighter: rouge
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-include: 
-  - .well-known
-
-theme: jekyll-theme-minimal
-
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+  - vendor
+timezone: Europe/Berlin

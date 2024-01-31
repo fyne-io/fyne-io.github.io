@@ -1,33 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-{% include head.html %}
-
-<body id="page-top">
-  {% include nav.html %}
-  {% include header.html header_img="blog" %}
-
-<section id="about">
+<div class="post">
+    {% include header.html header_img="blog" %}
+</div>
 
 <div class="container">
-<div class="row">
-<div class="col-lg-9">
+    <div class="row">
 
-  <h3>{{ page.title }}</h3>
-  <p>{{ page.content }}</p>
+        <div class="col-md-4">
+            <div class="well">
+                <h4>RECENT POSTS</h4>
+                <ul class="list-unstyled post-list-container">
+                    {% for post in site.posts limit:10 %}
+                    <li><a href="{{ post.url | relative_url }}" {% if page.title==post.title %} class="active" {% endif %}>{{ post.title }}</a></li>
+                    {% endfor %}
+                    <li><a href="{{ "/allposts" | relative_url }}">All posts ...</a></li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="col-md-8">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            <div  id="markdown-content-container">{{ content }}</div>
+            <hr>
+            <ul class="pager">
+                {% if page.previous %}
+                <li class="previous">
+                    <a href="{{ page.previous.url | relative_url }}">
+                        <span aria-hidden="true">&larr;</span> Older
+                    </a>
+                </li>
+                {% endif %} {% if page.next %}
+                <li class="next">
+                    <a href="{{ page.next.url | relative_url }}">
+                      Newer <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+
+    </div>
 </div>
-<div class="col-lg-3">
-  {% include bloglist.html %}
-</div>
-</div>
-</div>
 
-</section>
-
-  {% include aside.html %}
-  {% include contact.html %} 
-  {% include scripts.html %}
-</body>
-
-</html>
+<div class="post">
+  {% include contact.html %}
+</div>

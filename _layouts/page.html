@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-{% include head.html %}
-{% include scripts.html %}
+<div class="post">
+    {% include header.html header_img=page.header-img %}
 
-<body id="page-top">
-  {% include nav.html %}
-  {% include header.html header_img=page.header-img %}
-  {{ content }}
+    <article class="post-content">
+        {{ content }}
+    </article>
+
   {% if page.header-img != "develop" %}
     {% include aside.html %}
   {% endif %}
   {% include contact.html %}
-  {% include scripts.html %}
-</body>
-
-</html>
+</div>
