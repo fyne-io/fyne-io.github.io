@@ -24,34 +24,27 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-### Fyne Conf 2023
+### FOSDEM 2024 - Go devroom
 
-*3 November 2023 - Edinburgh, UK and Online*
+*3 February 2024 - Brussels*
 
-Join the team and community as we explore the latest from Fyne and explore the road ahead.
+Low code graphical apps with Go top to bottom!
 
-Fyne Conf is back and bigger than ever in November 2023. We are holding a full day of talks and workshops, include:
+Building apps is hard and addressing multiple platforms is even worse. But with Go, Fyne and Fysion we can get built in no time and distribute for all devices easier than ever. And best is that all the functionality is built with Go, enabling creators to upskill and even learn development whilst building their app.
 
-* Contributor workshop (morning)
-* Talks about the Fyne toolkit and community projects (afternoon, streamed live)
-* Q&A with the Fyne contributor team (afternoon)
-* Social event (evening)
-
-[Event details](https://conf.fyne.io)
-
+[Event details](https://fosdem.org/2024/schedule/event/fosdem-2024-2621-low-code-graphical-apps-with-go-top-to-bottom-/)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-### GoLab
+### FOSDEM 2024 - Graphics devroom
 
-*19 November 2023 - Florence*
+*4 February 2024 - Brussels*
 
-How Go taught me to love building apps again
+Building Cross-platform GUI apps with ease (and Go) - desktop, mobile and beyond!
 
-Building apps is tough and involves lots of languages to reach multiple platforms - unless you build with Go and let the tools do the hard work! This talk covers the joy I experienced when starting to build graphical apps using Go and how any developer can feel the same with the Fyne toolkit.
+This talk will look at getting started through building first complete app, and show how it will run on desktop and mobile devices. It will also introduce advanced tooling and low-code options available for the ecosystem to support wider adoption in this exciting area of development.
 
-[Event details](https://golab.io/schedule)
-
+[Event details](https://fosdem.org/2024/schedule/event/fosdem-2024-2631-building-cross-platform-gui-apps-with-ease-and-go-desktop-mobile-and-beyond-/)
 </div>
 
 </div>
@@ -99,6 +92,37 @@ More coming soon...
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
+### Fyne Conf 2023
+
+*3 November 2023 - Edinburgh, UK and Online*
+
+Join the team and community as we explore the latest from Fyne and explore the road ahead.
+
+Fyne Conf is back and bigger than ever in November 2023. We are holding a full day of talks and workshops, include:
+
+* Contributor workshop (morning)
+* Talks about the Fyne toolkit and community projects (afternoon, streamed live)
+* Q&A with the Fyne contributor team (afternoon)
+* Social event (evening)
+
+[Event details](https://conf.fyne.io)
+
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### GoLab
+
+*19 November 2023 - Florence*
+
+How Go taught me to love building apps again
+
+Building apps is tough and involves lots of languages to reach multiple platforms - unless you build with Go and let the tools do the hard work! This talk covers the joy I experienced when starting to build graphical apps using Go and how any developer can feel the same with the Fyne toolkit.
+
+[Event details](https://golab.io/schedule)
+
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
 ### GopherCon UK
 
 *17 August 2023 - The Brewery, London*
@@ -109,6 +133,11 @@ the mid-conference social.
 
 [Event details](https://gophercon.co.uk)
 </div>
+
+</div>
+</div>
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Boston Golang
@@ -134,11 +163,6 @@ Interested in making desktop apps efficiently? Learn how to use Go and Fyne to s
 [Video](https://www.youtube.com/watch?v=rmcgI9D6rxs) - [Event details](https://gophercon.eu/schedule/)
 </div>
 
-</div>
-</div>
-<div class="container">
-<div class="row">
-
 <div class="col-lg-4 text-center" markdown="1">
 ### Dubai Gophers
 
@@ -153,6 +177,11 @@ Ever wanted to build a mobile app and never knew how? Well now you can do it wit
 
 [Event details](https://www.meetup.com/dubai-gophers/events/293836894/)
 </div>
+
+</div>
+</div>
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### OpenUK State of Open Subset
@@ -182,11 +211,6 @@ In a more interactive presentation we step through the setup and process for bui
 [Event details](https://www.meetup.com/edinburgh-golang-meetup/events/293858630/)
 </div>
 
-</div>
-</div>
-<div class="container">
-<div class="row">
-
 <div class="col-lg-4 text-center" markdown="1">
 ### Cup-O-Go Podcast
 
@@ -198,6 +222,11 @@ Jonathan Hall and Shay Nehmad chat with Andy about the Fyne toolkit, why it exis
 
 [Episode details](https://cupogo.dev/episodes/why-would-they-change-math-math-is-math-also-the-internet-is-on-strike-and-other-go-news)
 </div>
+
+</div>
+</div>
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Open Source Summit North America 2023
