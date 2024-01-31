@@ -33,3 +33,17 @@ section.features {
 section.features, section.features p, section.features i {
     color: #03076c;
 }
+
+.quote-block {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.quote-block::before {
+    content: "“";
+    position: absolute;
+    top: -0.6em;
+    left: 0;
+    font-size: 12em;
+    color: rgba(255,255,255,0.15);
+}
