@@ -34,6 +34,38 @@ section.features, section.features p, section.features i {
     color: #03076c;
 }
 
+section.devices {
+    margin-top: -75pt;
+    margin-bottom: 10pt;
+
+    display: grid;
+    justify-content: center;
+}
+
+section.devices .container {
+    width: 100%;
+    white-space: nowrap;
+}
+
+section.devices img {
+    scale: 1.0;
+    padding: 0 12pt;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+section.devices img {
+    scale: 0.75;
+    padding: 0;
+    margin: 0 -20pt;
+}
+
+section.devices .text-center {
+    margin-top: -20pt;
+    margin-bottom: -25pt;
+}
+}
+
 .quote-block {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
