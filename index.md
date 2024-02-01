@@ -56,6 +56,20 @@ gallery:
 	</div>
 </section>
 
+<section class="bg-primary about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p class="lead" style="font-size: 20px; font-style: italic;">An easy to learn toolkit for creating graphical
+                  apps for desktop, mobile and web.
+                  <br /><br />
+                  Code once and build native apps for all platforms and stores.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="areas">
     <div class="container">
         <div class="row">
@@ -107,23 +121,6 @@ gallery:
                 <p>For developers who prefer to learn from videos we have a collection of getting started tutorials on YouTube.</p>
 
                 <a href="https://www.youtube.com/watch?v=-v1vz_NcWng&list=PLjpijTpXl1_po-ld8jORR9k5NornDNKQk" class="btn btn-primary btn-xl">Tutorial Playlist</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="bg-primary about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="lead" style="font-size: 18px; font-style: italic;">An easy to learn toolkit for creating graphical
-                  apps for desktop, mobile and web.
-                  <br>
-                  Our free and open source libraries combine the simplicity of the Go
-                  programming language with a carefully crafted library of widgets to simplify coding any app.
-                  <br>
-                  But also, Fyne apps can be built for all platforms and stores!
-                </p>
             </div>
         </div>
     </div>
