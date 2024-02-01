@@ -47,13 +47,13 @@ gallery:
     <div class="container">
         <div class="row">
             <div class="text-center">
-				<img src="/img/devices/android.png" height="176" />
-				<img src="/img/devices/iphone.png" height="367" />
-				<img src="/img/devices/desktop.png" height="220" />
-				<img src="/img/devices/panel.png" height="210" />
-			</div>
-		</div>
-	</div>
+		<img src="/img/devices/panel.png" height="210" />
+		<img src="/img/devices/iphone.png" height="367" />
+		<img src="/img/devices/desktop.png" height="220" />
+		<img src="/img/devices/android.png" height="176" />
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="bg-primary about">
