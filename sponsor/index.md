@@ -205,10 +205,13 @@ Bernhard
 [Adrian Rudnik](https://github.com/adrianrudnik)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Moritz Poldrack](https://github.com/mpldr)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Colin Morris](https://github.com/colinmo)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Tyler C](https://github.com/TylerCode)
 </div>
 
 
