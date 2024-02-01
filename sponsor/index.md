@@ -4,7 +4,7 @@ header-img: sponsor
 headline: Sponsor or donate to Fyne
 ---
 
-<section class="bg-primary" id="about">
+<section class="bg-primary about">
 <div class="container">
 <div class="row">
 <div class="col-lg-12 text-center" markdown="1">
@@ -272,7 +272,7 @@ Their dedication to projects like this make it possible to bring you the Fyne to
 <script src="https://js.stripe.com/v3"></script>
 
 <!-- Create a button that your customers click to complete their purchase. -->
-<table style="padding:10pt">
+<table style="padding:10pt; margin: auto;">
   <tbody><tr>
     <td style="padding:5pt 2pt"><span style="font-size:200%">✋</span></td>
     <td>Give the Fyne team a high five</td>
