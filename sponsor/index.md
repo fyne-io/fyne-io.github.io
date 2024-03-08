@@ -218,10 +218,13 @@ Bernhard
 [Bob Anderson](https://github.com/bob-anderson-ok)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+Ashwin Rao
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+Adam Shannon
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+Gary Chike
 </div>
 
 </div>
