@@ -24,27 +24,22 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-### FOSDEM 2024 - Go devroom
+### Go Tell: Fyne.io, Building Apps that work Anywhere
 
-*3 February 2024 - Brussels*
+*5 June 2024 - Madrid*
 
-Low code graphical apps with Go top to bottom!
+Fyne.io is an easy-to-use UI toolkit and app API written in Go and Andy Williams is the creator of the Fyne toolkit.
 
-Building apps is hard and addressing multiple platforms is even worse. But with Go, Fyne and Fysion we can get built in no time and distribute for all devices easier than ever. And best is that all the functionality is built with Go, enabling creators to upskill and even learn development whilst building their app.
+Andy will run through the background of the Fyne project and its aims, then cover how to get started with it. There will be some code and we'll build a simple app. He will wrap up with a demonstration of some of the cool projects built with the toolkit.
 
-[Event details](https://fosdem.org/2024/schedule/event/fosdem-2024-2621-low-code-graphical-apps-with-go-top-to-bottom-/)
+[Event details](https://www.meetup.com/go-mad/events/301175945/)
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-### FOSDEM 2024 - Graphics devroom
+### Manchester Go Meetup: Title TBC
 
-*4 February 2024 - Brussels*
+*July - Manchester, UK*
 
-Building Cross-platform GUI apps with ease (and Go) - desktop, mobile and beyond!
-
-This talk will look at getting started through building first complete app, and show how it will run on desktop and mobile devices. It will also introduce advanced tooling and low-code options available for the ecosystem to support wider adoption in this exciting area of development.
-
-[Event details](https://fosdem.org/2024/schedule/event/fosdem-2024-2631-building-cross-platform-gui-apps-with-ease-and-go-desktop-mobile-and-beyond-/)
 </div>
 
 </div>
@@ -76,6 +71,37 @@ More coming soon...
 
 </div>
 </div>
+</div>
+
+<div class="container">
+<div class="row">
+
+<div class="col-lg-12">
+<h3>2024</h3>
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### FOSDEM 2024 - Graphics devroom
+
+*4 February 2024 - Brussels*
+
+Building Cross-platform GUI apps with ease (and Go) - desktop, mobile and beyond!
+
+This talk will look at getting started through building first complete app, and show how it will run on desktop and mobile devices. It will also introduce advanced tooling and low-code options available for the ecosystem to support wider adoption in this exciting area of development.
+
+[Event details](https://fosdem.org/2024/schedule/event/fosdem-2024-2631-building-cross-platform-gui-apps-with-ease-and-go-desktop-mobile-and-beyond-/)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### FOSDEM 2024 - Go devroom
+
+*3 February 2024 - Brussels*
+
+Low code graphical apps with Go top to bottom!
+
+Building apps is hard and addressing multiple platforms is even worse. But with Go, Fyne and Fysion we can get built in no time and distribute for all devices easier than ever. And best is that all the functionality is built with Go, enabling creators to upskill and even learn development whilst building their app.
+
+[Event details](https://fosdem.org/2024/schedule/event/fosdem-2024-2621-low-code-graphical-apps-with-go-top-to-bottom-/)
 </div>
 
 <div class="container">
