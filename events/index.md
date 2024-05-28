@@ -42,6 +42,17 @@ Andy will run through the background of the Fyne project and its aims, then cove
 
 </div>
 
+<div class="col-lg-4 text-center" markdown="1">
+### Fyne Conf 2024
+
+*20 September - Berlin, Germany and Online*
+
+The biggest Fyne Conf yet, currently in planning.
+
+[Event details](https://conf.fyne.io)
+</div>
+
+
 </div>
 </div>
 <div class="container">
