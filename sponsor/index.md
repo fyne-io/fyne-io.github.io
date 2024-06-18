@@ -227,6 +227,17 @@ Adam Shannon
 Gary Chike
 </div>
 
+<div class="col-lg-3 text-center" markdown="1">
+[Nikola Ubavić](https://github.com/ubavic)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+
+
 </div>
 <div class="col-lg-12 text-center" markdown="1">
 
