@@ -214,33 +214,36 @@ Bernhard
 [Tyler C](https://github.com/TylerCode)
 </div>
 
+
+<div class="col-lg-3 text-center" markdown="1">
+[Adam Shannon](https://github.com/adamdecaf)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Fuskiid](https://github.com/fuskiid)
+</div>
 <div class="col-lg-3 text-center" markdown="1">
 [Bob Anderson](https://github.com/bob-anderson-ok)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 Ashwin Rao
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 Adam Shannon
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 Gary Chike
 </div>
-
 <div class="col-lg-3 text-center" markdown="1">
 [Nikola Ubavić](https://github.com/ubavic)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 [tinywell](https://github.com/tinywell)
 </div>
-<div class="col-lg-3 text-center" markdown="1">
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-</div>
 
 
 </div>
-<div class="col-lg-12 text-center" markdown="1">
+<div class="col-lg-12 text-center" style="margin-top: 32pt;" markdown="1">
 
 ## Other Support
 ---
