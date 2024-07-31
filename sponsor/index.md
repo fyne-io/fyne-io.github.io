@@ -231,6 +231,7 @@ Gary Chike
 [Nikola Ubavić](https://github.com/ubavic)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[tinywell](https://github.com/tinywell)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
