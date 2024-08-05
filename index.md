@@ -38,7 +38,7 @@ gallery:
     title: FyneDesk - Full Unix desktop environment in Go and Fyne
     img: https://github.com/fyne-io/fynedesk/raw/master/desktop-light-current.png
   - id: 12
-    title: DICOM Viewer - Medical imgages on any platform
+    title: DICOM Viewer - Medical images on any platform
     img: https://github.com/fynelabs/dicomgraphics/blob/main/screenshot.png?raw=true
 
 ---
