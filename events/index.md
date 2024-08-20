@@ -24,40 +24,29 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-### Go Tell: Fyne.io, Building Apps that work Anywhere
-
-*5 June 2024 - Madrid*
-
-Fyne.io is an easy-to-use UI toolkit and app API written in Go and Andy Williams is the creator of the Fyne toolkit.
-
-Andy will run through the background of the Fyne project and its aims, then cover how to get started with it. There will be some code and we'll build a simple app. He will wrap up with a demonstration of some of the cool projects built with the toolkit.
-
-[Event details](https://www.meetup.com/go-mad/events/301175945/)
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
-### Manchester Go Meetup: Title TBC
-
-*3 July 2024 - Manchester, UK*
-
-Andrew introduces the Fyne toolkit, starting with the background of the project, its aims, and how to get started.
-
-We will step through code for a simple app and show how to build it for desktop and mobile devices. The presentation concludes with a demonstration of some of the cool projects built with the toolkit.
-
-[Event details](https://www.meetup.com/golang-mcr/events/301829841/)
-
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2024
 
 *20 September - Berlin, Germany and Online*
 
-The biggest Fyne Conf yet, currently in planning.
+Fyne Conf 2024 will be our biggest ever event - to be held in Berlin, Germany and streamed online.
+
+This event is a chance to learn more about Fyne and how it can be used to easily build robust and performant cross platform applications. We will showcase useful techniques, best practices, new features and existing applications from around the community.
 
 [Event details](https://conf.fyne.io)
 </div>
 
+<div class="col-lg-4 text-center" markdown="1">
+### GoLab *Workshop* - Fyne Apps From Start to Store
+
+*11 November 2024 - Florence, Italy*
+
+For folk looking to get a hands-on intro to graphical app development with Go and Fyne this session is for you.
+
+Everything from getting started, through building an app onto your computer and on to customising the toolkit and building your own widgets. You'll learn everything you need to build the app of your dreams. :)
+
+[Event details](https://golab.io/talks/fyne-apps-from-start-to-store)
+
+</div>
 
 </div>
 </div>
@@ -96,6 +85,47 @@ More coming soon...
 <div class="col-lg-12">
 <h3>2024</h3>
 </div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### GopherCon UK - Building Graphical Go apps is Fyne :)
+
+*16 August 2024 - London, UK*
+
+I will show you how to get up and running quickly by building an initial app using barely 10 lines of Go code. From there, I will show off the tooling that Fyne provides to build out a more complete graphical app.
+
+After this talk, you will have the knowledge you need to start using Go to build graphical apps for any platform!
+
+[Event details](https://www.gophercon.co.uk/schedule)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Manchester Go Meetup: Title TBC
+
+*3 July 2024 - Manchester, UK*
+
+Andrew introduces the Fyne toolkit, starting with the background of the project, its aims, and how to get started.
+
+We will step through code for a simple app and show how to build it for desktop and mobile devices. The presentation concludes with a demonstration of some of the cool projects built with the toolkit.
+
+[Event details](https://www.meetup.com/golang-mcr/events/301829841/)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Go Tell: Fyne.io, Building Apps that work Anywhere
+
+*5 June 2024 - Madrid*
+
+Fyne.io is an easy-to-use UI toolkit and app API written in Go and Andy Williams is the creator of the Fyne toolkit.
+
+Andy will run through the background of the Fyne project and its aims, then cover how to get started with it. There will be some code and we'll build a simple app. He will wrap up with a demonstration of some of the cool projects built with the toolkit.
+
+[Event details](https://www.meetup.com/go-mad/events/301175945/)
+</div>
+
+</div>
+</div>
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### FOSDEM 2024 - Graphics devroom
