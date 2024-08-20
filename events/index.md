@@ -36,9 +36,11 @@ This event is a chance to learn more about Fyne and how it can be used to easily
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-### GoLab *Workshop* - Fyne Apps From Start to Store
+### GoLab *Workshop*
 
 *11 November 2024 - Florence, Italy*
+
+Fyne Apps From Start to Store
 
 For folk looking to get a hands-on intro to graphical app development with Go and Fyne this session is for you.
 
@@ -87,9 +89,11 @@ More coming soon...
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-### GopherCon UK - Building Graphical Go apps is Fyne :)
+### GopherCon UK
 
 *16 August 2024 - London, UK*
+
+Building Graphical Go apps is Fyne :)
 
 I will show you how to get up and running quickly by building an initial app using barely 10 lines of Go code. From there, I will show off the tooling that Fyne provides to build out a more complete graphical app.
 
@@ -99,7 +103,7 @@ After this talk, you will have the knowledge you need to start using Go to build
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
-### Manchester Go Meetup: Title TBC
+### Manchester Go Meetup
 
 *3 July 2024 - Manchester, UK*
 
@@ -126,6 +130,18 @@ Andy will run through the background of the Fyne project and its aims, then cove
 </div>
 <div class="container">
 <div class="row">
+
+<div class="col-lg-4 text-center" markdown="1">
+### Conf42 - Golang 2024
+
+*4 February 2024 - Brussels*
+
+Building Cross-platform GUI apps with ease (and Go) - desktop, mobile and beyond!
+
+Building apps is tough and involves lots of languages to reach multiple platforms - unless you build with Go and let the tools do the hard work! This talk covers the joy I experienced when starting to build graphical apps using Go and how any developer can feel the same with the Fyne toolkit.
+
+[Video](https://www.youtube.com/watch?v=b9JjkNdbhUA) - [Event details](https://www.conf42.com/Golang_2024_Andrew_Williams_love_building_apps)
+</div>
 
 <div class="col-lg-4 text-center" markdown="1">
 ### FOSDEM 2024 - Graphics devroom
