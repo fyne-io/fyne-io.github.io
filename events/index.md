@@ -429,6 +429,20 @@ We will walk through an example of adding a GUI in Fyne to an existing Go comman
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
+### GopherCon US
+
+*7 December 2021 - Online*
+
+From first line to AppStore in 7 minutes
+
+Andrew presents at day 3 of the GopherCon lightning talks held online. 
+He presents how to build a Fyne app and prepare it for distribution to the app store.
+Everything you need to know to get started, build a markdown editor and package your app for sharing.
+
+[Video](https://www.youtube.com/watch?v=ZBLOnh87Eb4) - [Event details](https://www.gophercon.com/)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
 ### Norrköping Software Development
 
 *7 October 2021 - Online*
@@ -454,6 +468,12 @@ This talk is a gentle introduction to harnessing the power of Go in a Graphical 
 [Video](https://www.youtube.com/watch?v=VESXrgCW50g) - [Event details](https://www.gowestconf.com/)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
 <div class="col-lg-4 text-center" markdown="1">
 ### ScotSoft 2021
 
@@ -466,12 +486,6 @@ He will also introduce the FyshOS operating system and show why this is an excit
 
 [Video](https://www.youtube.com/watch?v=PM5eoUbAX74) - [Event details](https://scotsoft.scot)
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Fyne Conf 2021
@@ -499,6 +513,13 @@ We will explore the main features including canvas, widgets, file APIs, data bin
 [Event details](https://www.meetup.com/Golang-London/events/277980998/)
 </div>
 
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
+
 <div class="col-lg-4 text-center" markdown="1">
 ### FOSDEM 2021
 
@@ -511,12 +532,6 @@ We will step through how to build an application using standard widgets, data bi
 [Video](https://youtu.be/u59FDlJ-Ss0) -
 [Event details](https://fosdem.org/2021/schedule/event/goguifyne/)
 </div>
-
-</div>
-</div>
-
-<div class="container">
-<div class="row">
 
 <div class="col-lg-12">
 <h3>2020 and Earlier</h3>
