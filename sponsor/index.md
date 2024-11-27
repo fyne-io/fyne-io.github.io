@@ -270,7 +270,7 @@ Their dedication to projects like this make it possible to bring you the Fyne to
 <a href="https://github.com"><img src="/img/sponsor/github.png" style="max-width: 250px"/></a>
 </div>
 <div class="col-lg-4 text-center" markdown="1">
-<a href="https://jetbrains.com"><img src="/img/sponsor/jetbrains.png" style="max-width: 250px"/></a>
+<a href="https://jetbrains.com"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.svg" style="padding-top:15pt;"/></a>
 </div>
 <div class="col-lg-4 text-center">
 <a href="https://www.macstadium.com/"><img src="/img/sponsor/macstadium.png" style="max-width: 300px"/></a>
