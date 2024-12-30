@@ -24,38 +24,6 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
-### Fyne Conf 2024
-
-*20 September - Berlin, Germany and Online*
-
-Fyne Conf 2024 will be our biggest ever event - to be held in Berlin, Germany and streamed online.
-
-This event is a chance to learn more about Fyne and how it can be used to easily build robust and performant cross platform applications. We will showcase useful techniques, best practices, new features and existing applications from around the community.
-
-[Event details](https://conf.fyne.io)
-</div>
-
-<div class="col-lg-4 text-center" markdown="1">
-### GoLab *Workshop*
-
-*11 November 2024 - Florence, Italy*
-
-Fyne Apps From Start to Store
-
-For folk looking to get a hands-on intro to graphical app development with Go and Fyne this session is for you.
-
-Everything from getting started, through building an app onto your computer and on to customising the toolkit and building your own widgets. You'll learn everything you need to build the app of your dreams. :)
-
-[Event details](https://golab.io/talks/fyne-apps-from-start-to-store)
-
-</div>
-
-</div>
-</div>
-<div class="container">
-<div class="row">
-
-<div class="col-lg-4 text-center" markdown="1">
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
@@ -89,6 +57,33 @@ More coming soon...
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
+### Fyne Conf 2024
+
+*20 September - Berlin, Germany and Online*
+
+Fyne Conf 2024 will be our biggest ever event - to be held in Berlin, Germany and streamed online.
+
+This event is a chance to learn more about Fyne and how it can be used to easily build robust and performant cross platform applications. We will showcase useful techniques, best practices, new features and existing applications from around the community.
+
+[Event details](https://conf.fyne.io)
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### GoLab *Workshop*
+
+*11 November 2024 - Florence, Italy*
+
+Fyne Apps From Start to Store
+
+For folk looking to get a hands-on intro to graphical app development with Go and Fyne this session is for you.
+
+Everything from getting started, through building an app onto your computer and on to customising the toolkit and building your own widgets. You'll learn everything you need to build the app of your dreams. :)
+
+[Event details](https://golab.io/talks/fyne-apps-from-start-to-store)
+
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
 ### GopherCon UK
 
 *16 August 2024 - London, UK*
@@ -101,6 +96,11 @@ After this talk, you will have the knowledge you need to start using Go to build
 
 [Event details](https://www.gophercon.co.uk/schedule)
 </div>
+
+</div>
+</div>
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### Manchester Go Meetup
@@ -126,11 +126,6 @@ Andy will run through the background of the Fyne project and its aims, then cove
 [Event details](https://www.meetup.com/go-mad/events/301175945/)
 </div>
 
-</div>
-</div>
-<div class="container">
-<div class="row">
-
 <div class="col-lg-4 text-center" markdown="1">
 ### Conf42 - Golang 2024
 
@@ -142,6 +137,11 @@ Building apps is tough and involves lots of languages to reach multiple platform
 
 [Video](https://www.youtube.com/watch?v=b9JjkNdbhUA) - [Event details](https://www.conf42.com/Golang_2024_Andrew_Williams_love_building_apps)
 </div>
+
+</div>
+</div>
+<div class="container">
+<div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
 ### FOSDEM 2024 - Graphics devroom
