@@ -97,7 +97,7 @@ and a detailed look at many of the core APIs.
 Released to coincide with the v2.0.0 Fyne release it covers core functionality for the toolkit 
 as well as new features including data binding, animation and custom themes.
 
-The book starts with an introduction to GUI development and the Fyne vision, progresses through a walkthrough of how to creeate various applications and concludes with a section on best practices and how to upload your app to various market places and app stores.
+The book starts with an introduction to GUI development and the Fyne vision, progresses through a walkthrough of how to create various applications and concludes with a section on best practices and how to upload your app to various market places and app stores.
 Each chapter in the main body of the book is illustrated by a full worked example, resulting in 5 complete applications to demonstrate the concepts explored.
 
 </div>

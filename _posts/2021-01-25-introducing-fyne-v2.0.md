@@ -13,7 +13,7 @@ There are so many new features to talk about, let's dive right in!
 ## Data Binding
 
 Data binding is a powerful new API that helps applications with lots of data avoid the complex code required to keep widgets and data storage up to date.
-By using a data binding the widget displaying your data will always have the same value as the sorce of that data. Additionally any widgets that can edit data will ensure that changes are immediately applied to the original data.
+By using a data binding the widget displaying your data will always have the same value as the source of that data. Additionally any widgets that can edit data will ensure that changes are immediately applied to the original data.
 
 The data binding package defines many types (primitive data types as well as `List`, `Map` and `Struct`) that will cover most use-cases.
 It also defines various conversion tools so that you can present formatted strings derived from other data types whilst keeping everything up to date automatically.

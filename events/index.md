@@ -598,14 +598,14 @@ Fyne Conf is the world’s first conference focused on the Fyne toolkit, it’s 
 
 *16 September 2019 - GolangVan (Vancouver)*
 
-Introduction to the Fyne toolkit fo building cross platform GUIs.
+Introduction to the Fyne toolkit for building cross platform GUIs.
 
 [Event details](https://www.meetup.com/golangvan/events/263156126/)
 </div>
 
 
 <div class="col-lg-4 text-center" markdown="1">
-### Easily build cross platform graphical applictions with Fyne
+### Easily build cross platform graphical applications with Fyne
 
 *21 October 2019 - GoLab (Florence)*
 
