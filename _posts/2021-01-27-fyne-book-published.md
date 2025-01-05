@@ -10,7 +10,7 @@ this week brings exciting news that the first book dedicated to Fyne has been pu
 
 <img src="/img/fyne-book-cover.jpg" style="max-width: 202px; float:right; padding-left: 5pt" />
 
-This book covers most aspects of building a Fyne app, including the [new APIs](http://developer.fyne.io/api/v2.0/)
+This book covers most aspects of building a Fyne app, including the [new APIs](https://docs.fyne.io/api/v2.0/)
 introduced in the recent release. It will step you through getting started with Fyne and
 how to build an app using the toolkit all the way through to uploading your software to 
 market places and App Stores.
