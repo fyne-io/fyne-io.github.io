@@ -30,7 +30,7 @@ simple to develop an application that can run on all platforms without
 modification or adaptation.
 Fyne apps are installed like regular applications on all platforms and deliver great performance
 and solid user experience.
-We are targetting the nirvana of 
+We are targeting the nirvana of 
 cross-platform native application development.
 
 </div>

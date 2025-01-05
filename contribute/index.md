@@ -98,7 +98,7 @@ find. Ask us anything on our contact forms and please
 </div>
 <div class="col-lg-12 text-center" markdown="1">
 Of course you can contribute by being a [sponsor](https://github.com/sponsors/fyne-io/) or making a [donation](/sponsor/).
-We are endebted to our existing [sponsors](/sponsor/) and thank them for 
+We are indebted to our existing [sponsors](/sponsor/) and thank them for 
 believing in this project.
 </div>
 
@@ -115,7 +115,7 @@ believing in this project.
 
 Making decisions quickly is important but we also want to ensure that we've
 taken in to account important facts and all viewpoints.
-At all times we want to be aligned on the same vision so that coflicting 
+At all times we want to be aligned on the same vision so that conflicting 
 opinions are not common and that we're all heading in the same direction.
 
 ### Majority 

@@ -15,7 +15,7 @@ Unfortunately a number of our core development team have been unwell and/or had 
 family members over the last months. We know that a lot of teams have been impacted
 by the recent outbreaks around the world and our thoughts are with them.
 Hopefully those of you who are relying on Fyne for their software development will
-understand as we re-structure our plans to accomodate ongoing uncertainty.
+understand as we re-structure our plans to accommodate ongoing uncertainty.
 
 The largest impact on our delivery plans is that the data binding feature which we know
 people have been waiting for will not be in the next feature release.
