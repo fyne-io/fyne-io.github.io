@@ -1,0 +1,6 @@
+contact_links:
+  - name: Report bugs in the toolkit.
+    url: https://github.com/fyne-io/fyne/issues/new/choose
+    about: This repository only contains the fyne.io website. Use this link to instead open issues for the toolkit itself.
+
+blank_issues_enabled: false
