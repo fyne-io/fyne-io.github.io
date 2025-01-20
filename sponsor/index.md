@@ -245,6 +245,7 @@ Gary Chike
 Billy Batista - https://github.com/billyb2
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Nelson Marro](https://github.com/nelsonmarro)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
