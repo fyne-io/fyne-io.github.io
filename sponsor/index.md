@@ -248,6 +248,7 @@ Billy Batista - https://github.com/billyb2
 [Nelson Marro](https://github.com/nelsonmarro)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Roffe](https://github.com/roffe)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
