@@ -11,7 +11,7 @@
     font-weight:600;
 }
 
-.galleryPic img {
+.galleryPic img, .blogroll img {
     max-width: 100%;
 }
 

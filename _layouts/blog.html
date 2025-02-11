@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-{% include head.html %}
-
-<body id="page-top">
-  {% include nav.html %}
-  {% include header.html header_img="blog" %}
+<div id="page-top">
+    {% include header.html header_img="blog" %}
 
 <section id="about">
 
 <div class="container">
 <div class="row">
-<div class="col-lg-9">
+<div class="col-lg-9 blogroll">
 
   {% for post in site.posts limit: 10 %}
     <a id="{{ post.slug }}"></a>
@@ -32,8 +30,6 @@
 </section>
 
   {% include aside.html %}
-  {% include contact.html %} 
-  {% include scripts.html %}
-</body>
+  {% include contact.html %}
+</div>
 
-</html>
