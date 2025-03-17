@@ -242,7 +242,7 @@ Gary Chike
 </div>
 
 <div class="col-lg-3 text-center" markdown="1">
-Billy Batista - https://github.com/billyb2
+[Billy Batista](https://github.com/billyb2)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 [Nelson Marro](https://github.com/nelsonmarro)
@@ -251,8 +251,19 @@ Billy Batista - https://github.com/billyb2
 [Roffe](https://github.com/roffe)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Noematic](https://github.com/noematic-eu)
 </div>
 
+
+<div class="col-lg-3 text-center" markdown="1">
+[June](https://github.com/junapur)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
 
 
 </div>
