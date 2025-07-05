@@ -259,6 +259,7 @@ Gary Chike
 [June](https://github.com/junapur)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[rad756](https://github.com/rad756)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
