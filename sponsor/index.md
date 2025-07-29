@@ -262,6 +262,7 @@ Gary Chike
 [rad756](https://github.com/rad756)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Johan Straarup](https://github.com/jstraarup)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
 </div>
