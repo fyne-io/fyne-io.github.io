@@ -24,6 +24,32 @@ redirect_from: /events.html
 <div class="row">
 
 <div class="col-lg-4 text-center" markdown="1">
+### Fyne Conf 2025
+
+*19 September - Edinburgh, UK and Online*
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### GopherCon 
+
+*26-28 August - New York, USA*
+
+</div>
+
+<div class="col-lg-4 text-center" markdown="1">
+### Golang Bristol
+
+*26 March 2025 - Bristol, UK*
+
+</div>
+
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4 text-center" markdown="1">
 </div>
 
 <div class="col-lg-4 text-center" markdown="1">
@@ -35,6 +61,7 @@ More coming soon...
 
 </div>
 </div>
+
 
 </section>
 
