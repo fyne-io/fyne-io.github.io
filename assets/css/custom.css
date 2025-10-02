@@ -54,6 +54,25 @@ section.devices img {
     margin: auto;
 }
 
+section.about .companies {
+    padding-top: 5pt;
+    text-align: center;
+}
+
+section.about .companies div {
+    height: 90px;
+}
+
+section.about .companies img {
+    width: 100%;
+    background-color: white;
+    padding: 2pt;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 @media only screen and (max-width: 768px) {
 section.devices img {
     scale: 0.75;

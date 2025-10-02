@@ -62,10 +62,32 @@ gallery:
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <p class="lead" style="font-size: 20px; font-style: italic;">An easy to learn toolkit for creating graphical
                   apps for desktop, mobile and web.
-                  <br /><br />
+                  <br />
                   Code once and build native apps for all platforms and stores.
+                  <br /><br />
+                  Trusted by multiple brands around the globe, including:
                 </p>
             </div>
+        </div>
+        <div class="row companies">
+            <div class="col-md-2 col-sm-4 col-xs-6">
+<img src="https://www.shells.com/static/media/shellslogo-black.b633f354.png" />
+            </div> 
+            <div class="col-md-2 col-sm-4 col-xs-6">
+<img src="https://findlogovector.com/wp-content/uploads/2018/09/tuffnells-parcels-express-logo-vector.png" />
+            </div> 
+            <div class="col-md-2 col-sm-4 col-xs-6">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tailscale-Logo-Black.svg/2560px-Tailscale-Logo-Black.svg.png" />
+            </div> 
+            <div class="col-md-2 col-sm-4 col-xs-6">
+<img src="https://cdn-www.pod-point.com/_1200x630_crop_center-center_82_none/POD-Point-Charging-Your-Electric-Car-logo.jpg?v=1700108101" />
+            </div> 
+            <div class="col-md-2 col-sm-4 col-xs-6">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMZRjCaLlBd_MTeLANDruG4KX_GK855IjgEA&s" />
+            </div> 
+            <div class="col-md-2 col-sm-4 col-xs-6">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDqRAx5IA7MNraUI3aOcyH-NTNKrMPA-JDJA&s" />
+            </div> 
         </div>
     </div>
 </section>
