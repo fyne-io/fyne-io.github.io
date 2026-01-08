@@ -20,6 +20,12 @@ better cross platform applications.
 If you have a GitHub account you can sign up to sponsor the project, or one of our developers
 using the [GitHub sponsors](https://github.com/sponsors/fyne-io/) page.
 
+<p>
+<a href="/sponsor"><img src="/img/mascot.png" height="150pt" /></a>
+<br />
+Most tiers of sponsorship will be sent stickers whenever we publish a new desgin.
+</p>
+
 For individuals or businesses that wish to sponsor us directly we have configured a Stripe checkout
 using the [form below](#make-a-donation). If you are interested in a more partnership based
 sponsorship please [get in touch](#contact).

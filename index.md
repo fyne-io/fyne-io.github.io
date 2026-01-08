@@ -65,6 +65,8 @@ gallery:
                   <br />
                   Code once and build native apps for all platforms and stores.
                   <br /><br />
+                  <a href="/sponsor"><img src="/img/mascot.png" height="150pt" /></a>
+                  <br /><br />
                   Trusted by multiple brands around the globe, including:
                 </p>
             </div>
