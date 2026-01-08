@@ -134,7 +134,7 @@ gallery:
             <div class="col-lg-4 text-center">
                 <p>If you can't wait to start building your first Fyne app, you should follow our getting started guide.</p>
 
-                <a href="https://developer.fyne.io/started/" class="btn btn-primary btn-xl">Get Started</a>
+                <a href="https://docs.fyne.io/started/" class="btn btn-primary btn-xl">Get Started</a>
             </div>
             <div class="col-lg-4 text-center">
                 <p>If you are new to the Go language, we recommend running through the Go tour before returning to the Fyne documentation.</p>

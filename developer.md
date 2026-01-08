@@ -1,5 +1,5 @@
 ---
 permalink: /developer/
-redirect_to: https://developer.fyne.io/
+redirect_to: https://docs.fyne.io/
 ---
 
