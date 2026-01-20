@@ -271,7 +271,20 @@ Gary Chike
 [Johan Straarup](https://github.com/jstraarup)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
+[Tsepo Nkalai](https://github.com/nkalait)
 </div>
+
+<div class="col-lg-3 text-center" markdown="1">
+[Marco Molteni](https://github.com/marco-m)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+[Sergio Rubio](https://github.com/rubiojr)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+
 
 
 </div>
