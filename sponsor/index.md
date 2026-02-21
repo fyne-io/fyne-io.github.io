@@ -154,9 +154,6 @@ Bruce Marriner
 </div>
 
 <div class="col-lg-3 text-center" markdown="1">
-[Sergio Rubio](https://github.com/rubiojr)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
 [Christopher Hunter](https://github.com/crhntr)
 </div>
 <div class="col-lg-3 text-center" markdown="1">
@@ -165,10 +162,10 @@ Bruce Marriner
 <div class="col-lg-3 text-center" markdown="1">
 [Slava Dzyba](https://github.com/sdzyba)
 </div>
-
 <div class="col-lg-3 text-center" markdown="1">
 [Benjamin PATRON](https://github.com/Koumbaya)
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 Caleb Dumitry
 </div>
@@ -178,10 +175,10 @@ Caleb Dumitry
 <div class="col-lg-3 text-center" markdown="1">
 [fuskiid](https://github.com/fuskiid)
 </div>
-
 <div class="col-lg-3 text-center" markdown="1">
 [Aaron Bieber](https://github.com/qbit)
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 [Rebecca](https://github.com/berkeleynerd)
 </div>
@@ -191,11 +188,10 @@ Henrik Bergman
 <div class="col-lg-3 text-center" markdown="1">
 [Anthony Clancy](https://github.com/anclancy)
 </div>
-
-
 <div class="col-lg-3 text-center" markdown="1">
 [Allan Davis](https://github.com/cajun-code)
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 [Cédric Skwar](https://github.com/benni347)
 </div>
@@ -205,11 +201,10 @@ Henrik Bergman
 <div class="col-lg-3 text-center" markdown="1">
 Bernhard
 </div>
-
-
 <div class="col-lg-3 text-center" markdown="1">
 [Adrian Rudnik](https://github.com/adrianrudnik)
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 [Moritz Poldrack](https://github.com/mpldr)
 </div>
@@ -219,11 +214,10 @@ Bernhard
 <div class="col-lg-3 text-center" markdown="1">
 [Tyler C](https://github.com/TylerCode)
 </div>
-
-
 <div class="col-lg-3 text-center" markdown="1">
 [Adam Shannon](https://github.com/adamdecaf)
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 [Fuskiid](https://github.com/fuskiid)
 </div>
@@ -233,10 +227,10 @@ Bernhard
 <div class="col-lg-3 text-center" markdown="1">
 Ashwin Rao
 </div>
-
 <div class="col-lg-3 text-center" markdown="1">
 Adam Shannon
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 Gary Chike
 </div>
@@ -246,10 +240,10 @@ Gary Chike
 <div class="col-lg-3 text-center" markdown="1">
 [tinywell](https://github.com/tinywell)
 </div>
-
 <div class="col-lg-3 text-center" markdown="1">
 [Billy Batista](https://github.com/billyb2)
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 [Nelson Marro](https://github.com/nelsonmarro)
 </div>
@@ -259,11 +253,10 @@ Gary Chike
 <div class="col-lg-3 text-center" markdown="1">
 [Noematic](https://github.com/noematic-eu)
 </div>
-
-
 <div class="col-lg-3 text-center" markdown="1">
 [June](https://github.com/junapur)
 </div>
+
 <div class="col-lg-3 text-center" markdown="1">
 [rad756](https://github.com/rad756)
 </div>
@@ -273,18 +266,19 @@ Gary Chike
 <div class="col-lg-3 text-center" markdown="1">
 [Tsepo Nkalai](https://github.com/nkalait)
 </div>
-
 <div class="col-lg-3 text-center" markdown="1">
 [Marco Molteni](https://github.com/marco-m)
 </div>
-<div class="col-lg-3 text-center" markdown="1">
-[Sergio Rubio](https://github.com/rubiojr)
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-</div>
-<div class="col-lg-3 text-center" markdown="1">
-</div>
 
+<div class="col-lg-3 text-center" markdown="1">
+[Reiner Pröls](https://github.com/bytemystery-com)
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
+<div class="col-lg-3 text-center" markdown="1">
+</div>
 
 
 </div>
