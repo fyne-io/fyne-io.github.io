@@ -63,6 +63,10 @@ timeZone = "Europe/Berlin"
   home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [menus]
   [[menus.main]]
     name = "Docs"
