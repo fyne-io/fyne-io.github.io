@@ -1,76 +1,254 @@
 <style>
 .home-hero {
-  background-image: url(/img/header-toolkit.jpg);
-  background-size: cover;
-  background-position: center center;
+  background-image: linear-gradient(135deg, rgba(10,14,42,0.75) 0%, rgba(3,7,108,0.7) 50%, rgba(26,31,78,0.75) 100%),
+              url(/img/header-toolkit.jpg);
+  background-size: cover, auto 125%;
+  background-position: center, center bottom;
   position: relative;
   width: 100vw;
   left: 50%;
   transform: translateX(-50%);
   margin-top: -200px;
-  padding-top: calc(200px + 4em);
-  padding-bottom: 6em;
+  padding-top: calc(200px + 3em);
+  padding-bottom: 3em;
   overflow: hidden;
-}
-.home-hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.4);
 }
 .home-hero-content {
   position: relative;
-  max-width: 56rem;
+  max-width: 68rem;
   margin: 0 auto;
-  padding: 0 1rem;
-  text-align: center;
+  padding: 0 2rem;
 }
-.home-hero-content h1 {
+.hero-top {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.hero-top h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 3.5rem;
-  line-height: 1.3;
+  font-size: 3.25rem;
+  line-height: 1.2;
   color: white;
-  text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 1rem 0;
+}
+.hero-top .hero-sub {
+  font-size: 1.25rem;
+  color: rgba(255,255,255,0.85);
+  margin: 0 0 0.5rem 0;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-top .hero-punch {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.5);
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+}
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero-buttons a.btn-primary {
+  background: #22c55e;
+  color: white;
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.hero-buttons a.btn-primary:hover { background: #16a34a; }
+.hero-buttons a.btn-secondary {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.375rem;
+  border: 1px solid rgba(255,255,255,0.3);
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.hero-buttons a.btn-secondary:hover { background: rgba(255,255,255,0.25); }
+.hero-buttons a.btn-link {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+.hero-buttons a.btn-link:hover { color: white; text-decoration: underline; }
+.hero-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.hero-code {
+  background: #0d1117;
+  border-radius: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #e6edf3;
+  overflow-x: auto;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.hero-code .kw { color: #ff7b72; }
+.hero-code .str { color: #a5d6ff; }
+.hero-code .fn { color: #d2a8ff; }
+.hero-code .pkg { color: #79c0ff; }
+.hero-code .cm { color: #8b949e; }
+.hero-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.hero-window {
+  background: #2d2d2d;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 280px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+.hero-window-bar {
+  background: #3c3c3c;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.hero-window-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.hero-window-title {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+.hero-window-body {
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-window-btn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.6rem 2rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: default;
+}
+.hero-preview-caption {
+  color: rgba(255,255,255,0.4);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+.hero-platforms {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+.hero-platforms p {
+  color: rgba(255,255,255,0.5);
+  font-size: 0.9rem;
+  margin: 0 0 1rem 0;
+}
+.hero-platform-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+.hero-platform-icons span {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+.hero-platform-icons span em {
+  font-size: 1.75rem;
+  font-style: normal;
+}
+.hero-social-proof {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: rgba(255,255,255,0.5);
+  font-size: 0.9rem;
+}
+.hero-social-proof strong {
+  color: rgba(255,255,255,0.8);
 }
 </style>
 <div class="home-hero">
-  <div class="home-hero-overlay"></div>
   <div class="home-hero-content">
-    <h1>Easily build native apps<br>that work everywhere</h1>
-  </div>
-</div>
+    <div class="hero-top">
+      <h1>Build beautiful cross-platform<br>apps in Go</h1>
+      <p class="hero-sub">Create desktop and mobile apps from a single Go codebase using the fast, native UI toolkit.</p>
+      <p class="hero-punch">No web runtime. No JavaScript. Just Go.</p>
+      <div class="hero-buttons">
+        <a href="https://docs.fyne.io/started/" class="btn-primary">Get Started</a>
+        <a href="https://apps.fyne.io" class="btn-secondary">View Examples</a>
+        <a href="https://docs.fyne.io" class="btn-link">See the Docs &rarr;</a>
+      </div>
+    </div>
 
-<section class="py-4 -mt-16 relative z-10">
-  <div class="max-w-5xl mx-auto px-4 text-center">
-    <img src="/img/devices/panel.png" height="210" class="inline-block" style="height: 210px;" alt="Panel">
-    <img src="/img/devices/iphone.png" height="367" class="inline-block" style="height: 367px;" alt="iPhone">
-    <img src="/img/devices/desktop.png" height="220" class="inline-block" style="height: 220px;" alt="Desktop">
-    <img src="/img/devices/android.png" height="176" class="inline-block" style="height: 176px;" alt="Android">
-  </div>
-</section>
+    <div class="hero-split">
+      <div class="hero-code">
+<pre style="margin:0; white-space:pre; overflow-x:auto;"><span class="kw">package</span> main
 
-<section style="background-color: #03076c; position: relative; width: 100vw; left: 50%; transform: translateX(-50%); padding: 2.5rem 0;">
-  <div style="max-width: 56rem; margin: 0 auto; padding: 0 1rem; text-align: center; color: white;">
-    <p class="text-lg italic leading-relaxed">
-      An easy to learn toolkit for creating graphical apps for desktop, mobile and web.
-      <br>
-      Code once and build native apps for all platforms and stores.
-    </p>
-    <p class="my-6">
-      <a href="/sponsor"><img src="/img/mascot.png" style="height: 150px;" class="inline" alt="Fyne mascot"></a>
-    </p>
-    <p class="text-lg italic">Trusted by multiple brands around the globe, including:</p>
-    <div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 1rem; margin-top: 1.5rem;">
-      <div style="height: 50px; flex: 0 1 auto;"><img src="https://www.shells.com/shells-logo-120.webp" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Shells"></div>
-      <div style="height: 50px; flex: 0 1 auto;"><img src="https://findlogovector.com/wp-content/uploads/2018/09/tuffnells-parcels-express-logo-vector.png" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Tuffnells"></div>
-      <div style="height: 50px; flex: 0 1 auto;"><img src="https://tailscale.com/favicon.png" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Tailscale"></div>
-      <div style="height: 50px; flex: 0 1 auto;"><img src="https://cdn-www.pod-point.com/_1200x630_crop_center-center_82_none/POD-Point-Charging-Your-Electric-Car-logo.jpg?v=1700108101" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Pod Point"></div>
-      <div style="height: 50px; flex: 0 1 auto;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMZRjCaLlBd_MTeLANDruG4KX_GK855IjgEA&s" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Company"></div>
-      <div style="height: 50px; flex: 0 1 auto;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDqRAx5IA7MNraUI3aOcyH-NTNKrMPA-JDJA&s" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Company"></div>
+<span class="kw">import</span> (
+    <span class="str">"fyne.io/fyne/v2/app"</span>
+    <span class="str">"fyne.io/fyne/v2/widget"</span>
+)
+
+<span class="kw">func</span> <span class="fn">main</span>() {
+    a := app.<span class="fn">New</span>()
+    w := a.<span class="fn">NewWindow</span>(<span class="str">"Hello"</span>)
+
+    w.<span class="fn">SetContent</span>(widget.<span class="fn">NewButton</span>(
+        <span class="str">"Click me"</span>,
+        <span class="kw">func</span>() { <span class="fn">println</span>(<span class="str">"Hello!"</span>) },
+    ))
+
+    w.<span class="fn">ShowAndRun</span>()
+}</pre>
+      </div>
+      <div class="hero-preview">
+        <img src="/img/clickme.png" alt="Fyne app preview" class="nozoom" style="max-width: 280px;">
+        <span class="hero-preview-caption">15 lines of Go &rarr; native app on every platform</span>
+      </div>
+    </div>
+
+    <div class="hero-platforms">
+      <p>Build once. Run everywhere.</p>
+      <div class="hero-platform-icons">
+        <span><em>&#128187;</em> Windows</span>
+        <span><em>&#63743;</em> macOS</span>
+        <span><em>&#128039;</em> Linux</span>
+        <span><em>&#128241;</em> iOS</span>
+        <span><em>&#129302;</em> Android</span>
+      </div>
+    </div>
+
+    <div class="hero-social-proof">
+      <strong>&#11088; 28k+ GitHub stars</strong> &middot; Used by hundreds of thousands of Go developers worldwide
     </div>
   </div>
-</section>
+</div>
 
 <section class="py-12">
   <div class="max-w-5xl mx-auto px-4 text-center">
