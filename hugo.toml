@@ -1,0 +1,95 @@
+baseURL = "https://fyne.io"
+languageCode = "en"
+title = "Fyne.io"
+theme = "blowfish"
+copyright = "Fyne.io"
+enableRobotsTXT = true
+timeZone = "Europe/Berlin"
+
+[params]
+  description = "Website for the Fyne app development framework."
+  mainSections = ["blog"]
+  colorScheme = "ocean"
+  defaultAppearance = "dark"
+  autoSwitchAppearance = false
+  enableSearch = false
+  showScrollToTop = true
+  showBreadcrumbs = false
+
+  [params.homepage]
+    layout = "custom"
+    showRecent = false
+
+  [params.article]
+    showDate = true
+    showAuthor = false
+    showBreadcrumbs = false
+    showTableOfContents = false
+    showRelatedContent = false
+    showTaxonomies = false
+    showWordCount = false
+    showEdit = false
+    showSummary = true
+
+  [params.list]
+    showBreadcrumbs = false
+    showTableOfContents = false
+
+  [params.header]
+    layout = "fixed"
+
+  [params.footer]
+    showCopyright = true
+    showThemeAttribution = false
+
+[permalinks]
+  [permalinks.page]
+    blog = "/blog/:year/:month/:day/:slug.html"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss+xml"
+    baseName = "feed"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[menus]
+  [[menus.main]]
+    name = "Docs"
+    url = "https://docs.fyne.io"
+    weight = 10
+  [[menus.main]]
+    name = "Apps"
+    url = "https://apps.fyne.io"
+    weight = 20
+  [[menus.main]]
+    name = "Add-ons"
+    url = "https://addons.fyne.io"
+    weight = 30
+  [[menus.main]]
+    name = "Conference"
+    url = "https://conf.fyne.io/"
+    weight = 40
+    [menus.main.params]
+      highlight = true
+  [[menus.main]]
+    name = "Blog"
+    pageRef = "blog"
+    weight = 50
+  [[menus.main]]
+    name = "Events"
+    pageRef = "events"
+    weight = 60
+  [[menus.main]]
+    name = "Support"
+    pageRef = "support"
+    weight = 70

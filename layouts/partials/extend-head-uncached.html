@@ -1,0 +1,5 @@
+{{ if .Params.goimport }}
+{{ $parts := split .Params.goimport "/" }}
+{{ $repo := index $parts (sub (len $parts) 1) }}
+<meta name="go-import" content="{{ .Params.goimport }} git https://github.com/fyne-io/{{ $repo }}">
+{{ end }}

@@ -1,0 +1,241 @@
+<style>
+.home-hero {
+  background-image: url(/img/header-toolkit.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -200px;
+  padding-top: calc(200px + 4em);
+  padding-bottom: 6em;
+  overflow: hidden;
+}
+.home-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+.home-hero-content {
+  position: relative;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+.home-hero-content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.3;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+}
+</style>
+<div class="home-hero">
+  <div class="home-hero-overlay"></div>
+  <div class="home-hero-content">
+    <h1>Easily build native apps<br>that work everywhere</h1>
+  </div>
+</div>
+
+<section class="py-4 -mt-16 relative z-10">
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <img src="/img/devices/panel.png" height="210" class="inline-block" style="height: 210px;" alt="Panel">
+    <img src="/img/devices/iphone.png" height="367" class="inline-block" style="height: 367px;" alt="iPhone">
+    <img src="/img/devices/desktop.png" height="220" class="inline-block" style="height: 220px;" alt="Desktop">
+    <img src="/img/devices/android.png" height="176" class="inline-block" style="height: 176px;" alt="Android">
+  </div>
+</section>
+
+<section style="background-color: #03076c; position: relative; width: 100vw; left: 50%; transform: translateX(-50%); padding: 2.5rem 0;">
+  <div style="max-width: 56rem; margin: 0 auto; padding: 0 1rem; text-align: center; color: white;">
+    <p class="text-lg italic leading-relaxed">
+      An easy to learn toolkit for creating graphical apps for desktop, mobile and web.
+      <br>
+      Code once and build native apps for all platforms and stores.
+    </p>
+    <p class="my-6">
+      <a href="/sponsor"><img src="/img/mascot.png" style="height: 150px;" class="inline" alt="Fyne mascot"></a>
+    </p>
+    <p class="text-lg italic">Trusted by multiple brands around the globe, including:</p>
+    <div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 1rem; margin-top: 1.5rem;">
+      <div style="height: 50px; flex: 0 1 auto;"><img src="https://www.shells.com/shells-logo-120.webp" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Shells"></div>
+      <div style="height: 50px; flex: 0 1 auto;"><img src="https://findlogovector.com/wp-content/uploads/2018/09/tuffnells-parcels-express-logo-vector.png" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Tuffnells"></div>
+      <div style="height: 50px; flex: 0 1 auto;"><img src="https://tailscale.com/favicon.png" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Tailscale"></div>
+      <div style="height: 50px; flex: 0 1 auto;"><img src="https://cdn-www.pod-point.com/_1200x630_crop_center-center_82_none/POD-Point-Charging-Your-Electric-Car-logo.jpg?v=1700108101" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Pod Point"></div>
+      <div style="height: 50px; flex: 0 1 auto;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMZRjCaLlBd_MTeLANDruG4KX_GK855IjgEA&s" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Company"></div>
+      <div style="height: 50px; flex: 0 1 auto;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDqRAx5IA7MNraUI3aOcyH-NTNKrMPA-JDJA&s" style="height: 100%; width: auto; background: white; padding: 2px;" alt="Company"></div>
+    </div>
+  </div>
+</section>
+
+<section class="py-12">
+  <div class="max-w-5xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-2">Gallery</h2>
+    <hr class="w-16 mx-auto border-t-2 border-primary-500 mb-8">
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; max-width: 48rem; margin: 0 auto;">
+      {{ range .Page.Params.gallery }}
+      <div>
+        <a href="#" class="gallery-thumb" data-img="{{ .img }}" data-caption="{{ .title }}">
+          <img src="/img/gallery/{{ .id }}.png" class="nozoom" style="width: 100%; border-radius: 0.25rem; cursor: pointer;" alt="{{ .title }}">
+        </a>
+      </div>
+      {{ end }}
+    </div>
+    <div class="mt-8">
+      <a href="/vision/" class="inline-block bg-primary-600 hover:bg-primary-700 text-white font-bold py-3 px-6 rounded transition-colors">Our Vision</a>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Modal -->
+<div id="galleryModal" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.85); justify-content:center; align-items:center; cursor:pointer;" onclick="this.style.display='none'">
+  <div style="position:relative; max-width:90vw; max-height:90vh; text-align:center;" onclick="event.stopPropagation()">
+    <img id="modalImage" style="max-width:90vw; max-height:85vh; border-radius:0.5rem;" src="" alt="">
+    <p id="modalCaption" style="color:white; margin-top:0.5rem; font-size:0.875rem;"></p>
+    <button onclick="document.getElementById('galleryModal').style.display='none'" style="position:absolute; top:-1rem; right:-1rem; background:white; border:none; border-radius:50%; width:2rem; height:2rem; font-size:1.2rem; cursor:pointer; line-height:1;">&times;</button>
+  </div>
+</div>
+<script>
+document.querySelectorAll('.gallery-thumb').forEach(function(el) {
+  el.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.getElementById('modalImage').src = this.dataset.img;
+    document.getElementById('modalCaption').textContent = this.dataset.caption;
+    document.getElementById('galleryModal').style.display = 'flex';
+  });
+});
+</script>
+
+<section class="py-12 bg-neutral-800">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold">Are you ready to build the future with us?</h2>
+      <hr class="w-16 mx-auto border-t-2 border-primary-500 mt-2">
+    </div>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div>
+        <p>If you can't wait to start building your first Fyne app, you should follow our getting started guide.</p>
+        <a href="https://docs.fyne.io/started/" class="inline-block mt-4 bg-primary-600 hover:bg-primary-700 text-white font-bold py-3 px-6 rounded transition-colors">Get Started</a>
+      </div>
+      <div>
+        <p>If you are new to the Go language, we recommend running through the Go tour before returning to the Fyne documentation.</p>
+        <a href="https://go.dev/tour/" class="inline-block mt-4 bg-primary-600 hover:bg-primary-700 text-white font-bold py-3 px-6 rounded transition-colors">Go Tour</a>
+      </div>
+      <div>
+        <p>For developers who prefer to learn from videos we have a collection of getting started tutorials on YouTube.</p>
+        <a href="https://www.youtube.com/watch?v=-v1vz_NcWng&list=PLjpijTpXl1_po-ld8jORR9k5NornDNKQk" class="inline-block mt-4 bg-primary-600 hover:bg-primary-700 text-white font-bold py-3 px-6 rounded transition-colors">Tutorial Playlist</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background-color: white; color: #1a202c; position: relative; width: 100vw; left: 50%; transform: translateX(-50%); padding: 3rem 0;">
+  <div style="max-width: 64rem; margin: 0 auto; padding: 0 1rem;">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold" style="color: #03076c;">Features of Fyne</h2>
+      <hr class="w-16 mx-auto border-t-2 border-primary-500 mt-2">
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; text-align: center;">
+      <div>
+        <div style="font-size: 5rem; margin-bottom: 1rem; color: #03076c;">&#9830;</div>
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: #03076c;">Quality and Design</h3>
+        <p style="color: #03076c;">Built with the best design, test and validation procedures we aim for the highest level of standard in quality and design. All apps should be clear and simple to use and never fail to meet user expectations.</p>
+      </div>
+      <div>
+        <div style="font-size: 5rem; margin-bottom: 1rem; color: #03076c;">&#9881;</div>
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: #03076c;">Simple Development</h3>
+        <p style="color: #03076c;">For developers with any experience level - our toolkit is designed with ease of development in mind. We want you to enjoy building great apps with Fyne!</p>
+      </div>
+      <div>
+        <div style="font-size: 5rem; margin-bottom: 1rem; color: #03076c;">&#9829;</div>
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: #03076c;">We Love Usability</h3>
+        <p style="color: #03076c;">The Fyne framework is designed for usability at the core. Fyne widgets and layouts adapt cleanly to the user context allowing developers to focus on functionality and not user interface testing.</p>
+      </div>
+      <div>
+        <div style="font-size: 5rem; margin-bottom: 1rem; color: #03076c;">&#11015;</div>
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: #03076c;">Easy to install</h3>
+        <p style="color: #03076c;">Fyne apps work with a simple download - no worries about packages or dependencies. Our app explorer will help you find the latest apps, keep everything up to date and stay secure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background-color: #03076c; position: relative; width: 100vw; left: 50%; transform: translateX(-50%); padding: 3rem 0;">
+  <div style="max-width: 64rem; margin: 0 auto; padding: 0 1rem;">
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2.5rem 3rem;">
+      <div style="position: relative; padding-left: 1rem; color: white; font-style: italic; margin: 1em 0;">
+        <span style="position: absolute; top: -0.6em; left: 0; font-size: 10rem; color: rgba(255,255,255,0.08); line-height: 1; pointer-events: none;">&ldquo;</span>
+        Really Fyne is one of the rare technology that make me say "woooow" after a try, that happens rarely.
+        <span style="display: block; margin-top: 0.5rem; font-style: normal; font-weight: 600;">- Patrice Ferlet</span>
+      </div>
+      <div style="position: relative; padding-left: 1rem; color: white; font-style: italic; margin: 1em 0;">
+        <span style="position: absolute; top: -0.6em; left: 0; font-size: 10rem; color: rgba(255,255,255,0.08); line-height: 1; pointer-events: none;">&ldquo;</span>
+        Fyne is the brightest star on the UI sky at the moment.
+        <span style="display: block; margin-top: 0.5rem; font-style: normal; font-weight: 600;">- Andreas Schneider</span>
+      </div>
+      <div style="position: relative; padding-left: 1rem; color: white; font-style: italic; margin: 1em 0;">
+        <span style="position: absolute; top: -0.6em; left: 0; font-size: 10rem; color: rgba(255,255,255,0.08); line-height: 1; pointer-events: none;">&ldquo;</span>
+        It's been pretty easy to start feeling productive in Fyne, you all did a very nice job!
+        <span style="display: block; margin-top: 0.5rem; font-style: normal; font-weight: 600;">- Peter Stratton</span>
+      </div>
+      <div style="position: relative; padding-left: 1rem; color: white; font-style: italic; margin: 1em 0;">
+        <span style="position: absolute; top: -0.6em; left: 0; font-size: 10rem; color: rgba(255,255,255,0.08); line-height: 1; pointer-events: none;">&ldquo;</span>
+        I'm over the moon excited about fyne. This is the greatest project since sliced bread.
+        <span style="display: block; margin-top: 0.5rem; font-style: normal; font-weight: 600;">- Joel Jensen</span>
+      </div>
+      <div style="position: relative; padding-left: 1rem; color: white; font-style: italic; margin: 1em 0;">
+        <span style="position: absolute; top: -0.6em; left: 0; font-size: 10rem; color: rgba(255,255,255,0.08); line-height: 1; pointer-events: none;">&ldquo;</span>
+        Blown away with Fyne's ease and beauty. Will definitely use it with Go [...] Great job you guys!
+        <span style="display: block; margin-top: 0.5rem; font-style: normal; font-weight: 600;">- Alejantro Martinis</span>
+      </div>
+      <div style="position: relative; padding-left: 1rem; color: white; font-style: italic; margin: 1em 0;">
+        <span style="position: absolute; top: -0.6em; left: 0; font-size: 10rem; color: rgba(255,255,255,0.08); line-height: 1; pointer-events: none;">&ldquo;</span>
+        Wouldn't have used anything else than fyne. It is simple and just makes me understand what I'm actually trying to do.
+        <span style="display: block; margin-top: 0.5rem; font-style: normal; font-weight: 600;">- Jacob Alzen</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="position: relative; width: 100vw; left: 50%; transform: translateX(-50%); padding: 3rem 0;">
+  <div style="max-width: 56rem; margin: 0 auto; padding: 0 1rem; text-align: center;">
+    <h2 class="text-2xl font-bold mb-4">Get In Touch!</h2>
+    <hr class="w-16 mx-auto border-t-2 border-primary-500 mb-6">
+    <p>We're excited to hear from anyone interested in the project. Whether it's to find out more, provide suggestions or to get involved - drop us a line!</p>
+    <p class="mt-2">If you would like to join the community for a chat you'll find us in the #fyne channel on gophers Slack or Matrix.org, or on our Discord server.
+      If you are not already a member of the communities you can use a
+      <a href="https://invite.slack.golangbridge.org/" target="_blank" class="text-primary-500 hover:underline">Slack invite</a>,
+      <a href="https://discord.gg/vvBuDfD5gP" target="_blank" class="text-primary-500 hover:underline">Discord invite</a> or
+      <a href="https://matrix.to/#/%23fyne:matrix.org" target="_blank" class="text-primary-500 hover:underline">Matrix link</a>.</p>
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; margin-top: 2rem; text-align: center;">
+      <a href="https://twitter.com/fyne_io" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">&#120143;</div>
+        <p>fyne_io</p>
+      </a>
+      <a href="mailto:info@fyne.io" style="text-decoration: none; color: inherit;">
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">&#128231;</div>
+        <p>info@fyne.io</p>
+      </a>
+      <a href="https://github.com/fyne-io" target="_blank" style="text-decoration: none; color: inherit;">
+        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">&#128187;</div>
+        <p>fyne-io</p>
+      </a>
+      <div>
+        <a href="https://gophers.slack.com/app_redirect?channel=fyne" target="_blank" style="text-decoration: none; color: inherit;">
+          <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">&#128172;</div>
+          <p>#fyne</p>
+        </a>
+        <div style="font-size: 0.875rem; margin-top: -0.5rem; line-height: 1.3;">
+          (Slack <a href="https://invite.slack.golangbridge.org/" target="_blank" style="color: #3b82f6;">sign up</a>)<br>
+          (Discord <a href="https://discord.gg/vvBuDfD5gP" target="_blank" style="color: #3b82f6;">sign up</a>)<br>
+          (Matrix <a href="https://matrix.to/#/%23fyne:matrix.org" target="_blank" style="color: #3b82f6;">join</a>)
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

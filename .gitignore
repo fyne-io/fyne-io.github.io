@@ -1,5 +1,4 @@
-_site
-.sass-cache
-.jekyll-metadata
+public/
+resources/
+.hugo_build.lock
 .DS_Store
-

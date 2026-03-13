@@ -1,0 +1,41 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "list" }}
+
+  {{/* Page Header Banner */}}
+  {{ partial "page-header.html" . }}
+
+  {{/* Header */}}
+  {{ if not .Params.header_img }}
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      {{ partial "article-meta/list.html" (dict "context" . "scope" "single") }}
+    </div>
+  </header>
+  {{ end }}
+
+  {{/* Description (markdown content) */}}
+  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert prose-max-w-none lg:flex-row mb-10">
+    <div class="min-w-0 min-h-0 max-w-full w-full">
+      {{ .Content }}
+    </div>
+  </section>
+
+  {{/* Article Grid */}}
+  {{ if gt .Pages 0 }}
+    {{ $groupByYear := .Params.groupByYear | default (site.Params.list.groupByYear | default false) }}
+    <section class="space-y-10 w-full">
+      {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+        {{ if $groupByYear }}
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            {{ .Key }}
+          </h2>
+        {{ end }}
+        {{ range .Pages }}
+          {{ partial "article-link/simple.html" . }}
+        {{ end }}
+      {{ end }}
+    </section>
+  {{ end }}
+  {{ partial "pagination.html" . }}
+{{ end }}

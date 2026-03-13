@@ -1,0 +1,46 @@
+{{ $headerImg := .Params.header_img }}
+{{ if $headerImg }}
+<style>
+.page-hero {
+  background-image: url(/img/header-{{ $headerImg }}.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -200px;
+  padding-top: calc(200px + 4em);
+  padding-bottom: 6em;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+.page-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+.page-hero-content {
+  position: relative;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+.page-hero-content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.3;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+}
+</style>
+<div class="page-hero">
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <h1>{{ with .Params.headline }}{{ . | safeHTML }}{{ else }}{{ .Title }}{{ end }}</h1>
+  </div>
+</div>
+{{ end }}

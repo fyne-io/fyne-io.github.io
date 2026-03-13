@@ -1,0 +1,37 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "single" }}
+  <article>
+    {{/* Page Header Banner */}}
+    {{ partial "page-header.html" . }}
+
+    {{/* Header */}}
+    {{ if not .Params.header_img }}
+    <header id="single_header" class="mt-5 max-w-full">
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
+      </div>
+    </header>
+    {{ else }}
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
+    </div>
+    {{ end }}
+
+    {{/* Body */}}
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert prose-max-w-none lg:flex-row">
+      <div class="min-w-0 min-h-0 max-w-full w-full">
+        <div class="article-content max-w-full mb-20">
+          {{ .Content }}
+        </div>
+      </div>
+    </section>
+
+    {{/* Footer */}}
+    <footer class="pt-8 max-w-full print:hidden">
+      {{ partial "article-pagination.html" . }}
+    </footer>
+  </article>
+{{ end }}

@@ -1,0 +1,20 @@
+<footer id="site-footer" style="padding: 0 0 1rem 0; height: 4.5rem; display: flex; align-items: center;" class="print:hidden">
+  <div style="position: relative; display: flex; align-items: center; justify-content: center; width: 100%;">
+    <p style="position: absolute; left: 0; margin: 0;" class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy; {{ now.Format "2006" }} {{ .Site.Copyright | markdownify }}
+    </p>
+    <p style="margin: 0;" class="text-sm text-neutral-500 dark:text-neutral-400">
+      If you like the Fyne toolkit please consider
+      <a href="https://fyne.io/sponsor/" class="hover:underline hover:text-primary-500">sponsoring</a> our work.
+    </p>
+  </div>
+  {{ if not .Site.Params.disableImageZoom | default true }}
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  {{ end }}
+</footer>
