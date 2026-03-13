@@ -1,0 +1,78 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "list" }}
+
+  {{/* Page Header Banner */}}
+  {{ partial "page-header.html" . }}
+
+  {{/* Header */}}
+  {{ if not .Params.header_img }}
+  <header>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  </header>
+  {{ end }}
+
+  {{/* Description */}}
+  {{ if .Content }}
+  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert prose-max-w-none lg:flex-row mb-10">
+    <div class="min-w-0 min-h-0 max-w-full w-full">
+      {{ .Content }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* Split events into upcoming and past */}}
+  {{ $now := now }}
+  {{ $upcoming := where .Pages "Date" "ge" $now }}
+  {{ $past := where .Pages "Date" "lt" $now }}
+
+  {{/* Upcoming Events */}}
+  {{ if gt (len $upcoming) 0 }}
+  <h2 class="mt-8 mb-4 text-2xl font-bold text-neutral-700 dark:text-neutral-300">Upcoming</h2>
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 2rem;">
+    {{ range $upcoming.ByDate }}
+    <div style="border: 1px solid rgba(128,128,128,0.2); border-radius: 0.5rem; padding: 1.25rem; text-align: center;">
+      <h3 style="margin: 0 0 0.5rem 0; font-size: 1.25rem; font-weight: 600;">{{ .Title }}</h3>
+      <p class="text-sm text-neutral-500 dark:text-neutral-400" style="margin: 0 0 0.25rem 0;">
+        <em>{{ .Date.Format "2 January 2006" }} - {{ .Params.location }}</em>
+      </p>
+      {{ if .Params.description }}
+      <p class="text-sm" style="margin: 0.5rem 0;">{{ .Params.description }}</p>
+      {{ end }}
+      {{ if .Params.eventLink }}
+      <p style="margin: 0.5rem 0 0 0; font-size: 0.875rem;"><a href="{{ .Params.eventLink }}" class="hover:underline hover:text-primary-500">Event details</a></p>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  <p class="text-center text-neutral-500 dark:text-neutral-400" style="margin-bottom: 2rem;">More coming soon...</p>
+  <hr style="margin-bottom: 2rem;">
+  {{ end }}
+
+  {{/* Past Events grouped by year */}}
+  {{ if gt (len $past) 0 }}
+  <h2 class="mt-4 mb-4 text-2xl font-bold text-neutral-700 dark:text-neutral-300">Archive</h2>
+  {{ range ($past.ByDate.Reverse.GroupByDate "2006") }}
+  <h3 class="mt-8 mb-4 text-xl font-bold text-neutral-700 dark:text-neutral-300">{{ .Key }}</h3>
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 1.5rem;">
+    {{ range .Pages }}
+    <div style="border: 1px solid rgba(128,128,128,0.2); border-radius: 0.5rem; padding: 1.25rem; text-align: center;">
+      <h4 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; font-weight: 600;">{{ .Title }}</h4>
+      <p class="text-sm text-neutral-500 dark:text-neutral-400" style="margin: 0 0 0.25rem 0;">
+        <em>{{ .Date.Format "2 January 2006" }} - {{ .Params.location }}</em>
+      </p>
+      {{ if .Params.description }}
+      <p class="text-sm" style="margin: 0.5rem 0;">{{ .Params.description }}</p>
+      {{ end }}
+      <p style="margin: 0.5rem 0 0 0; font-size: 0.875rem;">
+        {{ if .Params.video }}<a href="{{ .Params.video }}" class="hover:underline hover:text-primary-500">Video</a>{{ end }}
+        {{ if and .Params.video .Params.eventLink }} - {{ end }}
+        {{ if .Params.slides }}<a href="{{ .Params.slides }}" class="hover:underline hover:text-primary-500">Slides</a> - {{ end }}
+        {{ if .Params.eventLink }}<a href="{{ .Params.eventLink }}" class="hover:underline hover:text-primary-500">Event details</a>{{ end }}
+      </p>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+
+{{ end }}

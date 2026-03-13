@@ -3,6 +3,7 @@ languageCode = "en"
 title = "Fyne.io"
 theme = "blowfish"
 copyright = "Fyne.io"
+buildFuture = true
 enableRobotsTXT = true
 timeZone = "Europe/Berlin"
 
