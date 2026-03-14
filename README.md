@@ -4,15 +4,11 @@ This repository contains the source of the main https://fyne.io website.
 
 ## Running the website locally
 
-The website uses [jekyll](https://jekyllrb.com/) to generate the website from markdown files.
-With ruby installed it is as easy as running the following commands in a terminal (the first only needs to run once):
+The website uses [hugo](https://https://gohugo.io/) to generate the website from markdown files.
+You should first install hugo using your favourite package manager.
 
 ```bash
-gem install bundler jekyll
-bundle exec jekyll serve
+git submodule update --init
+hugo server
 ```
 
-Alternatively, you can use the Dockerized build via either of:
-
-* `sh ./build.sh build` -- non-interactively build `./_site`
-* `sh ./build.sh serve` -- run `jekyll serve` inside of the docker container
