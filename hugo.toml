@@ -45,7 +45,7 @@ timeZone = "Europe/Berlin"
 
 [permalinks]
   [permalinks.page]
-    blog = "/blog/:year/:month/:day/:slug.html"
+    blog = "/blog/:year/:month/:day/:slug"
 
 [markup]
   [markup.goldmark]

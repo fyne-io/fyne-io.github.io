@@ -2,8 +2,8 @@
 title: "Fyne Goes Mobile"
 date: 2019-08-02 15:07:27 +0100
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2019/08/02/fyne-goes-mobile.html
+aliases:
+- /blog/2019/08/02/fyne-goes-mobile.html
 ---
 
 We don't normally post about work in progress but on this

@@ -2,8 +2,8 @@
 title: "2 Drivers and other Statistics"
 date: 2018-11-29 21:21:34 +0600
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2018/11/29/2-drivers.html
+aliases:
+- /blog/2018/11/29/2-drivers.html
 ---
 
 As GitHub recently emailed me with congratulations on 500 commits in Fyne

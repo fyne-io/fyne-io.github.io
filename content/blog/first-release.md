@@ -2,8 +2,8 @@
 title: "First Major Release"
 date: 2019-03-20 10:05:02 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2019/03/20/first-release.html
+aliases:
+- /blog/2019/03/20/first-release.html
 ---
 
 The first release of Fyne marks a milestone for the project. We now have a stable and performant base API. Moving forward we are excited to add new features and enhancements that have been requested over the months of development.

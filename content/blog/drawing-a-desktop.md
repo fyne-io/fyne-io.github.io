@@ -2,8 +2,8 @@
 title: "Drawing a Desktop"
 date: 2018-07-12 22:03:15 +0100
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2018/07/12/drawing-a-desktop.html
+aliases:
+- /blog/2018/07/12/drawing-a-desktop.html
 ---
 
 As part of our vision to create a beautiful desktop experience we have spent

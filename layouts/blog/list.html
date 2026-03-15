@@ -1,0 +1,143 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "list" }}
+
+  {{ partial "page-header.html" . }}
+
+  <div class="blog-layout">
+    {{/* Main column: 10 most recent posts with summaries */}}
+    <div class="blog-main">
+      {{ $posts := .Pages.ByDate.Reverse }}
+      {{ range first 10 $posts }}
+      <article class="blog-post-card">
+        <h2 class="blog-post-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+        <div class="blog-post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+        </div>
+        <p class="blog-post-summary">{{ .Summary | plainify | truncate 250 }}</p>
+        <a href="{{ .RelPermalink }}" class="blog-read-more">Read more &rarr;</a>
+      </article>
+      {{ end }}
+    </div>
+
+    {{/* Sidebar: archive list grouped by year */}}
+    <aside class="blog-sidebar">
+      <h3 class="blog-sidebar-title">Archive</h3>
+      {{ range .Pages.ByDate.Reverse.GroupByDate "2006" }}
+      <div class="blog-archive-year">
+        <h4>{{ .Key }}</h4>
+        <ul>
+          {{ range .Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span class="blog-archive-date">{{ .Date.Format "Jan 2" }}</span>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </aside>
+  </div>
+
+<style>
+.blog-layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 2.5rem;
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .blog-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Main column */
+.blog-post-card {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(128,128,128,0.2);
+}
+.blog-post-card:last-child {
+  border-bottom: none;
+}
+.blog-post-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem 0;
+}
+.blog-post-title a {
+  text-decoration: none;
+  color: inherit;
+}
+.blog-post-title a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary-500, #3b82f6);
+}
+.blog-post-meta {
+  font-size: 0.85rem;
+  color: var(--color-neutral-500, #6b7280);
+  margin-bottom: 0.5rem;
+}
+.blog-post-summary {
+  margin: 0 0 0.5rem 0;
+  line-height: 1.6;
+}
+.blog-read-more {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--color-primary-500, #3b82f6);
+}
+.blog-read-more:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar */
+.blog-sidebar {
+  position: sticky;
+  top: 5rem;
+  font-size: 0.85rem;
+}
+.blog-sidebar-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-primary-500, #3b82f6);
+}
+.blog-archive-year h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 1rem 0 0.25rem 0;
+}
+.blog-archive-year ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.blog-archive-year li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.2rem 0;
+}
+.blog-archive-year li a {
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blog-archive-year li a:hover {
+  color: var(--color-primary-500, #3b82f6);
+}
+.blog-archive-date {
+  color: var(--color-neutral-500, #6b7280);
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+</style>
+{{ end }}

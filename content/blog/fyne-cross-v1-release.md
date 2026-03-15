@@ -2,8 +2,8 @@
 title: "fyne-cross v1 Released"
 date: 2020-12-14 11:17:21 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2020/12/14/fyne-cross-v1-release.html
+aliases:
+- /blog/2020/12/14/fyne-cross-v1-release.html
 ---
 
 An early holiday present from the Fyne team - the v1 release of fyne-cross.

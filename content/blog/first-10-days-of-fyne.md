@@ -2,8 +2,8 @@
 title: "The First 10 Days of Fyne"
 date: 2018-02-17 20:18:05 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2018/02/17/first-10-days-of-fyne.html
+aliases:
+- /blog/2018/02/17/first-10-days-of-fyne.html
 ---
 
 It's been just 10 days since the Fyne project was announced and in that time we've had a lot of support! The IRC channel, which we added only a week ago, now has a core group of developers helping to discuss and guide the design of the toolkit.

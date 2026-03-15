@@ -2,8 +2,8 @@
 title: "Fun with Fractals: Multithreading for Free!"
 date: 2018-06-26 12:06:46 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2018/06/26/fun-with-fractals.html
+aliases:
+- /blog/2018/06/26/fun-with-fractals.html
 ---
 
 One of the challenges of using (or writing) a GUI toolkit is concurrency and

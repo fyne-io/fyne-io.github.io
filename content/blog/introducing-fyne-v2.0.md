@@ -2,8 +2,8 @@
 title: "Introducing Fyne v2.0.0"
 date: 2021-01-25 12:43:00 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2021/01/25/introducing-fyne-v2.0.html
+aliases:
+- /blog/2021/01/25/introducing-fyne-v2.0.html
 ---
 
 The v2.0.0 release of Fyne marks a big advance in the development of our project. This was a chance to step back, see what was working well and what could be improved - and then make the changes in a way that had not been possible whilst maintaining 1.0 API compatibility.

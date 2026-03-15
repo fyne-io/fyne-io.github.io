@@ -2,8 +2,8 @@
 title: "Thank You Sponsors!"
 date: 2020-05-20 19:30:21 +0100
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2020/05/20/thank-you-sponsors.html
+aliases:
+- /blog/2020/05/20/thank-you-sponsors.html
 ---
 
 At this difficult time we wanted to take a moment to thank whole heartedly

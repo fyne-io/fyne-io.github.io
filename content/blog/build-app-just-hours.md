@@ -2,8 +2,8 @@
 title: "Build an App in Just Hours (not Days or Weeks)"
 date: 2020-02-10 18:43:21 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2020/02/10/build-app-just-hours.html
+aliases:
+- /blog/2020/02/10/build-app-just-hours.html
 ---
 
 We have posted many times about how [Fyne](/) is designed to be easy to learn 

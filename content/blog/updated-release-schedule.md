@@ -2,8 +2,8 @@
 title: "Updated Release Schedule"
 date: 2020-04-06 20:51:24 +0100
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2020/04/06/updated-release-schedule.html
+aliases:
+- /blog/2020/04/06/updated-release-schedule.html
 ---
 
 All of us in the Fyne community hope your friends, families, and colleagues are well.

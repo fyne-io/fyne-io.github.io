@@ -2,8 +2,8 @@
 title: "FyneConf Hybrid Fun"
 date: 2023-11-15 19:10:00+0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2023/11/15/fyneconf-hybrid-fun.html
+aliases:
+- /blog/2023/11/15/fyneconf-hybrid-fun.html
 ---
 
 For anyone who is new to the Fyne community you might not know that earlier this month we held the 2023 [Fyne Conf](https://conf.fyne.io) event.

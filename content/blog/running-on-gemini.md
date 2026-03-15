@@ -2,8 +2,8 @@
 title: "Running on Gemini"
 date: 2018-08-19 22:52:25 +0100
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2018/08/19/running-on-gemini.html
+aliases:
+- /blog/2018/08/19/running-on-gemini.html
 ---
 
 Sorry there have not been many updated here recently - we are looking at lots

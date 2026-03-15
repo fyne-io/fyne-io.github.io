@@ -2,8 +2,8 @@
 title: "Now on GitHub Sponsors"
 date: 2020-02-20 12:58:33 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2020/02/20/now-on-github-sponsors.html
+aliases:
+- /blog/2020/02/20/now-on-github-sponsors.html
 ---
 
 Today the Fyne team are celebrating because we have been accepted onto the 

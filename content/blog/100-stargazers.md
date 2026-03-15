@@ -2,8 +2,8 @@
 title: "100 Stargazers"
 date: 2018-10-10 15:53:52 +0100
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2018/10/10/100-stargazers.html
+aliases:
+- /blog/2018/10/10/100-stargazers.html
 ---
 
 It's been a while since posting on the Fyne blog so I thought I should update

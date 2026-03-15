@@ -2,8 +2,8 @@
 title: "Looking for Contributors"
 date: 2018-03-24 22:41:27 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2018/03/24/looking-for-contributors.html
+aliases:
+- /blog/2018/03/24/looking-for-contributors.html
 ---
 
 Six weeks into the Fyne project and the basics are all in place!

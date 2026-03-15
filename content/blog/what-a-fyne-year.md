@@ -2,8 +2,8 @@
 title: "What a Fyne Year!"
 date: 2020-01-03 11:49:17 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2020/01/03/what-a-fyne-year.html
+aliases:
+- /blog/2020/01/03/what-a-fyne-year.html
 ---
 
 Goodness, 2019 was such a big year that we thought it would be worth

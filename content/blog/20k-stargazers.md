@@ -2,8 +2,8 @@
 title: "20k Stargazers!"
 date: 2023-04-14 11:14:00 +0100
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2023/04/14/20k-stargazers.html
+aliases:
+- /blog/2023/04/14/20k-stargazers.html
 ---
 
 Can you believe it?! Our humble GUI project has reached 20'000 stargazers?

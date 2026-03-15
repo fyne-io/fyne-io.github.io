@@ -2,8 +2,8 @@
 title: "Announcing FyneDesk v0.2"
 date: 2021-03-23 21:09:00 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2021/03/23/fynedesk-0.2.html
+aliases:
+- /blog/2021/03/23/fynedesk-0.2.html
 ---
 
 The FyneDesk team are excited to announce the second major release of their

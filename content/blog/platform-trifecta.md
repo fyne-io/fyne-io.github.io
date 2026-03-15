@@ -2,8 +2,8 @@
 title: "Platform Trifecta"
 date: 2018-03-02 21:55:43 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2018/03/02/platform-trifecta.html
+aliases:
+- /blog/2018/03/02/platform-trifecta.html
 ---
 
 You heard right - 3 platforms in only 3 weeks. Fyne now [supports](https://github.com/fyne-io/fyne/wiki/Supported-Platforms)

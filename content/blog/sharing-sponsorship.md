@@ -2,8 +2,8 @@
 title: "Sharing sponsorship"
 date: 2025-06-23 14:19:00+0100
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2025/06/23/sharing-sponsorship.html
+aliases:
+- /blog/2025/06/23/sharing-sponsorship.html
 ---
 
 The Fyne project and community continues to grow thanks to the many contributions from people around the world.

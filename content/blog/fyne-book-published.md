@@ -2,8 +2,8 @@
 title: "Fyne Book Published"
 date: 2021-01-27 18:47:00 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2021/01/27/fyne-book-published.html
+aliases:
+- /blog/2021/01/27/fyne-book-published.html
 ---
 
 As well as the release of [version 2.0.0](/blog/2021/01/25/introducing-fyne-v2.0.html#about)

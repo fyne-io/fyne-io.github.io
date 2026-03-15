@@ -2,8 +2,8 @@
 title: "Building a Cross Platform GUI with Go"
 date: 2019-03-19 11:53:12 +0000
 header_img: blog
-headline: "The latest news from the Fyne community"
-url: /blog/2019/03/19/building-cross-platform-gui.html
+aliases:
+- /blog/2019/03/19/building-cross-platform-gui.html
 ---
 
 There are many tutorials available online for how to use web technologies and [Go](https://golang.org) - but what if you want to create something in pure Go? Whether it's for performance reasons, to keep all of your application in just one programming language or simply because you like Go over Javascript and HTML there are solutions available. Go bindings exist for [GTK+](https://mattn.github.io/go-gtk/), [Qt](https://github.com/therecipe/qt), [Windows](https://github.com/lxn/walk), [Nuklear](https://github.com/golang-ui/nuklear) and also platform abstraction bindings like [andlabs UI](https://github.com/andlabs/ui).
