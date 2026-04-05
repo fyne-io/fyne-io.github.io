@@ -13,9 +13,10 @@ aliases: ["/support.html"]
 
 ### Getting Started
 
-We know that exploring a new technology can be confusing, even if you
-have explored [the tour](https://tour.fyne.io) and read
-[the documentation ](https://fyne.io/develop/). We are happy to help with any
+We know that exploring a new technology can be confusing, even if you have read
+[the documentation ](https://fyne.io/develop/).
+Remember you can also check out the [source code](https://github.com/fyne-io/fyne)
+to see how it all works. We are happy to help with any
 questions you have about getting set up, building your first app or how the APIs work.
 
 The best place to ask is in the
@@ -48,14 +49,14 @@ possible then pasting a snippet or example to the Go
 
 If your business would like some dedicated support time or would like to
 out-source the development of your application then we recommend speaking to
-[Fyne Labs](https://fynelabs.com/).
+[Apptrix](https://apptrix.ai/).
 
-Fyne Labs is the business that manages support and funding for the Fyne project -
-and as experts in this technology they are able to offer development support
+Apptrix also manages support and funding for the Fyne project.
+As experts in this technology they are able to offer development support
 and bespoke app creation.
-The team can be [contacted](https://fynelabs.com/#post-39) through their website.
+The team can be [contacted](https://apptrix.ai/contact) through their website.
 
-<img src="https://fynelabs.files.wordpress.com/2021/11/cropped-fyne-labs-social.png?w=192" height="96" alt="Fyne Labs">
+<img src="/img/apptrix.png" alt="Apptrix" style="width: 80%; text-align: center; margin: auto;">
 
 </div>
 </div>
