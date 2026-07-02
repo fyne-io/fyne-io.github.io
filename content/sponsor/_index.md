@@ -106,6 +106,7 @@ please do consider joining them!
 <span><a href="https://github.com/nkalait">Tsepo Nkalai</a></span>
 <span><a href="https://github.com/marco-m">Marco Molteni</a></span>
 <span><a href="https://github.com/bytemystery-com">Reiner Prols</a></span>
+<span><a href="https://github.com/hkparker">Hayden Parker</a></span>
 </div>
 
 ---
