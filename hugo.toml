@@ -54,10 +54,19 @@ timeZone = "Europe/Berlin"
   [markup.highlight]
     style = "monokai"
 
+[mediaTypes]
+  [mediaTypes."text/calendar"]
+    suffixes = ["ics"]
+
 [outputFormats]
   [outputFormats.RSS]
     mediatype = "application/rss+xml"
     baseName = "feed"
+  [outputFormats.ICal]
+    mediaType = "text/calendar"
+    isPlainText = true
+    isHTML = false
+    baseName = "events"
 
 [outputs]
   home = ["HTML", "RSS"]

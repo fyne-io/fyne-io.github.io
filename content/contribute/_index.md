@@ -4,6 +4,25 @@ description: "How to contribute to the Fyne project"
 header_img: contribute
 headline: "Getting Involved with Fyne"
 aliases: ["/contribute.html"]
+outputs: ["HTML", "ICal"]
+
+events:
+  # Next online contributor call. Clear "start" to show "Date to be confirmed".
+  call:
+    topic: "July Contributor call"
+    start: 2026-07-17T16:00:00Z
+    end: 2026-07-17T17:00:00Z
+    description: "Planning 2.9 headline features"
+    link: "http://meet.jit.si/FyneChat"
+
+  # Next face-to-face contributor gathering. Clear "start" to show "Date to be confirmed".
+  workshop:
+    location: "Eindhoven, The Netherlands"
+    start: 2026-09-11T13:30:00+02:00
+    end: 2026-09-11T17:00:00+02:00
+    description: "Gathering with the community for a workshop and hackathon"
+    link: "https://conf.fyne.io"
+
 ---
 
 ## Help Us Build the Future
@@ -71,6 +90,15 @@ find. Ask us anything on our contact forms and please
 Of course you can contribute by being a [sponsor](https://github.com/sponsors/fyne-io/) or making a [donation](/sponsor/).
 We are indebted to our existing [sponsors](/sponsor/) and thank them for
 believing in this project.
+
+---
+
+## Contributor Calendar
+
+We regularly get together to plan, pair and share progress. Here's what's coming up next -
+anyone interested in contributing is welcome to join.
+
+{{< contribcalendar >}}
 
 ---
 

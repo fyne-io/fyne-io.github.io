@@ -1,0 +1,38 @@
+{{- /* Renders the two "next up" contributor events from the page front matter (.Params.events). */ -}}
+{{- $call := .Page.Params.events.call -}}
+{{- $workshop := .Page.Params.events.workshop -}}
+{{- $card := "border border-neutral-200 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 rounded-lg p-6 flex flex-col" -}}
+{{- $label := "text-xs font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-400" -}}
+{{- $meta := "text-sm text-neutral-500 dark:text-neutral-400 mb-3" -}}
+{{- $btn := "mt-4 inline-block bg-primary-600 hover:bg-primary-700 text-white font-bold py-2 px-6 rounded transition-colors" -}}
+<style>
+.contrib-cal-grid { display: grid; gap: 1.5rem; grid-template-columns: 1fr; margin: 2rem 0; }
+@media (min-width: 768px) { .contrib-cal-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+<div class="contrib-cal-grid not-prose">
+{{- with $call }}
+  <div class="{{ $card }}">
+    <span class="{{ $label }}">Next Call</span>
+    <h3 class="mt-2 mb-1 text-lg font-bold">{{ .topic }}</h3>
+    <p class="{{ $meta }}">{{ with .start }}{{ (time.AsTime .).Format "Monday 2 January 2006 · 15:04 MST" }}{{ else }}Date to be confirmed{{ end }}</p>
+    <p class="flex-grow text-sm">{{ .description }}</p>
+    {{- with .link }}<a href="{{ . }}" class="{{ $btn }}">Join the call</a>{{ end }}
+  </div>
+{{- end }}
+{{- with $workshop }}
+  <div class="{{ $card }}">
+    <span class="{{ $label }}">Next Workshop</span>
+    <h3 class="mt-2 mb-1 text-lg font-bold">{{ .location }}</h3>
+    <p class="{{ $meta }}">Face to face · {{ with .start }}{{ (time.AsTime .).Format "Monday 2 January 2006" }}{{ else }}Date to be confirmed{{ end }}</p>
+    <p class="flex-grow text-sm">{{ .description }}</p>
+    {{- with .link }}<a href="{{ . }}" class="{{ $btn }}">Find out more</a>{{ end }}
+  </div>
+{{- end }}
+</div>
+{{- with .Page.OutputFormats.Get "ical" }}
+<p class="text-center text-sm not-prose">
+  <a href="{{ replaceRE "^https?://" "webcal://" .Permalink | safeURL }}" class="text-primary-600 dark:text-primary-400 hover:underline">📅 Subscribe to the contributor calendar</a>
+  <span class="text-neutral-400 dark:text-neutral-500 mx-2">·</span>
+  <a href="{{ .RelPermalink }}" class="text-primary-600 dark:text-primary-400 hover:underline">Download (.ics)</a>
+</p>
+{{- end }}

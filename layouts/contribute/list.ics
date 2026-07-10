@@ -1,0 +1,43 @@
+{{- $call := .Params.events.call -}}
+{{- $workshop := .Params.events.workshop -}}
+{{- $stamp := now.UTC.Format "20060102T150405Z" -}}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fyne.io//Contributor Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fyne Contributor Calendar
+{{ if and $call $call.start -}}
+BEGIN:VEVENT
+UID:fyne-call-{{ (time.AsTime $call.start).Unix }}@fyne.io
+DTSTAMP:{{ $stamp }}
+DTSTART:{{ (time.AsTime $call.start).UTC.Format "20060102T150405Z" }}
+{{ if $call.end -}}
+DTEND:{{ (time.AsTime $call.end).UTC.Format "20060102T150405Z" }}
+{{ end -}}
+SUMMARY:Fyne Contributor Call: {{ $call.topic }}
+DESCRIPTION:{{ $call.description }}
+{{ if $call.link -}}
+URL:{{ $call.link | absURL }}
+{{ end -}}
+END:VEVENT
+{{ end -}}
+{{ if and $workshop $workshop.start -}}
+BEGIN:VEVENT
+UID:fyne-workshop-{{ (time.AsTime $workshop.start).Unix }}@fyne.io
+DTSTAMP:{{ $stamp }}
+DTSTART:{{ (time.AsTime $workshop.start).UTC.Format "20060102T150405Z" }}
+{{ if $workshop.end -}}
+DTEND:{{ (time.AsTime $workshop.end).UTC.Format "20060102T150405Z" }}
+{{ end -}}
+SUMMARY:Fyne Contributor Workshop
+{{ if $workshop.location -}}
+LOCATION:{{ $workshop.location }}
+{{ end -}}
+DESCRIPTION:{{ $workshop.description }}
+{{ if $workshop.link -}}
+URL:{{ $workshop.link | absURL }}
+{{ end -}}
+END:VEVENT
+{{ end -}}
+END:VCALENDAR
