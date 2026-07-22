@@ -9,10 +9,10 @@ outputs: ["HTML", "ICal"]
 events:
   # Next online contributor call. Clear "start" to show "Date to be confirmed".
   call:
-    topic: "July Contributor call"
-    start: 2026-07-17T16:00:00Z
+    topic: "August Contributor call"
+    start: 2026-08-21T16:00:00Z
     end: 2026-07-17T17:00:00Z
-    description: "Planning 2.9 headline features"
+    description: "Fyne Conf 2026 plans and 2.9 update"
     link: "http://meet.jit.si/FyneChat"
 
   # Next face-to-face contributor gathering. Clear "start" to show "Date to be confirmed".
