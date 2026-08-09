@@ -11,7 +11,7 @@ events:
   call:
     topic: "August Contributor call"
     start: 2026-08-21T16:00:00Z
-    end: 2026-07-17T17:00:00Z
+    end: 2026-08-21T17:00:00Z
     description: "Fyne Conf 2026 plans and 2.9 update"
     link: "http://meet.jit.si/FyneChat"
 
