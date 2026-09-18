@@ -5,7 +5,7 @@ location: "Edinburgh"
 description: "Building mobile apps with Go (and Fyne)!"
 eventLink: "https://www.meetup.com/edinburgh-golang-meetup/events/293858630/"
 eventType: "meetup"
-_build:
+build:
   render: never
   list: always
 ---

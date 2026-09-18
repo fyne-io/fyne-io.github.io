@@ -6,7 +6,7 @@ description: "The Journey to FyshOS"
 video: "https://www.youtube.com/watch?v=PM5eoUbAX74"
 eventLink: "https://scotsoft.scot"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

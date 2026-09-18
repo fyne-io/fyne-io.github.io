@@ -5,7 +5,7 @@ location: "London, UK"
 description: "Discussion group for graphical app development."
 eventLink: "https://gophercon.co.uk"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

@@ -5,7 +5,7 @@ location: "Manchester, UK"
 description: "Andrew introduces the Fyne toolkit, starting with the background of the project, its aims, and how to get started."
 eventLink: "https://www.meetup.com/golang-mcr/events/301829841/"
 eventType: "meetup"
-_build:
+build:
   render: never
   list: always
 ---

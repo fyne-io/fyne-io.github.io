@@ -6,7 +6,7 @@ description: "Fyne Conf is the world's main conference focused on the Fyne toolk
 video: "https://www.youtube.com/watch?v=0c2vsAiNxRk&list=PLjpijTpXl1_oSw7JvqYJ0YvMHF97ChGt3"
 eventLink: "https://conf.fyne.io/archive/2020"
 eventType: "conference"
-_build:
+build:
   render: never
   list: always
 ---

@@ -5,7 +5,7 @@ location: "Dublin and Online"
 description: "Building Cross-platform GUI apps with ease (and Go)"
 eventLink: "https://osseu2022.sched.com/event/df4af1544d01a3d0cdc56aa688267898"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

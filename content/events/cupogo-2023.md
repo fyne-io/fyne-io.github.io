@@ -5,7 +5,7 @@ location: "Online"
 description: "An interview with Fyne Creator, Andy Williams"
 eventLink: "https://cupogo.dev/episodes/why-would-they-change-math-math-is-math-also-the-internet-is-on-strike-and-other-go-news"
 eventType: "podcast"
-_build:
+build:
   render: never
   list: always
 ---

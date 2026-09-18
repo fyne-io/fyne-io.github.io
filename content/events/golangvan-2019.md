@@ -5,7 +5,7 @@ location: "Vancouver"
 description: "Introduction to the Fyne toolkit for building cross platform GUIs."
 eventLink: "https://www.meetup.com/golangvan/events/263156126/"
 eventType: "meetup"
-_build:
+build:
   render: never
   list: always
 ---

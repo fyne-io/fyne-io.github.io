@@ -5,7 +5,7 @@ location: "Edinburgh, UK and Online"
 description: "Join the team and community as we explore the latest from Fyne and explore the road ahead."
 eventLink: "https://conf.fyne.io/archive/2023"
 eventType: "conference"
-_build:
+build:
   render: never
   list: always
 ---

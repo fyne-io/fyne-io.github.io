@@ -5,7 +5,7 @@ location: "Edinburgh"
 description: "An introduction to Fyne.io, the UI toolkit and app API written in Go."
 eventLink: "https://www.meetup.com/Edinburgh-Golang-meetup/events/252225515/"
 eventType: "meetup"
-_build:
+build:
   render: never
   list: always
 ---

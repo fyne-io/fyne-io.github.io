@@ -6,7 +6,7 @@ description: "The beauty of Go for building cross-platform graphical application
 video: "https://www.youtube.com/watch?v=VESXrgCW50g"
 eventLink: "https://www.gowestconf.com/"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

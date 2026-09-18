@@ -6,7 +6,7 @@ description: "Fyne and Go: Native graphical apps for all platforms with a single
 video: "https://www.youtube.com/watch?v=KKyns9MYWG0"
 eventLink: "https://openuk.uk/event-calendar/state-of-open-subset-episode-7/"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

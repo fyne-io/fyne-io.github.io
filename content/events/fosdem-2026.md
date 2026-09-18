@@ -6,7 +6,7 @@ description: "Lightning talk: Re-imagining the Tamagotchi"
 eventLink: "https://fosdem.org/2026/schedule/event/HZVQMD-go-lightning/"
 video: "https://cuddly.tube/w/mBtDbXQLdeHQh1PqLmeV99?start=20m30"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

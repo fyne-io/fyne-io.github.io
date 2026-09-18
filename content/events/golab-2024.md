@@ -5,7 +5,7 @@ location: "Florence, Italy"
 description: "Fyne Apps From Start to Store"
 eventLink: "https://golab.io/talks/fyne-apps-from-start-to-store"
 eventType: "workshop"
-_build:
+build:
   render: never
   list: always
 ---

@@ -2,7 +2,7 @@
 title: "Donation issue"
 description: "Sponsor or donate to Fyne"
 url: /sponsor/fail.html
-_build:
+build:
   list: never
 header_img: sponsor
 headline: "Sponsor or donate to Fyne"

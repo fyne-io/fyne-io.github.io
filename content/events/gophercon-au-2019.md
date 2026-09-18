@@ -6,7 +6,7 @@ description: "Steve introduces the Fyne GUI toolkit and it's targeting of cross 
 video: "https://youtu.be/_U_RlFoSuxc"
 eventLink: "https://gophercon.com.au/#speakers"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

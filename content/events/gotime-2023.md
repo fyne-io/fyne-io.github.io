@@ -5,7 +5,7 @@ location: "Online"
 description: "Cross-platform graphical user interfaces"
 eventLink: "https://changelog.com/gotime/271"
 eventType: "podcast"
-_build:
+build:
   render: never
   list: always
 ---

@@ -5,7 +5,7 @@ location: "Dubai"
 description: "Building Graphical Apps that Work Anywhere"
 eventLink: "https://www.meetup.com/dubai-gophers/events/293836894/"
 eventType: "meetup"
-_build:
+build:
   render: never
   list: always
 ---

@@ -5,7 +5,7 @@ location: "London, UK"
 description: "Building Graphical Go apps is Fyne :)"
 eventLink: "https://www.gophercon.co.uk/schedule"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

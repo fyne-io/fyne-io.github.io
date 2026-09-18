@@ -5,7 +5,7 @@ location: "Florence"
 description: "How Go taught me to love building apps again"
 eventLink: "https://golab.io/schedule"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

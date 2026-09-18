@@ -6,7 +6,7 @@ description: "Giuseppe Scaramuzzino - Unleashing Desktop App Development with Go
 video: "https://www.youtube.com/watch?v=rmcgI9D6rxs"
 eventLink: "https://gophercon.eu/schedule/"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

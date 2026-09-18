@@ -5,7 +5,7 @@ location: "Madrid"
 description: "Fyne.io is an easy-to-use UI toolkit and app API written in Go and Andy Williams is the creator of the Fyne toolkit."
 eventLink: "https://www.meetup.com/go-mad/events/301175945/"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

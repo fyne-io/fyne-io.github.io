@@ -6,7 +6,7 @@ description: "With the growing popularity of Go many people are asking how to bu
 video: "https://youtu.be/jbsYrrNiqAs"
 eventLink: "https://golab.io/agenda/session/158941"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

@@ -5,7 +5,7 @@ location: "Online"
 description: "Fyne apps are easier to design and build"
 eventLink: "https://gopodcast.dev/episodes/075-fyne-apps-are-easier-to-design-and-build-with-andy-williams"
 eventType: "podcast"
-_build:
+build:
   render: never
   list: always
 ---

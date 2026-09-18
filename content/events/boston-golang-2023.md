@@ -5,7 +5,7 @@ location: "Boston, MA"
 description: "Building graphical apps that work anywhere"
 eventLink: "https://www.meetup.com/bostongo/events/294460022"
 eventType: "meetup"
-_build:
+build:
   render: never
   list: always
 ---

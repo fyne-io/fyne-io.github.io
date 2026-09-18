@@ -6,7 +6,7 @@ description: "This talk explores the Fyne toolkit and what is new with the recen
 video: "https://youtu.be/u59FDlJ-Ss0"
 eventLink: "https://fosdem.org/2021/schedule/event/goguifyne/"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

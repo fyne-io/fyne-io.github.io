@@ -5,7 +5,7 @@ location: "London, UK"
 description: "Andy Williams presents 'Full Desktop Environment in Go'"
 eventLink: "https://www.meetup.com/londongophers/events/315973770/"
 eventType: "meetup"
-_build:
+build:
   render: never
   list: always
 ---

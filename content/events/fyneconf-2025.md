@@ -5,7 +5,7 @@ location: "Edinburgh, UK and Online"
 description: "Fyne Conf 2025"
 eventLink: "https://conf.fyne.io/archive/2025"
 eventType: "conference"
-_build:
+build:
   render: never
   list: always
 ---

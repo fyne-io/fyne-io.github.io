@@ -5,7 +5,7 @@ location: "Brussels"
 description: "Low code graphical apps with Go top to bottom!"
 eventLink: "https://fosdem.org/2024/schedule/event/fosdem-2024-2621-low-code-graphical-apps-with-go-top-to-bottom-/"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

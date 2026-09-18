@@ -5,7 +5,7 @@ location: "Berlin, Germany and Online"
 description: "Fyne Conf 2024 will be our biggest ever event - to be held in Berlin, Germany and streamed online."
 eventLink: "https://conf.fyne.io/archive/2024"
 eventType: "conference"
-_build:
+build:
   render: never
   list: always
 ---

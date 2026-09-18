@@ -6,7 +6,7 @@ description: "Cedric Bail presents an introduction to Go and its ecosystem to qu
 video: "https://www.youtube.com/watch?v=kI_Xz8jWWXs"
 eventLink: "https://ossna2023.sched.com/event/1LdyZ"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---

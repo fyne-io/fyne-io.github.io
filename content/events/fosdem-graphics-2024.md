@@ -5,7 +5,7 @@ location: "Brussels"
 description: "Building Cross-platform GUI apps with ease (and Go) - desktop, mobile and beyond!"
 eventLink: "https://fosdem.org/2024/schedule/event/fosdem-2024-2631-building-cross-platform-gui-apps-with-ease-and-go-desktop-mobile-and-beyond-/"
 eventType: "talk"
-_build:
+build:
   render: never
   list: always
 ---
