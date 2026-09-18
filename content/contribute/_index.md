@@ -9,19 +9,19 @@ outputs: ["HTML", "ICal"]
 events:
   # Next online contributor call. Clear "start" to show "Date to be confirmed".
   call:
-    topic: "August Contributor call"
-    start: 2026-08-21T16:00:00Z
-    end: 2026-08-21T17:00:00Z
-    description: "Fyne Conf 2026 plans and 2.9 update"
+    topic: "October Contributor call"
+    start: 2026-10-09T16:00:00Z
+    end: 2026-10-09T17:00:00Z
+    description: "Update on 2.9 and Tyde releases"
     link: "http://meet.jit.si/FyneChat"
 
   # Next face-to-face contributor gathering. Clear "start" to show "Date to be confirmed".
-  workshop:
-    location: "Eindhoven, The Netherlands"
-    start: 2026-09-11T13:30:00+02:00
-    end: 2026-09-11T17:00:00+02:00
-    description: "Gathering with the community for a workshop and hackathon"
-    link: "https://conf.fyne.io"
+#  workshop:
+#    location: "Eindhoven, The Netherlands"
+#    start: 2026-09-11T13:30:00+02:00
+#    end: 2026-09-11T17:00:00+02:00
+#    description: "Gathering with the community for a workshop and hackathon"
+#    link: "https://conf.fyne.io"
 
 ---
 
