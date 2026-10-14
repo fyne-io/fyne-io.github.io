@@ -10,9 +10,9 @@ events:
   # Next online contributor call. Clear "start" to show "Date to be confirmed".
   call:
     topic: "October Contributor call"
-    start: 2026-10-09T16:00:00Z
-    end: 2026-10-09T17:00:00Z
-    description: "Update on 2.9 and Tyde releases"
+    start: 2026-11-13T16:00:00Z
+    end: 2026-11-13T17:00:00Z
+    description: "Prep for the 2.9 release"
     link: "http://meet.jit.si/FyneChat"
 
   # Next face-to-face contributor gathering. Clear "start" to show "Date to be confirmed".
